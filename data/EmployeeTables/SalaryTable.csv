@@ -1,0 +1,1001 @@
+emp_id,status,job_effective_date,base_salary,bonus
+1,Active - Regular Exempt (Part-time),2014-06-21,51422,7118
+2,Active - Regular Exempt (Full-time),2014-09-07,50121,7877
+3,Active - Regular Exempt (Part-time),2013-05-16,58231,9948
+4,Active - Regular Exempt (Part-time),2013-04-20,57954,1549
+5,Inactive,2013-12-23,55238,6920
+6,Active - Regular Exempt (Full-time),2013-08-23,53262,5633
+7,Active - Regular Exempt (Part-time),2013-09-22,55692,6933
+8,Active - Regular Non-Exempt (Full-time),2013-12-05,60000,9695
+9,Active - Regular Exempt (Full-time),2014-01-26,54866,7081
+10,Inactive,2013-02-27,57084,8663
+11,Active - Regular Non-Exempt (Part-time),2013-02-17,50306,9223
+12,Inactive,2015-12-22,55620,1375
+13,Active - Regular Exempt (Part-time),2014-03-22,55673,2809
+14,Active - Regular Exempt (Part-time),2015-04-06,56658,5222
+15,Active - Regular Exempt (Part-time),2013-11-29,54577,5253
+16,Active - Regular Non-Exempt (Full-time),2013-06-24,54737,3961
+17,Active - Regular Non-Exempt (Part-time),2015-11-14,56342,7522
+18,Active - Regular Exempt (Full-time),2012-12-20,50133,8087
+19,Active - Regular Non-Exempt (Full-time),2013-12-06,59129,7326
+20,Inactive,2013-05-23,52306,9503
+21,Active - Regular Exempt (Full-time),2014-11-13,59131,6730
+22,Active - Regular Exempt (Part-time),2014-02-18,56377,2363
+23,Active - Regular Exempt (Full-time),2013-09-15,57212,3223
+24,Active - Regular Non-Exempt (Part-time),2014-08-09,57238,6732
+25,Active - Regular Non-Exempt (Full-time),2015-02-27,52378,6791
+26,Inactive,2015-01-28,51555,6476
+27,Active - Regular Exempt (Full-time),2015-10-03,55718,3204
+28,Inactive,2015-12-04,58281,6411
+29,Inactive,2014-02-18,51456,8067
+30,Active - Regular Non-Exempt (Full-time),2014-02-01,59852,6090
+31,Active - Regular Exempt (Full-time),2015-06-24,53091,5461
+32,Inactive,2015-03-12,50839,7615
+33,Active - Regular Non-Exempt (Part-time),2013-09-03,52302,5212
+34,Active - Regular Exempt (Part-time),2013-09-28,51777,9538
+35,Active - Regular Exempt (Full-time),2014-07-27,58019,8882
+36,Active - Regular Non-Exempt (Full-time),2014-11-21,54749,5024
+37,Inactive,2013-03-14,59897,6870
+38,Inactive,2015-10-26,59465,3105
+39,Active - Regular Exempt (Full-time),2015-04-08,57606,1925
+40,Active - Regular Non-Exempt (Full-time),2014-09-16,57420,5013
+41,Inactive,2012-11-28,52698,7043
+43,Active - Regular Exempt (Full-time),2014-05-24,58254,2758
+42,Inactive,2015-10-13,57371,1095
+44,Active - Regular Exempt (Full-time),2012-12-25,51480,5019
+45,Active - Regular Non-Exempt (Part-time),2015-08-12,52251,6435
+46,Inactive,2015-03-13,57668,2714
+47,Active - Regular Non-Exempt (Part-time),2013-02-12,52069,8055
+48,Active - Regular Non-Exempt (Part-time),2015-07-31,51307,6624
+49,Active - Regular Non-Exempt (Full-time),2014-03-05,52962,1134
+50,Active - Regular Non-Exempt (Part-time),2014-01-31,50814,7645
+51,Active - Regular Exempt (Part-time),2015-05-24,54762,8830
+52,Active - Regular Exempt (Full-time),2014-06-16,54794,6383
+53,Active - Regular Exempt (Part-time),2013-07-13,54412,4869
+54,Active - Regular Non-Exempt (Full-time),2014-11-17,56726,9117
+55,Active - Regular Exempt (Part-time),2013-11-17,58043,1532
+56,Active - Regular Non-Exempt (Full-time),2013-05-07,53635,2728
+57,Active - Regular Exempt (Full-time),2014-08-30,56288,2174
+58,Active - Regular Exempt (Full-time),2013-09-21,58129,4794
+59,Active - Regular Non-Exempt (Full-time),2014-02-23,52598,7650
+60,Active - Regular Exempt (Part-time),2014-02-26,54438,6927
+61,Active - Regular Non-Exempt (Full-time),2014-07-17,51085,2225
+62,Active - Regular Exempt (Full-time),2015-08-03,51241,6463
+63,Active - Regular Non-Exempt (Full-time),2014-05-23,55130,7622
+64,Active - Regular Non-Exempt (Full-time),2014-03-08,57097,7995
+65,Inactive,2015-10-19,51921,8899
+66,Active - Regular Non-Exempt (Full-time),2013-02-02,54049,3652
+67,Active - Regular Non-Exempt (Part-time),2014-03-16,53122,6284
+68,Active - Regular Exempt (Part-time),2013-10-31,51271,8528
+69,Active - Regular Exempt (Part-time),2013-04-14,58426,2944
+70,Active - Regular Exempt (Part-time),2013-07-27,57468,7345
+71,Inactive,2014-09-10,54056,2624
+72,Active - Regular Non-Exempt (Full-time),2015-01-29,59930,8885
+73,Active - Regular Exempt (Full-time),2013-07-08,59136,1068
+74,Active - Regular Non-Exempt (Part-time),2013-08-24,57446,6251
+75,Inactive,2015-07-25,59250,5049
+76,Active - Regular Exempt (Full-time),2013-06-07,55376,4803
+77,Active - Regular Exempt (Full-time),2013-02-14,56127,9245
+78,Active - Regular Non-Exempt (Part-time),2014-01-09,59438,2745
+79,Active - Regular Non-Exempt (Part-time),2015-03-19,57680,7434
+80,Active - Regular Exempt (Full-time),2015-11-20,59498,7679
+81,Inactive,2013-07-09,53265,9273
+82,Active - Regular Exempt (Full-time),2014-11-09,54538,8320
+83,Inactive,2013-11-19,52777,1378
+84,Active - Regular Exempt (Full-time),2015-11-05,54105,1416
+85,Active - Regular Exempt (Part-time),2012-12-23,53842,1697
+86,Active - Regular Non-Exempt (Part-time),2015-01-02,54272,7798
+87,Active - Regular Non-Exempt (Part-time),2014-06-20,54230,2966
+88,Active - Regular Exempt (Full-time),2013-02-12,51058,8857
+89,Active - Regular Exempt (Part-time),2013-06-02,59789,6084
+90,Active - Regular Exempt (Part-time),2015-10-25,52219,7066
+91,Active - Regular Exempt (Full-time),2015-01-29,52017,5605
+92,Active - Regular Exempt (Full-time),2014-11-06,50151,8560
+93,Inactive,2015-09-27,55586,5600
+94,Active - Regular Non-Exempt (Full-time),2015-11-19,51493,2806
+95,Active - Regular Non-Exempt (Part-time),2013-07-24,52154,7366
+96,Active - Regular Non-Exempt (Part-time),2015-08-03,56725,4332
+97,Active - Regular Non-Exempt (Part-time),2015-09-25,55232,7606
+98,Inactive,2015-04-21,54909,5618
+99,Inactive,2015-03-11,57586,2612
+100,Active - Regular Non-Exempt (Part-time),2014-08-08,59932,7904
+101,Active - Regular Non-Exempt (Full-time),2013-06-22,51643,3340
+102,Active - Regular Exempt (Full-time),2015-09-15,59472,7378
+103,Active - Regular Exempt (Full-time),2015-01-15,59639,1122
+104,Inactive,2013-08-31,57977,1864
+105,Inactive,2015-06-09,58150,8779
+106,Active - Regular Exempt (Full-time),2014-08-03,53545,2779
+107,Inactive,2015-07-19,53100,3555
+108,Active - Regular Non-Exempt (Full-time),2015-05-08,52091,8386
+109,Active - Regular Exempt (Full-time),2014-12-03,52083,2445
+110,Active - Regular Exempt (Full-time),2014-05-01,51974,7491
+111,Active - Regular Non-Exempt (Full-time),2013-05-07,53140,4501
+112,Active - Regular Exempt (Part-time),2014-10-09,52907,1378
+113,Active - Regular Non-Exempt (Full-time),2015-06-05,52854,8330
+114,Active - Regular Exempt (Full-time),2013-05-14,55522,3272
+115,Inactive,2014-12-12,58320,6783
+116,Active - Regular Non-Exempt (Part-time),2014-02-12,52320,1115
+117,Active - Regular Exempt (Part-time),2015-05-10,58212,3805
+118,Active - Regular Non-Exempt (Part-time),2013-02-10,51691,4008
+119,Active - Regular Exempt (Full-time),2014-04-11,53232,8050
+120,Active - Regular Non-Exempt (Full-time),2015-09-05,53763,7504
+121,Active - Regular Non-Exempt (Full-time),2015-01-23,56748,5951
+122,Active - Regular Exempt (Full-time),2015-01-28,50046,7114
+123,Active - Regular Exempt (Full-time),2014-01-13,53910,9371
+124,Active - Regular Exempt (Part-time),2015-11-05,51568,8859
+125,Active - Regular Non-Exempt (Full-time),2015-01-22,54934,1240
+126,Active - Regular Non-Exempt (Full-time),2015-05-20,58663,6375
+127,Inactive,2015-11-16,58620,1536
+128,Active - Regular Exempt (Part-time),2015-07-30,57390,8782
+129,Inactive,2013-10-02,59345,9573
+130,Inactive,2013-08-22,51664,7170
+131,Active - Regular Non-Exempt (Full-time),2015-07-19,58735,4474
+132,Active - Regular Exempt (Part-time),2014-05-06,52194,5825
+133,Active - Regular Exempt (Part-time),2014-09-09,51863,3750
+134,Inactive,2013-06-30,59312,7940
+135,Active - Regular Non-Exempt (Full-time),2014-09-15,54460,2102
+136,Inactive,2013-12-26,55807,2619
+137,Active - Regular Exempt (Part-time),2014-04-01,58997,4239
+138,Active - Regular Exempt (Full-time),2015-07-13,53825,7578
+139,Active - Regular Exempt (Full-time),2015-08-08,54071,2126
+140,Active - Regular Exempt (Part-time),2015-03-22,50847,6586
+141,Active - Regular Non-Exempt (Part-time),2013-02-27,55664,2524
+142,Active - Regular Exempt (Part-time),2013-12-17,50821,4610
+143,Active - Regular Exempt (Full-time),2015-09-26,51804,2443
+144,Inactive,2013-05-12,58850,6073
+145,Active - Regular Exempt (Full-time),2014-11-15,50740,5565
+146,Active - Regular Non-Exempt (Full-time),2013-06-14,50369,9373
+147,Active - Regular Non-Exempt (Part-time),2014-05-21,50755,4267
+148,Active - Regular Non-Exempt (Full-time),2014-03-05,57400,3506
+149,Active - Regular Non-Exempt (Full-time),2013-06-11,55380,9128
+150,Active - Regular Exempt (Full-time),2015-06-22,59134,3416
+151,Active - Regular Non-Exempt (Part-time),2014-01-12,51291,5163
+152,Active - Regular Exempt (Full-time),2014-03-04,57334,6155
+153,Active - Regular Exempt (Part-time),2015-06-22,54972,8190
+154,Active - Regular Non-Exempt (Full-time),2013-01-22,50163,2992
+155,Active - Regular Non-Exempt (Full-time),2013-07-06,51925,3652
+156,Active - Regular Non-Exempt (Part-time),2013-02-09,52270,2126
+157,Active - Regular Exempt (Full-time),2014-12-14,52478,3671
+158,Active - Regular Non-Exempt (Part-time),2014-02-13,56052,2964
+159,Active - Regular Exempt (Full-time),2015-07-31,53920,6007
+160,Active - Regular Exempt (Full-time),2012-12-28,57813,4590
+161,Inactive,2012-11-17,54709,6791
+162,Active - Regular Non-Exempt (Part-time),2015-10-22,54874,8221
+163,Inactive,2015-06-26,54361,9084
+164,Active - Regular Non-Exempt (Full-time),2014-07-27,52983,9294
+165,Active - Regular Exempt (Part-time),2014-03-29,58899,2964
+166,Active - Regular Non-Exempt (Part-time),2015-01-08,55061,7585
+167,Inactive,2015-05-18,50856,3765
+168,Active - Regular Non-Exempt (Full-time),2013-04-13,52432,1142
+169,Inactive,2015-07-23,59553,5338
+170,Inactive,2012-12-18,50322,5145
+171,Inactive,2015-11-25,56157,4067
+172,Active - Regular Exempt (Part-time),2013-01-16,51679,2884
+173,Active - Regular Exempt (Part-time),2013-06-09,50046,9359
+174,Active - Regular Non-Exempt (Part-time),2012-12-09,57596,4176
+175,Active - Regular Exempt (Full-time),2013-03-18,58168,3380
+176,Active - Regular Exempt (Full-time),2015-02-14,51398,6171
+177,Active - Regular Exempt (Part-time),2013-12-04,52185,7883
+178,Active - Regular Non-Exempt (Full-time),2014-04-16,56077,8624
+179,Active - Regular Non-Exempt (Full-time),2015-03-31,57066,2576
+180,Active - Regular Exempt (Full-time),2013-04-29,57388,1771
+181,Active - Regular Exempt (Part-time),2015-08-06,58859,9757
+182,Active - Regular Exempt (Part-time),2013-07-13,50425,8991
+183,Active - Regular Exempt (Full-time),2014-04-19,54859,1269
+184,Active - Regular Exempt (Part-time),2013-05-03,51459,4243
+185,Inactive,2014-10-31,50527,4640
+186,Active - Regular Non-Exempt (Part-time),2015-06-17,55352,9217
+187,Active - Regular Exempt (Full-time),2014-10-05,58681,9528
+188,Active - Regular Non-Exempt (Part-time),2014-09-17,58391,2095
+189,Active - Regular Exempt (Full-time),2014-03-08,50209,7813
+190,Active - Regular Non-Exempt (Part-time),2013-04-29,56865,8696
+191,Active - Regular Exempt (Full-time),2014-08-30,50676,4450
+192,Active - Regular Exempt (Part-time),2015-01-22,52314,4749
+193,Active - Regular Exempt (Part-time),2013-08-26,59587,8461
+194,Active - Regular Exempt (Part-time),2015-03-31,54154,3717
+195,Inactive,2013-05-23,55933,6549
+196,Inactive,2013-03-09,57183,6073
+197,Inactive,2012-12-31,55177,4900
+198,Inactive,2013-05-08,53848,8518
+199,Inactive,2014-11-28,58196,5324
+200,Active - Regular Exempt (Part-time),2014-11-14,50886,9381
+201,Active - Regular Exempt (Part-time),2014-12-25,54550,8622
+202,Active - Regular Exempt (Part-time),2014-06-14,58667,8066
+203,Active - Regular Non-Exempt (Part-time),2015-03-25,57696,8724
+204,Inactive,2013-05-13,58696,6448
+205,Inactive,2014-06-09,55234,4933
+206,Inactive,2013-05-10,50266,6524
+207,Active - Regular Exempt (Part-time),2014-05-27,53974,9763
+208,Active - Regular Non-Exempt (Part-time),2014-05-02,51084,8640
+209,Active - Regular Non-Exempt (Full-time),2012-12-31,58952,9878
+210,Inactive,2015-05-12,51648,3215
+211,Active - Regular Exempt (Full-time),2015-07-23,52974,3724
+212,Inactive,2015-12-07,57659,6708
+213,Active - Regular Non-Exempt (Part-time),2012-11-18,55219,1574
+214,Inactive,2015-07-23,56397,6672
+215,Inactive,2015-01-07,56379,3660
+216,Active - Regular Non-Exempt (Part-time),2013-08-10,50093,2365
+217,Inactive,2014-02-02,57380,7461
+218,Active - Regular Exempt (Part-time),2014-10-13,55916,2305
+219,Active - Regular Exempt (Full-time),2015-04-27,52010,1442
+220,Active - Regular Exempt (Full-time),2014-07-31,59400,6087
+221,Active - Regular Exempt (Part-time),2014-09-04,54835,4537
+222,Active - Regular Non-Exempt (Part-time),2015-04-11,52786,1670
+223,Inactive,2015-08-02,51816,7359
+224,Active - Regular Non-Exempt (Full-time),2013-05-20,54579,9021
+225,Active - Regular Non-Exempt (Full-time),2014-05-07,51636,3633
+226,Inactive,2015-05-30,57988,9446
+227,Active - Regular Exempt (Part-time),2013-11-26,58751,9090
+228,Inactive,2014-02-09,57667,7945
+229,Active - Regular Non-Exempt (Full-time),2015-11-22,57945,2956
+230,Active - Regular Non-Exempt (Part-time),2014-01-08,56027,5031
+231,Inactive,2013-08-27,57381,4388
+232,Active - Regular Exempt (Part-time),2015-07-09,59407,3306
+233,Inactive,2014-12-05,52238,1560
+234,Active - Regular Non-Exempt (Full-time),2013-03-20,52929,6830
+235,Inactive,2014-12-31,55193,9371
+236,Inactive,2014-04-23,50125,3033
+237,Active - Regular Non-Exempt (Full-time),2013-08-20,59135,4084
+238,Active - Regular Exempt (Full-time),2015-03-02,50075,6399
+239,Active - Regular Non-Exempt (Part-time),2013-07-13,58314,6846
+240,Active - Regular Non-Exempt (Part-time),2014-10-06,57973,5402
+241,Active - Regular Non-Exempt (Part-time),2014-09-27,50624,1203
+242,Active - Regular Non-Exempt (Full-time),2014-08-27,52042,7486
+243,Inactive,2013-08-24,55865,8588
+244,Active - Regular Non-Exempt (Full-time),2015-07-28,56069,3712
+245,Active - Regular Non-Exempt (Full-time),2014-11-26,54659,2990
+246,Active - Regular Non-Exempt (Part-time),2014-04-05,53987,6725
+247,Active - Regular Non-Exempt (Part-time),2015-05-28,51860,3394
+248,Active - Regular Non-Exempt (Part-time),2014-02-16,54993,6169
+249,Active - Regular Non-Exempt (Part-time),2013-02-21,56646,1093
+250,Inactive,2015-02-04,57779,5758
+251,Active - Regular Non-Exempt (Full-time),2014-09-22,55328,3673
+252,Active - Regular Non-Exempt (Full-time),2014-06-12,50590,6344
+253,Inactive,2015-09-27,57738,8891
+254,Active - Regular Exempt (Part-time),2014-11-16,50073,5318
+255,Inactive,2015-03-31,57757,1330
+256,Active - Regular Non-Exempt (Part-time),2014-03-15,50954,2637
+257,Active - Regular Exempt (Part-time),2015-08-16,59785,3412
+258,Active - Regular Exempt (Part-time),2013-12-24,52636,1100
+259,Active - Regular Non-Exempt (Full-time),2015-04-22,55136,4608
+260,Active - Regular Non-Exempt (Full-time),2014-03-12,58719,4644
+261,Active - Regular Exempt (Part-time),2013-03-17,52768,3911
+262,Inactive,2014-04-22,58849,5442
+263,Active - Regular Exempt (Full-time),2012-12-02,56007,8522
+264,Inactive,2014-09-05,51799,4366
+265,Inactive,2013-12-07,51933,4575
+266,Active - Regular Non-Exempt (Full-time),2014-09-22,57693,8050
+267,Active - Regular Exempt (Part-time),2015-09-07,53685,5066
+268,Active - Regular Exempt (Full-time),2014-01-18,59100,8074
+269,Active - Regular Non-Exempt (Part-time),2015-11-09,58648,7036
+270,Active - Regular Exempt (Full-time),2013-08-28,53124,8248
+271,Inactive,2013-01-27,52547,5336
+272,Active - Regular Non-Exempt (Full-time),2013-04-09,57534,6302
+273,Active - Regular Exempt (Part-time),2013-02-27,50881,5482
+274,Active - Regular Non-Exempt (Full-time),2014-07-21,50071,5589
+275,Inactive,2015-01-16,59131,2358
+276,Active - Regular Exempt (Full-time),2013-03-31,56353,5813
+277,Active - Regular Exempt (Full-time),2015-03-25,54824,7902
+278,Active - Regular Exempt (Full-time),2014-11-22,54588,9562
+279,Active - Regular Exempt (Part-time),2013-02-09,53765,7497
+280,Active - Regular Non-Exempt (Full-time),2014-04-17,54110,8708
+281,Active - Regular Non-Exempt (Part-time),2013-03-24,53953,6311
+282,Active - Regular Exempt (Part-time),2014-09-11,59094,4341
+283,Active - Regular Exempt (Part-time),2013-10-13,59058,8709
+284,Inactive,2013-01-14,58746,6783
+285,Active - Regular Non-Exempt (Part-time),2015-05-26,51071,6976
+286,Active - Regular Exempt (Full-time),2013-08-18,52048,4004
+287,Active - Regular Exempt (Part-time),2015-10-21,55861,7346
+288,Inactive,2014-01-21,58718,5901
+289,Inactive,2014-07-09,57128,9868
+290,Inactive,2013-03-12,58295,4210
+291,Inactive,2012-11-24,53794,9551
+292,Active - Regular Exempt (Part-time),2014-03-17,53879,3947
+293,Active - Regular Non-Exempt (Part-time),2014-04-18,54942,9402
+294,Active - Regular Exempt (Full-time),2013-06-25,57805,4666
+295,Active - Regular Exempt (Part-time),2015-01-23,54042,6005
+296,Active - Regular Exempt (Full-time),2014-03-12,53601,2189
+297,Inactive,2015-03-03,57143,6580
+298,Active - Regular Non-Exempt (Part-time),2015-06-07,56387,5808
+299,Active - Regular Exempt (Full-time),2015-07-13,54793,8495
+300,Active - Regular Exempt (Part-time),2014-08-11,55269,8775
+301,Inactive,2014-11-02,50008,3856
+302,Active - Regular Non-Exempt (Full-time),2015-07-20,59000,6384
+303,Active - Regular Non-Exempt (Part-time),2013-04-03,51678,4283
+304,Active - Regular Non-Exempt (Full-time),2013-10-15,53500,5141
+305,Active - Regular Exempt (Part-time),2015-12-23,54843,9183
+306,Active - Regular Non-Exempt (Full-time),2013-05-31,52413,1823
+307,Active - Regular Non-Exempt (Part-time),2013-02-25,55192,9198
+308,Inactive,2015-07-06,52563,1694
+309,Active - Regular Non-Exempt (Full-time),2013-01-24,52077,4422
+310,Active - Regular Non-Exempt (Full-time),2013-10-14,50509,9871
+311,Active - Regular Exempt (Full-time),2014-12-11,56022,4240
+312,Active - Regular Non-Exempt (Part-time),2014-06-18,58383,8963
+313,Active - Regular Exempt (Part-time),2015-07-15,56599,8699
+314,Active - Regular Non-Exempt (Part-time),2014-10-14,57100,2571
+315,Inactive,2015-04-02,57531,2852
+316,Inactive,2015-03-07,52605,5087
+317,Active - Regular Exempt (Full-time),2015-08-19,52148,9519
+318,Active - Regular Non-Exempt (Part-time),2014-08-13,59390,3805
+319,Active - Regular Non-Exempt (Full-time),2014-01-12,52502,4175
+320,Active - Regular Exempt (Part-time),2013-05-09,55909,9285
+321,Active - Regular Exempt (Full-time),2015-09-02,58368,6719
+322,Inactive,2012-12-07,51337,4398
+323,Active - Regular Exempt (Part-time),2013-10-10,50028,6372
+324,Active - Regular Exempt (Full-time),2014-10-30,59413,8267
+325,Active - Regular Exempt (Full-time),2013-05-20,50100,4947
+326,Active - Regular Exempt (Full-time),2013-03-30,59796,4393
+327,Active - Regular Non-Exempt (Part-time),2012-11-24,55586,3659
+328,Active - Regular Exempt (Part-time),2015-04-02,52290,2333
+329,Active - Regular Non-Exempt (Part-time),2014-07-23,56942,9570
+330,Active - Regular Exempt (Full-time),2013-05-05,58529,1407
+331,Active - Regular Non-Exempt (Part-time),2013-01-22,51784,9079
+332,Active - Regular Exempt (Full-time),2014-07-16,53557,9745
+333,Active - Regular Exempt (Full-time),2014-11-21,59808,6873
+334,Inactive,2014-09-27,52334,6698
+335,Active - Regular Exempt (Part-time),2015-08-02,51088,8469
+336,Active - Regular Exempt (Part-time),2013-04-26,55105,5209
+337,Inactive,2014-03-29,58530,4550
+338,Active - Regular Exempt (Full-time),2014-03-21,52762,6294
+339,Active - Regular Non-Exempt (Full-time),2014-09-29,54939,7165
+340,Active - Regular Exempt (Part-time),2013-07-04,50181,2552
+341,Active - Regular Exempt (Full-time),2014-09-19,58340,5951
+342,Inactive,2013-01-16,56734,9568
+343,Inactive,2014-07-19,50067,3002
+344,Active - Regular Exempt (Full-time),2013-05-04,58678,8986
+345,Active - Regular Exempt (Full-time),2014-10-09,55924,2255
+346,Active - Regular Non-Exempt (Part-time),2015-12-19,52145,8046
+347,Active - Regular Non-Exempt (Full-time),2012-12-05,53249,4172
+348,Inactive,2014-01-18,55866,9364
+349,Active - Regular Non-Exempt (Part-time),2013-06-05,56745,4613
+350,Inactive,2013-09-22,59022,7495
+351,Active - Regular Exempt (Full-time),2014-07-02,52761,3838
+352,Inactive,2015-07-07,58020,2937
+353,Active - Regular Non-Exempt (Full-time),2015-07-14,51794,2294
+354,Active - Regular Exempt (Full-time),2013-08-20,57471,6252
+355,Active - Regular Exempt (Part-time),2015-03-23,56210,3418
+356,Active - Regular Exempt (Full-time),2013-08-21,55565,1258
+357,Active - Regular Non-Exempt (Full-time),2014-04-15,51030,8213
+358,Inactive,2013-02-04,57214,8808
+359,Inactive,2013-03-15,56481,2802
+360,Active - Regular Non-Exempt (Part-time),2015-08-15,54507,8620
+361,Active - Regular Non-Exempt (Full-time),2014-12-15,54996,5012
+362,Active - Regular Exempt (Part-time),2015-10-04,57517,3964
+363,Active - Regular Exempt (Part-time),2014-01-26,52071,3442
+364,Inactive,2013-05-16,58556,3112
+365,Active - Regular Exempt (Full-time),2015-10-15,59413,3000
+366,Active - Regular Exempt (Part-time),2013-07-03,57512,3484
+367,Active - Regular Exempt (Full-time),2015-03-03,59086,5160
+368,Active - Regular Non-Exempt (Part-time),2013-06-16,53495,3786
+369,Active - Regular Exempt (Part-time),2013-09-10,53798,6153
+370,Active - Regular Non-Exempt (Part-time),2012-12-17,56378,5450
+371,Active - Regular Non-Exempt (Part-time),2015-02-08,53871,5636
+372,Inactive,2014-08-30,52675,2929
+373,Active - Regular Exempt (Part-time),2013-04-16,55816,1711
+374,Active - Regular Exempt (Full-time),2014-01-07,53347,9238
+375,Active - Regular Exempt (Full-time),2014-05-22,56565,2495
+376,Inactive,2014-08-10,54104,4298
+377,Active - Regular Exempt (Full-time),2014-12-05,50265,7176
+378,Inactive,2015-07-16,58745,9936
+379,Active - Regular Exempt (Full-time),2013-03-07,58556,8775
+380,Active - Regular Non-Exempt (Full-time),2013-09-27,53899,2412
+381,Active - Regular Non-Exempt (Part-time),2013-07-16,53542,2867
+382,Inactive,2013-05-26,54681,2927
+383,Active - Regular Exempt (Full-time),2015-06-21,58818,6882
+384,Active - Regular Non-Exempt (Part-time),2015-08-16,52128,7770
+385,Inactive,2013-12-13,54614,6479
+386,Active - Regular Non-Exempt (Full-time),2013-01-18,53755,9673
+387,Active - Regular Non-Exempt (Full-time),2013-08-20,57683,4848
+388,Active - Regular Exempt (Full-time),2013-08-13,51951,1086
+389,Active - Regular Exempt (Part-time),2015-11-23,55500,8989
+390,Active - Regular Exempt (Full-time),2015-01-17,53857,4025
+391,Active - Regular Non-Exempt (Full-time),2013-09-25,55767,4722
+392,Active - Regular Non-Exempt (Part-time),2014-08-17,50642,2175
+393,Active - Regular Non-Exempt (Full-time),2013-09-06,52202,3123
+394,Active - Regular Exempt (Part-time),2013-04-22,55380,8040
+395,Active - Regular Exempt (Full-time),2013-08-23,55726,5819
+396,Active - Regular Non-Exempt (Part-time),2014-10-13,56440,8284
+397,Active - Regular Non-Exempt (Full-time),2015-11-23,50372,3694
+398,Active - Regular Exempt (Full-time),2015-02-13,59809,5225
+399,Active - Regular Exempt (Part-time),2015-01-29,53455,9385
+400,Active - Regular Exempt (Part-time),2013-03-25,54181,8256
+401,Active - Regular Exempt (Full-time),2015-08-07,56669,8791
+402,Inactive,2015-06-23,59888,9388
+403,Active - Regular Exempt (Full-time),2015-02-02,55267,4499
+404,Active - Regular Non-Exempt (Full-time),2013-11-03,51339,3410
+405,Active - Regular Non-Exempt (Part-time),2015-03-14,52166,1878
+406,Active - Regular Non-Exempt (Full-time),2015-06-17,52634,3116
+407,Active - Regular Exempt (Full-time),2015-12-08,57762,9961
+408,Active - Regular Exempt (Part-time),2013-07-12,57478,5382
+409,Active - Regular Exempt (Full-time),2014-02-11,58118,9463
+410,Active - Regular Exempt (Part-time),2015-11-01,55923,4996
+411,Active - Regular Non-Exempt (Full-time),2015-07-19,56691,8903
+412,Active - Regular Non-Exempt (Full-time),2014-06-26,58328,7587
+413,Active - Regular Non-Exempt (Full-time),2013-08-10,59505,8784
+414,Active - Regular Non-Exempt (Part-time),2014-12-02,57741,2893
+415,Active - Regular Non-Exempt (Part-time),2014-01-16,58496,3789
+416,Active - Regular Non-Exempt (Part-time),2014-01-22,54329,5991
+417,Active - Regular Non-Exempt (Full-time),2015-02-13,58957,4010
+418,Active - Regular Exempt (Part-time),2014-04-06,58730,8095
+419,Active - Regular Exempt (Full-time),2015-02-28,52275,5306
+420,Active - Regular Exempt (Part-time),2014-02-07,53671,3974
+421,Active - Regular Exempt (Part-time),2015-10-24,51079,4342
+422,Inactive,2013-06-12,58561,1939
+423,Inactive,2014-09-19,51760,4898
+424,Active - Regular Non-Exempt (Full-time),2013-02-22,52182,9629
+425,Active - Regular Exempt (Full-time),2013-05-16,53569,3520
+426,Active - Regular Exempt (Full-time),2014-06-14,53285,3868
+427,Active - Regular Exempt (Full-time),2014-04-04,50387,9870
+428,Active - Regular Exempt (Part-time),2015-08-15,50589,1330
+429,Active - Regular Non-Exempt (Full-time),2013-09-16,54953,1195
+430,Active - Regular Non-Exempt (Full-time),2015-08-26,51606,7045
+431,Active - Regular Exempt (Full-time),2014-06-05,50223,7902
+432,Active - Regular Exempt (Part-time),2015-02-19,55285,2434
+433,Active - Regular Non-Exempt (Full-time),2012-11-18,52826,4923
+434,Active - Regular Non-Exempt (Part-time),2015-03-23,55554,2111
+435,Active - Regular Non-Exempt (Part-time),2014-03-02,59320,1206
+436,Active - Regular Exempt (Full-time),2015-06-16,50612,5621
+437,Active - Regular Exempt (Full-time),2014-03-13,51345,9657
+438,Active - Regular Non-Exempt (Full-time),2015-07-04,57396,1045
+439,Inactive,2015-01-27,57181,3094
+440,Active - Regular Non-Exempt (Part-time),2014-08-02,55237,2961
+441,Active - Regular Non-Exempt (Full-time),2013-07-17,58974,6142
+442,Active - Regular Exempt (Full-time),2013-11-23,56157,2500
+443,Active - Regular Exempt (Full-time),2013-03-27,54780,2645
+444,Active - Regular Exempt (Part-time),2014-05-21,57191,3734
+445,Active - Regular Non-Exempt (Full-time),2013-02-10,50022,1247
+446,Active - Regular Exempt (Full-time),2015-09-06,58494,2118
+447,Active - Regular Non-Exempt (Full-time),2015-02-02,57023,5945
+448,Active - Regular Exempt (Part-time),2014-04-16,59403,1279
+449,Active - Regular Exempt (Full-time),2014-06-22,52571,4366
+450,Active - Regular Non-Exempt (Part-time),2014-04-21,59521,5395
+451,Active - Regular Exempt (Full-time),2015-07-12,59234,7025
+452,Active - Regular Non-Exempt (Part-time),2014-06-12,50521,9015
+453,Active - Regular Non-Exempt (Part-time),2013-08-14,57126,4573
+454,Active - Regular Exempt (Part-time),2015-09-29,53468,4932
+455,Active - Regular Non-Exempt (Full-time),2013-05-19,52453,3060
+456,Inactive,2015-03-28,58913,9966
+457,Active - Regular Non-Exempt (Part-time),2015-08-19,50167,7596
+458,Active - Regular Non-Exempt (Part-time),2015-02-27,52028,6511
+459,Inactive,2013-07-02,53242,8082
+460,Inactive,2015-03-25,57875,9845
+461,Active - Regular Non-Exempt (Full-time),2013-07-16,52356,5084
+462,Active - Regular Exempt (Full-time),2014-06-19,55805,3831
+463,Active - Regular Exempt (Full-time),2014-09-11,58138,6979
+464,Inactive,2013-12-22,51537,8984
+465,Active - Regular Non-Exempt (Part-time),2013-11-09,51701,9619
+466,Active - Regular Non-Exempt (Full-time),2015-03-22,59524,9940
+467,Inactive,2015-05-16,58850,4048
+468,Inactive,2014-02-16,53440,8583
+469,Active - Regular Non-Exempt (Full-time),2015-01-22,55026,3065
+470,Active - Regular Non-Exempt (Part-time),2014-08-12,51613,4797
+471,Active - Regular Non-Exempt (Full-time),2014-12-02,50007,7046
+472,Active - Regular Non-Exempt (Part-time),2014-03-20,57897,3521
+473,Active - Regular Non-Exempt (Part-time),2014-11-21,56029,2742
+474,Inactive,2014-07-07,51108,4416
+475,Active - Regular Non-Exempt (Full-time),2015-06-27,54032,5940
+476,Active - Regular Exempt (Full-time),2015-02-28,50415,7289
+477,Active - Regular Non-Exempt (Full-time),2013-05-28,50237,5013
+478,Active - Regular Non-Exempt (Part-time),2014-03-18,58627,9761
+479,Inactive,2014-08-09,58360,9463
+480,Active - Regular Exempt (Full-time),2013-03-23,51978,8866
+481,Active - Regular Non-Exempt (Part-time),2013-11-10,50303,9251
+482,Active - Regular Exempt (Full-time),2014-03-03,56561,7727
+483,Active - Regular Exempt (Full-time),2014-12-01,56423,2506
+484,Active - Regular Non-Exempt (Full-time),2013-07-15,56413,1582
+485,Inactive,2015-12-19,51965,2741
+486,Active - Regular Non-Exempt (Full-time),2013-03-21,59586,5737
+487,Inactive,2013-10-05,57546,2298
+488,Active - Regular Exempt (Full-time),2015-05-11,53346,4831
+489,Active - Regular Exempt (Full-time),2013-12-23,59716,3046
+490,Active - Regular Non-Exempt (Full-time),2014-06-25,56694,2836
+491,Active - Regular Non-Exempt (Part-time),2015-12-20,59798,9532
+492,Inactive,2013-07-02,56474,6146
+493,Active - Regular Exempt (Part-time),2014-07-31,52104,4185
+494,Active - Regular Exempt (Full-time),2013-05-24,58009,5024
+495,Active - Regular Non-Exempt (Part-time),2013-12-06,54142,5910
+496,Active - Regular Non-Exempt (Full-time),2013-09-11,52285,5088
+497,Active - Regular Non-Exempt (Part-time),2015-04-17,50301,6465
+498,Inactive,2015-02-03,54827,8157
+499,Active - Regular Non-Exempt (Full-time),2013-09-05,54596,1821
+500,Active - Regular Non-Exempt (Full-time),2013-06-02,55872,3233
+501,Inactive,2014-03-13,56641,8530
+502,Inactive,2015-11-29,50826,4337
+503,Active - Regular Exempt (Part-time),2014-08-03,56203,5071
+504,Active - Regular Exempt (Part-time),2012-12-01,59647,7652
+505,Active - Regular Non-Exempt (Full-time),2013-02-11,55627,9677
+506,Active - Regular Exempt (Part-time),2014-08-07,55352,4771
+507,Active - Regular Exempt (Full-time),2013-08-05,58167,7570
+508,Inactive,2014-08-09,51076,4212
+509,Active - Regular Exempt (Part-time),2014-07-04,58023,8250
+510,Active - Regular Exempt (Full-time),2015-06-25,56577,7538
+511,Active - Regular Non-Exempt (Part-time),2015-04-08,57675,3550
+512,Active - Regular Non-Exempt (Full-time),2013-04-09,57114,5877
+513,Inactive,2015-08-08,55755,4445
+514,Inactive,2014-06-15,52197,7677
+515,Active - Regular Exempt (Full-time),2015-08-21,57894,3742
+516,Active - Regular Exempt (Full-time),2014-11-13,54602,8916
+517,Active - Regular Exempt (Full-time),2012-12-12,58080,7395
+518,Active - Regular Exempt (Full-time),2014-07-06,58900,7042
+519,Active - Regular Exempt (Part-time),2015-01-16,57676,8978
+520,Active - Regular Exempt (Part-time),2015-08-26,56623,3352
+521,Inactive,2015-01-20,50585,6161
+522,Inactive,2015-08-18,51469,7720
+523,Active - Regular Exempt (Full-time),2014-12-14,54654,1233
+524,Active - Regular Non-Exempt (Full-time),2014-08-28,54795,9427
+525,Active - Regular Non-Exempt (Full-time),2014-03-14,58223,3760
+526,Active - Regular Exempt (Full-time),2015-10-30,51172,3584
+527,Active - Regular Exempt (Part-time),2014-09-25,54472,6224
+528,Active - Regular Exempt (Full-time),2015-08-17,51068,2631
+529,Active - Regular Exempt (Part-time),2015-07-16,50491,4810
+530,Active - Regular Exempt (Full-time),2014-04-28,51708,7506
+531,Inactive,2012-12-24,54701,5917
+532,Active - Regular Non-Exempt (Full-time),2014-06-08,51154,4747
+533,Active - Regular Exempt (Part-time),2012-12-17,50951,9476
+534,Active - Regular Non-Exempt (Full-time),2013-01-09,59134,9083
+535,Inactive,2012-12-28,51081,3764
+536,Active - Regular Non-Exempt (Part-time),2013-03-14,50496,8104
+537,Inactive,2015-11-27,52388,9960
+538,Active - Regular Non-Exempt (Part-time),2014-03-17,55698,9641
+539,Active - Regular Exempt (Part-time),2013-05-07,51848,5809
+540,Inactive,2014-01-31,51691,9094
+541,Active - Regular Non-Exempt (Part-time),2015-05-14,56244,5033
+542,Active - Regular Exempt (Part-time),2013-10-23,57072,8624
+543,Active - Regular Exempt (Full-time),2014-06-04,56819,9389
+544,Active - Regular Non-Exempt (Full-time),2014-08-30,59520,5675
+545,Active - Regular Non-Exempt (Part-time),2014-04-17,51029,4520
+546,Active - Regular Exempt (Full-time),2014-05-15,55454,2161
+547,Inactive,2015-02-25,52652,9579
+548,Inactive,2015-04-23,50091,1363
+549,Active - Regular Non-Exempt (Part-time),2013-01-05,51094,9569
+550,Active - Regular Exempt (Full-time),2014-03-14,50802,5916
+551,Active - Regular Exempt (Part-time),2014-12-22,52679,1568
+552,Active - Regular Non-Exempt (Part-time),2015-09-29,56008,7635
+553,Active - Regular Exempt (Full-time),2014-12-22,50142,5448
+554,Inactive,2015-09-15,54464,9852
+555,Active - Regular Exempt (Full-time),2015-09-20,57890,7899
+556,Active - Regular Non-Exempt (Part-time),2013-07-22,57036,2553
+557,Active - Regular Exempt (Full-time),2015-03-11,59663,1374
+558,Active - Regular Non-Exempt (Part-time),2015-04-22,53924,9102
+559,Active - Regular Exempt (Full-time),2014-09-02,56081,2551
+560,Active - Regular Exempt (Full-time),2014-04-28,57971,8134
+561,Inactive,2013-08-22,51105,4420
+562,Inactive,2015-08-19,52205,2985
+563,Active - Regular Exempt (Full-time),2013-01-20,56581,3688
+564,Active - Regular Non-Exempt (Full-time),2015-01-07,56815,2224
+565,Active - Regular Non-Exempt (Part-time),2013-07-05,59484,5786
+566,Active - Regular Exempt (Full-time),2015-03-24,52627,2341
+567,Active - Regular Non-Exempt (Part-time),2014-05-17,52239,1513
+568,Inactive,2015-05-30,55392,2992
+569,Active - Regular Exempt (Full-time),2014-09-22,59631,3697
+570,Active - Regular Non-Exempt (Full-time),2015-07-26,54682,3049
+571,Inactive,2013-12-16,50186,6722
+572,Active - Regular Non-Exempt (Part-time),2013-10-03,51685,8058
+573,Active - Regular Exempt (Full-time),2015-05-11,59491,6665
+574,Active - Regular Non-Exempt (Full-time),2015-03-14,54819,7714
+575,Active - Regular Exempt (Part-time),2013-04-06,51528,4485
+576,Active - Regular Exempt (Full-time),2013-01-28,55419,8557
+577,Active - Regular Exempt (Part-time),2015-03-07,50026,4145
+578,Active - Regular Non-Exempt (Full-time),2013-05-20,55106,2607
+579,Inactive,2014-02-08,50832,5086
+580,Active - Regular Exempt (Full-time),2015-11-11,54950,7444
+581,Active - Regular Exempt (Part-time),2013-10-01,58799,8885
+582,Active - Regular Non-Exempt (Part-time),2013-08-10,54604,9982
+583,Active - Regular Exempt (Full-time),2014-01-27,57448,6208
+584,Active - Regular Non-Exempt (Part-time),2015-11-08,55296,5021
+585,Active - Regular Exempt (Full-time),2013-07-31,54967,7236
+586,Active - Regular Exempt (Full-time),2014-08-05,59990,9280
+587,Active - Regular Non-Exempt (Full-time),2014-11-21,58758,4864
+588,Inactive,2014-01-07,57401,3727
+589,Active - Regular Exempt (Full-time),2014-04-19,58879,5125
+590,Active - Regular Exempt (Full-time),2014-10-19,55875,3172
+591,Active - Regular Non-Exempt (Part-time),2015-06-29,58374,5438
+592,Inactive,2014-01-23,53599,7181
+593,Active - Regular Exempt (Part-time),2013-05-16,59619,4270
+594,Active - Regular Non-Exempt (Part-time),2014-12-18,57551,6399
+595,Active - Regular Non-Exempt (Full-time),2013-05-09,55462,3020
+596,Active - Regular Non-Exempt (Full-time),2014-01-30,52808,1870
+597,Inactive,2015-09-12,57380,5790
+598,Active - Regular Non-Exempt (Part-time),2014-09-16,52118,1791
+599,Active - Regular Exempt (Full-time),2015-06-17,54155,1103
+600,Active - Regular Exempt (Full-time),2013-04-07,54577,3974
+601,Active - Regular Exempt (Full-time),2015-06-07,57650,2954
+602,Active - Regular Non-Exempt (Part-time),2014-10-28,58378,1805
+603,Active - Regular Non-Exempt (Part-time),2015-06-06,54279,4591
+604,Active - Regular Non-Exempt (Part-time),2013-04-28,52386,1603
+605,Active - Regular Exempt (Full-time),2014-01-26,52626,4794
+606,Inactive,2014-08-17,51538,1609
+607,Active - Regular Exempt (Full-time),2014-10-27,59393,6472
+608,Inactive,2013-10-01,58091,3660
+609,Active - Regular Exempt (Full-time),2013-07-11,54203,8912
+610,Active - Regular Non-Exempt (Full-time),2015-11-16,57247,8220
+611,Active - Regular Exempt (Full-time),2014-06-15,55756,7773
+612,Active - Regular Exempt (Full-time),2015-03-12,56608,9816
+613,Active - Regular Exempt (Full-time),2014-06-13,56553,5239
+614,Active - Regular Non-Exempt (Full-time),2014-04-06,51950,7311
+615,Inactive,2012-12-24,51975,6882
+616,Active - Regular Exempt (Full-time),2014-10-03,52534,5145
+617,Active - Regular Exempt (Full-time),2013-06-10,51889,8201
+618,Active - Regular Non-Exempt (Full-time),2014-12-27,50684,1566
+619,Active - Regular Non-Exempt (Full-time),2013-06-24,58366,1065
+620,Active - Regular Exempt (Full-time),2014-09-21,58745,5013
+621,Inactive,2015-01-06,59854,9365
+622,Active - Regular Non-Exempt (Full-time),2012-12-05,54909,2041
+623,Active - Regular Exempt (Part-time),2013-11-11,53565,7960
+624,Active - Regular Exempt (Part-time),2013-07-24,57745,1170
+625,Inactive,2014-02-12,50192,5081
+626,Active - Regular Exempt (Full-time),2014-12-01,59058,7630
+627,Active - Regular Exempt (Part-time),2015-01-27,55918,8539
+628,Active - Regular Non-Exempt (Full-time),2015-12-28,52097,3924
+629,Active - Regular Exempt (Full-time),2014-03-06,52130,8577
+630,Active - Regular Exempt (Full-time),2013-10-19,58640,1221
+631,Active - Regular Non-Exempt (Full-time),2015-09-28,55806,1957
+632,Active - Regular Non-Exempt (Part-time),2014-04-13,55130,7137
+633,Active - Regular Non-Exempt (Full-time),2015-12-29,57578,7246
+634,Active - Regular Non-Exempt (Part-time),2015-02-13,59481,7526
+635,Active - Regular Exempt (Full-time),2013-07-18,58248,5628
+636,Active - Regular Exempt (Part-time),2015-10-17,58370,6635
+637,Active - Regular Exempt (Part-time),2015-03-31,58030,3843
+638,Active - Regular Non-Exempt (Full-time),2015-12-18,59771,7272
+639,Active - Regular Exempt (Part-time),2013-10-27,52796,2989
+640,Active - Regular Exempt (Part-time),2013-03-18,54240,5348
+641,Active - Regular Non-Exempt (Full-time),2015-10-11,54301,8918
+642,Active - Regular Exempt (Full-time),2013-03-28,54633,8513
+643,Inactive,2012-11-21,55465,4810
+644,Active - Regular Exempt (Part-time),2014-03-23,54937,6574
+645,Active - Regular Exempt (Part-time),2014-07-03,59691,8653
+646,Active - Regular Non-Exempt (Part-time),2015-01-27,53706,7786
+647,Active - Regular Non-Exempt (Part-time),2013-02-24,51501,2830
+648,Active - Regular Exempt (Part-time),2015-03-05,54407,4613
+649,Active - Regular Non-Exempt (Full-time),2014-04-18,59032,4623
+650,Inactive,2015-09-09,57466,5542
+651,Active - Regular Non-Exempt (Part-time),2015-09-17,56475,1145
+652,Active - Regular Exempt (Full-time),2014-12-17,54769,2559
+653,Active - Regular Non-Exempt (Full-time),2015-07-29,56987,9744
+654,Active - Regular Non-Exempt (Part-time),2015-10-31,53098,4532
+655,Active - Regular Non-Exempt (Part-time),2013-11-29,57213,8643
+656,Inactive,2015-04-23,51413,2383
+657,Active - Regular Non-Exempt (Full-time),2014-07-28,52771,9655
+658,Inactive,2014-04-02,51621,5274
+659,Active - Regular Non-Exempt (Part-time),2013-07-17,53702,9991
+660,Active - Regular Non-Exempt (Part-time),2015-11-24,56788,8544
+661,Inactive,2015-10-29,51941,4538
+662,Active - Regular Non-Exempt (Part-time),2015-01-14,53786,3731
+663,Active - Regular Non-Exempt (Full-time),2012-12-12,54754,3386
+664,Active - Regular Exempt (Full-time),2013-08-08,59199,5704
+665,Active - Regular Exempt (Part-time),2013-10-06,56890,1103
+666,Active - Regular Exempt (Part-time),2013-12-17,56115,9293
+667,Active - Regular Non-Exempt (Part-time),2015-02-04,55469,1097
+668,Active - Regular Non-Exempt (Part-time),2015-11-13,54746,5943
+669,Active - Regular Non-Exempt (Part-time),2015-03-27,53252,6656
+670,Inactive,2015-04-17,51819,5540
+671,Inactive,2013-06-23,59597,4339
+672,Inactive,2013-11-25,58896,8261
+673,Active - Regular Non-Exempt (Part-time),2015-04-30,59212,5616
+674,Active - Regular Non-Exempt (Full-time),2015-11-01,51891,2727
+675,Active - Regular Exempt (Part-time),2015-05-16,59238,2820
+676,Active - Regular Exempt (Part-time),2015-08-20,52163,4954
+677,Active - Regular Exempt (Full-time),2012-12-30,54524,7841
+678,Active - Regular Non-Exempt (Part-time),2013-12-18,53717,8958
+679,Inactive,2013-07-15,58278,8276
+680,Active - Regular Non-Exempt (Part-time),2013-11-06,50831,4747
+681,Active - Regular Non-Exempt (Full-time),2012-11-29,51715,8488
+682,Active - Regular Exempt (Full-time),2012-12-19,58368,3656
+683,Active - Regular Non-Exempt (Part-time),2014-06-17,58712,8677
+684,Active - Regular Exempt (Full-time),2014-06-11,51586,8119
+685,Active - Regular Exempt (Part-time),2014-07-09,57678,8008
+686,Active - Regular Exempt (Part-time),2015-07-26,52320,3376
+687,Inactive,2015-06-27,52935,6013
+688,Active - Regular Exempt (Full-time),2013-05-14,55731,2657
+689,Active - Regular Non-Exempt (Part-time),2014-08-31,52777,6878
+690,Active - Regular Non-Exempt (Full-time),2012-11-19,55798,2654
+691,Active - Regular Non-Exempt (Full-time),2013-07-19,50043,2714
+692,Active - Regular Non-Exempt (Part-time),2013-06-14,50869,6146
+693,Active - Regular Non-Exempt (Part-time),2013-03-15,54660,7349
+694,Active - Regular Exempt (Full-time),2015-04-30,58499,8724
+695,Active - Regular Exempt (Full-time),2015-11-14,54827,2565
+696,Active - Regular Exempt (Part-time),2014-10-25,51478,9928
+697,Active - Regular Non-Exempt (Part-time),2012-11-30,50041,4344
+698,Inactive,2014-12-28,56575,4173
+699,Inactive,2014-05-20,58839,9034
+700,Active - Regular Non-Exempt (Part-time),2014-11-08,53016,8045
+701,Inactive,2015-09-25,53555,4359
+702,Inactive,2013-12-13,57132,8222
+703,Active - Regular Exempt (Full-time),2012-12-10,54506,9894
+704,Active - Regular Non-Exempt (Part-time),2014-10-30,51756,5834
+705,Active - Regular Exempt (Part-time),2015-12-22,59297,6044
+706,Active - Regular Exempt (Full-time),2013-09-17,53017,7343
+707,Active - Regular Exempt (Part-time),2013-12-15,55595,3495
+708,Active - Regular Exempt (Full-time),2014-08-17,57021,5747
+709,Inactive,2015-08-30,58078,6638
+710,Active - Regular Exempt (Part-time),2013-12-20,54898,4607
+711,Active - Regular Non-Exempt (Part-time),2013-06-22,59137,2495
+712,Active - Regular Non-Exempt (Full-time),2013-06-05,55914,8209
+713,Active - Regular Exempt (Part-time),2015-08-22,56897,2924
+714,Active - Regular Non-Exempt (Part-time),2013-06-02,57885,6158
+715,Active - Regular Non-Exempt (Full-time),2015-01-14,55587,9921
+716,Active - Regular Non-Exempt (Part-time),2014-12-10,50517,6046
+717,Active - Regular Exempt (Full-time),2013-02-11,52669,1865
+718,Active - Regular Exempt (Part-time),2012-12-02,51434,6467
+719,Active - Regular Non-Exempt (Part-time),2014-05-25,56728,8144
+720,Active - Regular Non-Exempt (Full-time),2014-01-02,51815,4058
+721,Inactive,2014-12-03,53195,6561
+722,Inactive,2015-06-11,53443,5399
+723,Active - Regular Non-Exempt (Part-time),2013-10-28,55407,4098
+724,Active - Regular Non-Exempt (Part-time),2015-09-24,50879,6194
+725,Active - Regular Non-Exempt (Part-time),2014-09-25,57809,3254
+726,Active - Regular Non-Exempt (Part-time),2015-05-17,52544,3617
+727,Active - Regular Exempt (Full-time),2013-03-31,50529,9166
+728,Active - Regular Exempt (Part-time),2013-01-16,55979,1393
+729,Active - Regular Exempt (Part-time),2014-06-25,51247,6111
+730,Active - Regular Exempt (Part-time),2014-07-13,58218,5356
+731,Inactive,2014-05-12,54020,2617
+732,Active - Regular Non-Exempt (Full-time),2012-12-25,54992,5102
+733,Inactive,2014-01-08,55473,3396
+734,Active - Regular Exempt (Full-time),2014-12-17,53565,1295
+735,Active - Regular Non-Exempt (Part-time),2015-01-15,58502,9875
+736,Active - Regular Exempt (Part-time),2013-01-06,56543,9410
+737,Inactive,2013-04-19,56003,9635
+738,Active - Regular Non-Exempt (Full-time),2014-09-07,58489,8972
+739,Active - Regular Non-Exempt (Full-time),2013-12-30,51816,7746
+740,Active - Regular Exempt (Part-time),2013-03-13,58039,5742
+741,Active - Regular Exempt (Part-time),2015-05-22,58533,9947
+742,Active - Regular Non-Exempt (Full-time),2015-11-08,54629,3404
+743,Active - Regular Non-Exempt (Part-time),2013-09-30,53929,3661
+744,Active - Regular Non-Exempt (Part-time),2013-08-09,58384,7583
+745,Active - Regular Non-Exempt (Part-time),2013-06-17,58630,5894
+746,Active - Regular Exempt (Full-time),2015-07-16,54384,7131
+747,Inactive,2014-01-04,53895,9982
+748,Active - Regular Exempt (Full-time),2015-09-01,51820,6942
+749,Active - Regular Exempt (Part-time),2014-05-25,54647,3448
+750,Active - Regular Exempt (Part-time),2014-10-07,52108,7089
+751,Active - Regular Exempt (Part-time),2013-11-22,56360,2679
+752,Active - Regular Non-Exempt (Full-time),2012-11-28,51141,8402
+753,Active - Regular Exempt (Full-time),2014-11-27,57914,5925
+754,Inactive,2013-11-27,57819,5048
+755,Active - Regular Non-Exempt (Full-time),2014-04-25,54374,8499
+756,Inactive,2014-03-14,50186,8322
+757,Active - Regular Exempt (Full-time),2014-05-02,58158,8719
+758,Active - Regular Exempt (Part-time),2014-12-23,59264,6728
+759,Active - Regular Non-Exempt (Full-time),2013-05-30,50899,3907
+760,Active - Regular Exempt (Full-time),2013-01-13,54973,9891
+761,Inactive,2015-04-14,58988,4332
+762,Inactive,2012-11-23,54426,3384
+763,Inactive,2014-08-16,53804,7830
+764,Active - Regular Exempt (Part-time),2013-10-04,51233,4612
+765,Active - Regular Non-Exempt (Part-time),2014-10-17,56500,2037
+766,Active - Regular Exempt (Part-time),2015-11-03,53013,7883
+767,Active - Regular Exempt (Full-time),2014-12-28,50168,9021
+768,Active - Regular Exempt (Full-time),2014-06-19,51003,9768
+769,Active - Regular Non-Exempt (Part-time),2014-10-31,50326,9815
+770,Inactive,2014-12-17,56305,8984
+771,Active - Regular Exempt (Full-time),2014-09-10,53405,9244
+772,Inactive,2014-10-27,50809,1991
+773,Inactive,2013-02-20,56302,4233
+774,Active - Regular Non-Exempt (Full-time),2013-08-23,50922,9262
+775,Active - Regular Exempt (Part-time),2013-09-07,55856,9837
+776,Active - Regular Exempt (Full-time),2013-08-31,55647,1042
+777,Active - Regular Non-Exempt (Full-time),2013-05-17,54528,6339
+778,Active - Regular Non-Exempt (Full-time),2013-10-26,59441,7516
+779,Inactive,2013-06-26,53166,5816
+780,Active - Regular Non-Exempt (Part-time),2013-02-26,54666,9164
+781,Active - Regular Exempt (Full-time),2013-01-05,51861,4078
+782,Inactive,2014-02-01,52259,4396
+783,Active - Regular Non-Exempt (Part-time),2014-01-09,54267,6641
+784,Active - Regular Exempt (Part-time),2015-08-22,56650,7274
+785,Inactive,2013-11-24,57660,3676
+786,Active - Regular Non-Exempt (Part-time),2015-12-01,56317,6694
+787,Inactive,2013-11-23,57069,7398
+788,Active - Regular Exempt (Full-time),2014-01-08,57722,2484
+789,Active - Regular Exempt (Part-time),2013-04-22,51048,1222
+790,Active - Regular Exempt (Part-time),2015-08-11,50951,3560
+791,Active - Regular Non-Exempt (Part-time),2014-01-27,53517,8371
+792,Inactive,2014-08-18,57536,6941
+793,Active - Regular Exempt (Full-time),2014-10-03,51260,1783
+794,Active - Regular Non-Exempt (Full-time),2013-06-17,50178,2237
+795,Active - Regular Exempt (Part-time),2014-10-19,52985,7899
+796,Active - Regular Non-Exempt (Full-time),2015-10-05,58021,7693
+797,Active - Regular Non-Exempt (Part-time),2015-06-20,56676,6772
+798,Inactive,2014-12-13,53942,8864
+799,Active - Regular Exempt (Full-time),2014-10-28,50505,6589
+800,Active - Regular Exempt (Full-time),2013-07-02,57041,8752
+801,Active - Regular Non-Exempt (Full-time),2015-02-16,53343,2331
+802,Active - Regular Non-Exempt (Full-time),2014-07-25,54021,3621
+803,Inactive,2013-07-09,52337,8151
+804,Active - Regular Exempt (Part-time),2014-07-28,57449,1255
+805,Inactive,2013-06-10,55635,6985
+806,Active - Regular Non-Exempt (Full-time),2014-12-28,57065,7023
+807,Active - Regular Non-Exempt (Full-time),2015-06-16,57478,8101
+808,Active - Regular Exempt (Part-time),2014-08-12,56606,6710
+809,Active - Regular Exempt (Part-time),2013-08-13,50945,5026
+810,Inactive,2014-08-08,53855,9190
+811,Inactive,2014-08-17,50779,5018
+812,Active - Regular Non-Exempt (Full-time),2014-08-15,57457,6944
+813,Inactive,2013-04-30,58946,4935
+814,Active - Regular Non-Exempt (Part-time),2015-02-07,59467,9717
+815,Active - Regular Non-Exempt (Part-time),2012-12-08,59662,7964
+816,Active - Regular Non-Exempt (Part-time),2015-10-30,51335,9774
+817,Active - Regular Non-Exempt (Full-time),2013-10-04,54133,1523
+818,Active - Regular Exempt (Full-time),2015-02-14,59241,9267
+819,Active - Regular Exempt (Full-time),2014-11-12,55926,4867
+820,Inactive,2014-02-07,57217,3202
+821,Active - Regular Non-Exempt (Full-time),2015-10-15,55625,8056
+822,Active - Regular Non-Exempt (Full-time),2014-05-26,52442,3132
+823,Active - Regular Exempt (Full-time),2013-10-25,58266,6447
+824,Active - Regular Exempt (Full-time),2014-05-20,58575,2628
+825,Active - Regular Exempt (Full-time),2012-12-27,58060,1641
+826,Active - Regular Exempt (Full-time),2013-12-03,51832,1178
+827,Active - Regular Exempt (Part-time),2014-04-20,55129,8571
+828,Active - Regular Exempt (Part-time),2015-09-28,54287,2639
+829,Inactive,2015-06-09,55471,7037
+830,Active - Regular Exempt (Part-time),2013-09-08,55933,5860
+831,Active - Regular Exempt (Part-time),2015-01-21,55423,1528
+832,Active - Regular Exempt (Full-time),2014-09-11,55914,8864
+833,Active - Regular Exempt (Full-time),2014-10-01,55852,2098
+834,Active - Regular Exempt (Full-time),2012-11-23,50159,3482
+835,Inactive,2015-11-04,59835,9871
+836,Active - Regular Non-Exempt (Part-time),2013-01-01,53733,5889
+837,Active - Regular Exempt (Full-time),2015-02-11,55558,5986
+838,Active - Regular Exempt (Part-time),2014-11-12,55452,9691
+839,Active - Regular Non-Exempt (Part-time),2015-02-04,56746,9212
+840,Active - Regular Exempt (Part-time),2013-11-03,50260,9425
+841,Active - Regular Non-Exempt (Full-time),2015-09-24,55326,3536
+842,Inactive,2013-04-14,55610,5997
+843,Active - Regular Exempt (Part-time),2015-10-02,58140,9171
+844,Active - Regular Exempt (Full-time),2014-09-25,59388,5615
+845,Active - Regular Non-Exempt (Full-time),2013-08-24,51329,9285
+846,Inactive,2014-07-18,54643,7304
+847,Active - Regular Exempt (Full-time),2014-12-05,52267,3351
+848,Inactive,2013-06-23,53480,1032
+849,Inactive,2015-07-22,51546,2687
+850,Inactive,2013-07-03,51990,6054
+851,Active - Regular Exempt (Part-time),2013-04-17,58068,1862
+852,Active - Regular Non-Exempt (Full-time),2015-11-12,52988,7612
+853,Active - Regular Exempt (Full-time),2015-02-14,57324,8791
+854,Inactive,2013-03-08,59144,6089
+855,Active - Regular Non-Exempt (Part-time),2015-11-03,53296,9067
+856,Inactive,2014-04-30,57702,3336
+857,Active - Regular Non-Exempt (Full-time),2015-08-30,52543,2389
+858,Active - Regular Exempt (Part-time),2013-12-10,50457,6483
+859,Active - Regular Exempt (Full-time),2013-09-17,51070,3560
+860,Inactive,2014-06-05,54978,3169
+861,Active - Regular Exempt (Part-time),2013-02-01,55642,4198
+862,Active - Regular Exempt (Full-time),2015-12-17,57870,6100
+863,Inactive,2013-02-16,54226,6250
+864,Active - Regular Exempt (Full-time),2013-09-02,55082,6257
+865,Active - Regular Non-Exempt (Full-time),2013-04-15,55185,3046
+866,Active - Regular Exempt (Full-time),2012-12-09,50131,4196
+867,Inactive,2013-12-29,53080,2626
+868,Inactive,2015-02-27,55719,2342
+869,Inactive,2013-12-25,54217,7794
+870,Active - Regular Non-Exempt (Full-time),2014-07-22,55431,6847
+871,Active - Regular Non-Exempt (Part-time),2014-10-05,56169,7200
+872,Active - Regular Non-Exempt (Part-time),2014-01-16,55349,8133
+873,Inactive,2014-08-10,51618,7536
+874,Active - Regular Exempt (Full-time),2015-04-18,53593,5877
+875,Active - Regular Exempt (Full-time),2014-08-19,58524,3782
+876,Active - Regular Exempt (Full-time),2015-09-04,53079,8263
+877,Active - Regular Non-Exempt (Part-time),2013-07-30,56731,5103
+878,Active - Regular Exempt (Full-time),2015-12-08,54224,8580
+879,Inactive,2013-03-19,56637,7565
+880,Active - Regular Exempt (Full-time),2013-09-18,54243,9599
+881,Active - Regular Exempt (Full-time),2014-08-03,59080,4829
+882,Active - Regular Exempt (Full-time),2012-11-22,59117,1105
+883,Active - Regular Non-Exempt (Part-time),2014-10-20,50553,1353
+884,Active - Regular Exempt (Part-time),2014-06-16,54450,9565
+885,Inactive,2015-02-05,59228,7632
+886,Active - Regular Non-Exempt (Full-time),2014-02-16,55509,6318
+887,Active - Regular Non-Exempt (Full-time),2015-11-10,55580,8761
+888,Active - Regular Non-Exempt (Full-time),2014-12-29,52552,4918
+889,Inactive,2013-08-05,58286,2759
+890,Active - Regular Exempt (Part-time),2015-05-09,53209,5562
+891,Active - Regular Exempt (Full-time),2015-10-21,59897,8566
+892,Active - Regular Non-Exempt (Part-time),2015-07-03,53728,2530
+893,Active - Regular Non-Exempt (Part-time),2013-11-20,57717,6239
+894,Active - Regular Exempt (Part-time),2015-10-28,51137,4080
+895,Inactive,2014-02-13,52258,2879
+896,Active - Regular Non-Exempt (Full-time),2014-12-21,53053,6146
+897,Active - Regular Exempt (Part-time),2013-08-31,57898,6243
+898,Active - Regular Non-Exempt (Full-time),2014-11-04,50990,4752
+899,Active - Regular Non-Exempt (Part-time),2014-01-24,53959,9587
+900,Active - Regular Exempt (Part-time),2014-04-20,54863,6969
+901,Inactive,2013-06-10,50829,9662
+902,Active - Regular Non-Exempt (Full-time),2013-06-12,53105,8421
+903,Active - Regular Exempt (Full-time),2013-11-22,58081,6238
+904,Active - Regular Exempt (Part-time),2014-11-30,57816,6421
+905,Active - Regular Exempt (Full-time),2013-09-26,55756,5823
+906,Active - Regular Non-Exempt (Full-time),2014-05-22,53428,9924
+907,Active - Regular Exempt (Full-time),2014-11-18,50427,7304
+908,Active - Regular Non-Exempt (Full-time),2014-08-11,56249,3246
+909,Active - Regular Exempt (Full-time),2015-10-22,51283,5621
+910,Active - Regular Exempt (Part-time),2013-06-06,55436,9842
+911,Active - Regular Exempt (Full-time),2015-11-22,53735,5160
+912,Active - Regular Non-Exempt (Full-time),2013-02-23,50587,8590
+913,Active - Regular Non-Exempt (Part-time),2014-11-23,56090,6300
+914,Active - Regular Exempt (Part-time),2013-02-14,56639,5839
+915,Inactive,2015-03-29,54005,9190
+916,Active - Regular Exempt (Full-time),2013-06-09,51786,5986
+917,Active - Regular Exempt (Full-time),2013-11-23,56116,3087
+918,Inactive,2013-08-09,55618,9842
+919,Active - Regular Exempt (Full-time),2014-06-08,53510,3818
+920,Active - Regular Non-Exempt (Part-time),2014-03-12,57069,4748
+921,Inactive,2015-12-17,51071,3277
+922,Active - Regular Exempt (Part-time),2014-05-02,57894,1372
+923,Inactive,2015-11-07,50068,2581
+924,Inactive,2014-01-15,52876,6648
+925,Inactive,2014-06-17,58596,5780
+926,Inactive,2013-06-20,58737,7300
+927,Active - Regular Exempt (Part-time),2015-07-01,51868,5513
+928,Active - Regular Non-Exempt (Full-time),2012-11-27,54410,9424
+929,Active - Regular Non-Exempt (Full-time),2014-09-08,59677,1389
+930,Active - Regular Exempt (Full-time),2015-09-18,57893,2974
+931,Active - Regular Non-Exempt (Part-time),2015-03-09,52640,3365
+932,Active - Regular Non-Exempt (Part-time),2013-08-06,54100,2041
+933,Active - Regular Exempt (Part-time),2013-09-24,57858,3416
+934,Inactive,2015-06-21,58185,7161
+935,Active - Regular Exempt (Part-time),2014-10-06,59124,2980
+936,Inactive,2013-09-21,59210,9339
+937,Inactive,2014-07-03,50469,3180
+938,Active - Regular Non-Exempt (Part-time),2015-05-11,50496,4696
+939,Active - Regular Non-Exempt (Part-time),2014-09-12,54284,9069
+940,Inactive,2014-10-01,53300,7837
+941,Active - Regular Non-Exempt (Part-time),2015-08-09,56690,5926
+942,Active - Regular Exempt (Full-time),2015-05-23,53389,1918
+943,Active - Regular Non-Exempt (Part-time),2014-11-22,55940,3864
+944,Active - Regular Non-Exempt (Full-time),2015-09-19,56151,4830
+945,Active - Regular Exempt (Part-time),2012-11-16,52665,4791
+946,Inactive,2014-07-15,54815,7998
+947,Active - Regular Exempt (Part-time),2015-01-16,57511,1027
+948,Active - Regular Non-Exempt (Full-time),2014-10-01,54060,9043
+949,Active - Regular Non-Exempt (Full-time),2015-07-05,54701,8253
+950,Inactive,2015-05-12,51992,6433
+951,Active - Regular Non-Exempt (Part-time),2013-08-24,51057,6557
+952,Active - Regular Non-Exempt (Full-time),2013-01-13,50427,2213
+953,Active - Regular Non-Exempt (Part-time),2013-12-21,52222,5772
+954,Inactive,2013-08-22,53573,8456
+955,Active - Regular Non-Exempt (Full-time),2014-04-09,52959,5138
+956,Active - Regular Exempt (Full-time),2014-06-25,57915,6676
+957,Inactive,2014-01-04,51063,7566
+958,Active - Regular Exempt (Part-time),2013-02-07,51418,1481
+959,Active - Regular Exempt (Full-time),2014-04-17,59145,8403
+960,Active - Regular Exempt (Part-time),2013-05-20,56807,8958
+961,Inactive,2014-06-21,51998,7405
+962,Active - Regular Exempt (Part-time),2014-06-15,59046,4620
+963,Active - Regular Non-Exempt (Full-time),2015-06-13,57672,7027
+964,Active - Regular Exempt (Part-time),2013-12-14,58313,7706
+965,Active - Regular Non-Exempt (Full-time),2015-09-23,55116,4277
+966,Active - Regular Exempt (Part-time),2015-04-09,58916,7409
+967,Active - Regular Non-Exempt (Full-time),2013-05-08,56115,3398
+968,Active - Regular Exempt (Part-time),2013-07-31,59288,7770
+969,Active - Regular Non-Exempt (Full-time),2013-05-19,53888,2675
+970,Inactive,2013-10-23,57568,2198
+971,Active - Regular Non-Exempt (Full-time),2015-09-06,59601,4295
+972,Active - Regular Exempt (Part-time),2014-05-04,59070,8215
+973,Active - Regular Non-Exempt (Part-time),2015-06-24,57863,6974
+974,Inactive,2014-04-29,52220,5329
+975,Active - Regular Exempt (Part-time),2014-06-19,53694,4054
+976,Active - Regular Exempt (Part-time),2013-01-25,51858,4677
+977,Active - Regular Non-Exempt (Part-time),2012-12-24,59129,9758
+978,Active - Regular Exempt (Full-time),2014-03-28,57704,8800
+979,Active - Regular Exempt (Full-time),2013-06-07,57753,7117
+980,Active - Regular Non-Exempt (Full-time),2015-03-08,51177,8918
+981,Inactive,2014-04-02,55885,6849
+982,Active - Regular Non-Exempt (Full-time),2013-10-01,57631,4579
+983,Active - Regular Exempt (Part-time),2014-08-06,50092,8561
+984,Active - Regular Non-Exempt (Part-time),2013-08-14,56537,3494
+985,Active - Regular Exempt (Full-time),2013-11-08,55265,5828
+986,Active - Regular Exempt (Full-time),2014-06-09,50019,4587
+987,Active - Regular Exempt (Part-time),2013-10-25,57311,6163
+988,Active - Regular Exempt (Part-time),2012-11-17,58547,5980
+989,Active - Regular Non-Exempt (Part-time),2014-07-23,56488,3243
+990,Active - Regular Non-Exempt (Part-time),2014-04-13,56115,8553
+991,Active - Regular Exempt (Part-time),2013-05-28,57892,8384
+992,Active - Regular Exempt (Full-time),2013-01-23,58890,8200
+993,Inactive,2015-07-06,58055,9944
+994,Active - Regular Exempt (Part-time),2013-09-14,56867,4094
+995,Active - Regular Exempt (Part-time),2013-09-10,57235,1196
+996,Active - Regular Exempt (Part-time),2015-11-05,55981,9891
+997,Active - Regular Exempt (Full-time),2014-01-05,53710,4168
+998,Inactive,2014-07-28,58890,7049
+999,Active - Regular Non-Exempt (Part-time),2013-01-04,55775,7554
+1000,Active - Regular Exempt (Full-time),2013-01-11,55333,1248
