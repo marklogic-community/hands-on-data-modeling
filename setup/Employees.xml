@@ -1,73 +1,4 @@
-<export><workspace name="Employees"><query name="createDatabase" focus="true" active="true" content-source="as:12224977826776051352:" mode="javascript">
-var doc = xdmp.documentGet("C:\\Users\\paven\\Desktop\\MLW2016\\Config\\database.json");
-
-xdmp.httpPost('http://localhost:8002/manage/v2/databases',
-              {
-                  "authentication": {
-                                       "method" : "digest",
-                                       "username" : "oslo",
-                                       "password" : "oslo"
-                                     },
-                   "headers": { 
-                                  "content-type":"application/json"
-                              }
-              }, 
-              doc
-            );
-</query><query name="attachForests" focus="false" active="true" content-source="as:12224977826776051352:" mode="javascript">// query
-
-var doc =  {"forest-name": "employees-1", 
-            "host": "hp8470-1946.marklogic.com", 
-            "database": "Employees"}
-
-xdmp.httpPost('http://localhost:8002/manage/v2/forests',
-              {
-                  "authentication": {
-                                       "method" : "digest",
-                                       "username" : "oslo",
-                                       "password" : "oslo"
-                                     },
-                   "headers": { 
-                                  "content-type":"application/json"
-                              }
-              }, 
-              doc
-            );</query><query name="getHosts" focus="false" active="true" content-source="as:12224977826776051352:" mode="javascript">// see meta/listitems/nameref element  
-
-xdmp.httpGet('http://localhost:8002/manage/v2/hosts',
-              {
-                  "authentication": {
-                                       "method" : "digest",
-                                       "username" : "oslo",
-                                       "password" : "oslo"
-                                     }
-               }
-              )</query><query name="createRESTInstance" focus="false" active="true" content-source="as:12224977826776051352:" mode="javascript">// query
-
-var doc =  
-{
-  "rest-api": {
-    "name": "employees-app-server",
-    "database": "Employees",
-    "modules-database": "employees-modules",
-    "port": "8080",
-    "xdbc-enabled": true  //default is true
-  }
-}
-
-xdmp.httpPost('http://localhost:8002/v1/rest-apis',
-              {
-                  "authentication": {
-                                       "method" : "digest",
-                                       "username" : "oslo",
-                                       "password" : "oslo"
-                                     },
-                   "headers": { 
-                                  "content-type":"application/json"
-                              }
-              }, 
-              doc
-            );</query><query name="documentPUT" focus="false" active="true" content-source="as:14484332065954003367:" mode="javascript">// query
+<export><workspace name="Employees"><query name="documentPUT" focus="false" active="true" content-source="as:14484332065954003367:" mode="javascript">// query
 
 // query
 
@@ -94,7 +25,7 @@ xdmp.httpPut('http://localhost:8080/v1/documents?uri=/api-config.json',
                               }
               }, 
               doc
-            );</query><query name="documentDelete" focus="false" active="true" content-source="as:14484332065954003367:" mode="javascript">// query
+            );</query><query name="documentDelete" focus="true" active="true" content-source="as:14484332065954003367:" mode="javascript">// query
 
 xdmp.httpDelete('http://localhost:8080/v1/documents?uri=/api-config.json',
               {
