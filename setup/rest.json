@@ -1,0 +1,9 @@
+{
+  "rest-api": {
+    "name": "employees-app-server",
+    "database": "Employees",
+    "modules-database": "employees-modules",
+    "port": "8080",
+    "forests-per-host": 3
+  }
+}

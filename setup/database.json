@@ -1,5 +1,5 @@
-{"database-name":"Employees",
- "triple-index": true,
- "fast-reverse-searches":true,
- "collection-lexicon":true
+{
+  "triple-index": true,
+  "fast-reverse-searches":true,
+  "collection-lexicon":true
 }
