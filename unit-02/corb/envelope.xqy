@@ -6,16 +6,28 @@ xquery version "1.0-ml";
 declare variable $URI as xs:string external;
 
 let $doc := fn:doc($URI) 
+let $emp-id := fn:string($doc/root/emp_id)
+let $first-name := fn:string($doc/root/first_name)
+let $last-name := fn:string($doc/root/last_name)
 let $job-eff-date := fn:string($doc/root/job_effective_date)
 let $job-eff-date-toks := fn:tokenize($job-eff-date, "/")
 let $upd-jed-date := fn:concat($job-eff-date-toks[3],"-",
                                $job-eff-date-toks[1],"-",
                                $job-eff-date-toks[2])
+let $image-uri := fn:concat("/",fn:lower-case($first-name), "-", fn:lower-case($last-name), "-", $emp-id,".png")
 
+let $rev-doc := fn:collection("reviews")/review[member-id eq $emp-id]
+let $rev-doc-uri-elem := if (fn:empty($rev-doc)) then 
+                           ()
+                         else 
+                           <review-uri>{xdmp:node-uri($rev-doc)}</review-uri>
+                      
 let $envelope :=
            <employee>
              <effective-date>{$upd-jed-date}</effective-date>
-              { $doc }
+             <image-uri>{$image-uri}</image-uri>
+             {$rev-doc-uri-elem,
+              $doc}
            </employee>
 
 
