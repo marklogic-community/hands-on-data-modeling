@@ -1,34 +1,24 @@
 xquery version "1.0-ml";
 
-(: update envelope.xqy to add the image uri to the envelope :)
-(: update envelope.xqy to add any associated review uri to the envelope :)
+(: first denormalize and stuff the contents into an envelope :)
 
 declare variable $URI as xs:string external;
 
 let $doc := fn:doc($URI) 
-let $emp-id := fn:string($doc/root/emp_id)
-let $first-name := fn:string($doc/root/first_name)
-let $last-name := fn:string($doc/root/last_name)
-let $job-eff-date := fn:string($doc/root/job_effective_date)
-let $job-eff-date-toks := fn:tokenize($job-eff-date, "/")
-let $upd-jed-date := fn:concat($job-eff-date-toks[3],"-",
-                               $job-eff-date-toks[1],"-",
-                               $job-eff-date-toks[2])
-let $image-uri := fn:concat("/",fn:lower-case($first-name), "-", fn:lower-case($last-name), "-", $emp-id,".png")
+let $new-uri := fn:concat("/employees", $URI)
+let $emp_id := fn:string($doc/root/emp_id)
+let $dept_num := fn:string($doc/root/dept_num)
 
-let $rev-doc := fn:collection("reviews")/review[member-id eq $emp-id]
-let $rev-doc-uri-elem := if (fn:empty($rev-doc)) then 
-                           ()
-                         else 
-                           <review-uri>{xdmp:node-uri($rev-doc)}</review-uri>
-                      
+let $dept_info := fn:collection("department")/root[dept_num eq $dept_num]/(* except dept_num)
+let $salary_info := fn:collection("salary")/root[emp_id eq $emp_id]/(* except emp_id)
+
 let $envelope :=
-           <employee>
-             <effective-date>{$upd-jed-date}</effective-date>
-             <image-uri>{$image-uri}</image-uri>
-             {$rev-doc-uri-elem,
-              $doc}
-           </employee>
+     <employee>
+       <root>
+         {$doc/root/*,
+          $dept_info,
+          $salary_info}
+       </root>
+     </employee>
 
-
-return xdmp:document-insert($URI, $envelope, (), "envelope")
+return xdmp:document-insert($new-uri, $envelope, (), "employee-env-v1")
