@@ -5,7 +5,8 @@ xquery version "1.0-ml";
 
 declare variable $URI as xs:string external;
 
-let $doc := fn:doc($URI) 
+let $doc := fn:doc($URI)
+let $new-uri := fn:concat("/employees-v2/", fn:tokenize($URI,"/")[fn:last()])
 let $emp-id := fn:string($doc/employee/root/emp_id)
 let $first-name := fn:string($doc/employee/root/first_name)
 let $last-name := fn:string($doc/employee/root/last_name)
@@ -32,4 +33,4 @@ let $update :=
 
 
 
-return xdmp:document-insert($URI, $update, (), "employee-env-v2")
+return xdmp:document-insert($new-uri, $update, (), "employee-env-v2")
