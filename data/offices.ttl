@@ -1,0 +1,58 @@
+@prefix p0: <http://www.marklogic.com/employees#> .
+
+p0:cityLondon   p0:inCountry    p0:countryUnited_Kingdom .
+
+p0:officeBuildingTEGNA
+                p0:inCity       p0:cityTysons_Corner .
+
+p0:cityTokyo    p0:inCountry    p0:countryJapan .
+
+p0:officeNameTokyo_1
+                p0:inBuilding   p0:officeBuildingShibuya_Mark_City_West .
+
+p0:officeNameChicago_1
+                p0:inBuilding   p0:officeBuildingHancock_Building .
+
+p0:officeNameLondon_1
+                p0:inBuilding   p0:officeBuildingCannon_Street .
+
+p0:officeBuildingHancock_Building
+                p0:inCity       p0:cityNew_York_City .
+
+p0:officeNameNYC_1
+                p0:inBuilding   p0:officeBuildingOne_Penn_Plaza .
+
+p0:officeNameTysons_Corner_1
+                p0:inBuilding   p0:officeBuildingTEGNA .
+
+p0:officeNameSydney_1
+                p0:inBuilding   p0:officeBuildingAMP_Tower .
+
+p0:officeBuildingAMP_Tower
+                p0:inCity       p0:cityTokyo .
+
+p0:officeBuildingShibuya_Mark_City_West
+                p0:inCity       p0:city .
+
+p0:citySan_Carlos
+                p0:inCountry    p0:countryUnited_States .
+
+p0:officeNameSan_Carlos_1
+                p0:inBuilding   p0:officeBuildingSkyway_West .
+
+p0:officeBuildingCannon_Street
+                p0:inCity       p0:citySydney .
+
+p0:cityNew_York_City
+                p0:inCountry    p0:countryUnited_States .
+
+p0:citySydney   p0:inCountry    p0:countryAustralia .
+
+p0:cityTysons_Corner
+                p0:inCountry    p0:countryUnited_States .
+
+p0:officeBuildingSkyway_West
+                p0:inCity       p0:citySan_Carlos .
+
+p0:officeBuildingOne_Penn_Plaza
+                p0:inCity       p0:cityLondon .
