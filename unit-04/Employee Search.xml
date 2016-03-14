@@ -1,0 +1,134 @@
+<export>
+  <workspace name="Employee Search">
+<query name="JS simple search" focus="true" active="true" content-source="as:8895516455393822722:" mode="javascript">cts.search('peter')
+</query><query name="JS targeted search" focus="false" active="true" content-source="as:8895516455393822722:" mode="javascript">cts.search(cts.elementValueQuery('first_name', 'peter'))
+</query><query name="XQuery simple search" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">xquery version "1.0-ml";
+
+cts:search(fn:doc(), "peter")
+</query><query name="XQuery targeted search" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">xquery version "1.0-ml";
+
+cts:search(fn:doc(), cts:element-value-query(xs:QName("first_name"), "peter"))
+</query><query name="Simple REST query" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">xdmp:http-get(
+  'http://localhost:8080/v1/search?q=peter',
+  &lt;options xmlns="xdmp:http"&gt;
+    &lt;authentication&gt;
+      &lt;username&gt;admin&lt;/username&gt;
+      &lt;password&gt;admin&lt;/password&gt;
+    &lt;/authentication&gt;
+  &lt;/options&gt;
+)
+</query><query name="constraint query" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">(:
+ : Most systems require more control over search. In this query, we make a few 
+ : changes from the simple first query. 
+ : - Specify a collection. We only want to search against the documents that 
+ :   have all the changes we've made -- those in the "envelope" collection. 
+ : - Enable a constraint on the department. Still using a string query, we allow
+ :   users to specify a department that they want to search against. 
+ :)
+xquery version "1.0-ml";
+declare namespace html = "http://www.w3.org/1999/xhtml";
+
+let $options :=
+  &lt;options xmlns="http://marklogic.com/appservices/search"&gt;
+    &lt;additional-query&gt;
+      &lt;cts:collection-query xmlns:cts="http://marklogic.com/cts"&gt;
+        &lt;cts:uri&gt;envelope&lt;/cts:uri&gt;
+      &lt;/cts:collection-query&gt;
+    &lt;/additional-query&gt;
+    
+    &lt;constraint name="dept"&gt;
+      &lt;value&gt;
+        &lt;element ns="" name="dept_name"/&gt;
+      &lt;/value&gt;
+    &lt;/constraint&gt;
+  &lt;/options&gt;
+
+let $search := "dept:Engineering"
+
+return
+  xdmp:http-post(
+    'http://localhost:8080/v1/search',
+    &lt;options xmlns="xdmp:http"&gt;
+      &lt;authentication&gt;
+        &lt;username&gt;admin&lt;/username&gt;
+        &lt;password&gt;admin&lt;/password&gt;
+      &lt;/authentication&gt;
+      &lt;headers&gt;
+        &lt;content-type&gt;application/xml&lt;/content-type&gt;
+      &lt;/headers&gt;
+    &lt;/options&gt;,
+
+    &lt;search xmlns="http://marklogic.com/appservices/search"&gt;
+      &lt;qtext&gt;{$search}&lt;/qtext&gt;
+      { $options }
+    &lt;/search&gt;
+  )
+</query><query name="facet" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">(: 
+ : In this query, we make use of facets. By returning values and their counts, 
+ : we let our users better understand the data set they are exploring. Facets
+ : can be simple links, or they can power visualizations like charts. In either
+ : case, we can make these clickable in the user interface, making it easier for
+ : users to interact with constraints. 
+ :)
+xquery version "1.0-ml";
+declare namespace html = "http://www.w3.org/1999/xhtml";
+
+let $options :=
+  &lt;options xmlns="http://marklogic.com/appservices/search"&gt;
+    &lt;additional-query&gt;
+      &lt;cts:collection-query xmlns:cts="http://marklogic.com/cts"&gt;
+        &lt;cts:uri&gt;envelope&lt;/cts:uri&gt;
+      &lt;/cts:collection-query&gt;
+    &lt;/additional-query&gt;
+    
+    &lt;constraint name="eff"&gt;
+      &lt;range type="xs:date"&gt;
+        &lt;element ns="" name="effective-date"/&gt;
+        &lt;computed-bucket name="4yr"           lt="-P3Y" anchor="now"&gt;Greater than 3 Years&lt;/computed-bucket&gt;
+        &lt;computed-bucket name="3yr" ge="-P3Y" lt="-P2Y" anchor="now"&gt;3 Years&lt;/computed-bucket&gt;
+        &lt;computed-bucket name="2yr" ge="-P2Y" lt="-P1Y" anchor="now"&gt;2 Years&lt;/computed-bucket&gt;
+        &lt;computed-bucket name="1yr" ge="-P1Y" lt="P1D"  anchor="now"&gt;1 Year&lt;/computed-bucket&gt;
+      &lt;/range&gt;
+    &lt;/constraint&gt;
+
+    &lt;constraint name="dept"&gt;
+      &lt;range type="xs:string" facet="true"&gt;
+        &lt;element ns="" name="dept_name"/&gt;
+      &lt;/range&gt;
+    &lt;/constraint&gt;
+
+    &lt;return-results&gt;false&lt;/return-results&gt;
+
+  &lt;/options&gt;
+
+let $search := ""
+
+return
+  xdmp:http-post(
+    'http://localhost:8080/v1/search',
+    &lt;options xmlns="xdmp:http"&gt;
+      &lt;authentication&gt;
+        &lt;username&gt;admin&lt;/username&gt;
+        &lt;password&gt;admin&lt;/password&gt;
+      &lt;/authentication&gt;
+      &lt;headers&gt;
+        &lt;content-type&gt;application/xml&lt;/content-type&gt;
+      &lt;/headers&gt;
+    &lt;/options&gt;,
+
+    &lt;search xmlns="http://marklogic.com/appservices/search"&gt;
+      &lt;qtext&gt;{$search}&lt;/qtext&gt;
+      { $options }
+    &lt;/search&gt;
+  )
+</query><query name="triples query" focus="false" active="true" content-source="as:8895516455393822722:" mode="sparql"># A triples query uses SPARQL to look for triples that match your criteria.
+
+select * 
+where {
+  ?s ?p ?o
+}</query><query name="combination" focus="false" active="true" content-source="as:8895516455393822722:" mode="javascript">// A combination query combines MarkLogic's normal document search capabilities
+// with SPARQL triple queries. This combination allows for powerful document 
+// searches using triples for context. 
+
+</query>
+</workspace></export>
