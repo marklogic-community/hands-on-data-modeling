@@ -1,14 +1,38 @@
-<export>
-  <workspace name="Employee Search">
-<query name="JS simple search" focus="true" active="true" content-source="as:8895516455393822722:" mode="javascript">cts.search('peter')
-</query><query name="JS targeted search" focus="false" active="true" content-source="as:8895516455393822722:" mode="javascript">cts.search(cts.elementValueQuery('first_name', 'peter'))
-</query><query name="XQuery simple search" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">xquery version "1.0-ml";
+<export><workspace name="Employee Search"><query name="JS simple search" focus="true" active="true" content-source="as:8895516455393822722:" mode="javascript">// Click the Run button. This will run a simple text query against the database. The 
+// result is all those documents that contain the term 'peter'. 
 
-cts:search(fn:doc(), "peter")
-</query><query name="XQuery targeted search" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">xquery version "1.0-ml";
+fn.count(cts.search('peter'))
+</query><query name="JS targeted search" focus="false" active="true" content-source="as:8895516455393822722:" mode="javascript">// With this query, we're more specific. Instead of looking for the term "Peter" anywhere,
+// we only want matches where "Peter" is the value of the first name element. 
 
-cts:search(fn:doc(), cts:element-value-query(xs:QName("first_name"), "peter"))
-</query><query name="Simple REST query" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">xdmp:http-get(
+fn.count(cts.search(cts.elementValueQuery('first_name', 'peter')))
+</query><query name="XQuery simple search" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">(: MarkLogic supports both XQuery and JavaScript. This is the same as the first
+ : query that we ran. 
+ :)
+
+xquery version "1.0-ml";
+
+fn:count(cts:search(fn:doc(), "peter"))
+</query><query name="XQuery targeted search" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">(: And this is the same as the second query -- only look for "Peter" as the value 
+ : of the first_name element. 
+ :)
+
+xquery version "1.0-ml";
+
+fn:count(cts:search(fn:doc(), cts:element-value-query(xs:QName("first_name"), "peter")))
+</query><query name="Simple REST query" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">(: Many customers interact with MarkLogic through the REST API. This function call uses
+ : that API, sending an HTTP request. Note the "q=peter". 
+ :
+ : The REST API consists of a Client API, which handles search and document CRUD, and
+ : the Management API, which controls the configuration of MarkLogic instances. Any 
+ : programming language that can send HTTP requests can use the REST API. MarkLogic 
+ : provides wrappers for Java and Node.js that allow developers to use the familiar 
+ : idioms of these languages while working with the REST API. 
+ :)
+
+declare namespace search = "http://marklogic.com/appservices/search";
+
+xdmp:http-get(
   'http://localhost:8080/v1/search?q=peter',
   &lt;options xmlns="xdmp:http"&gt;
     &lt;authentication&gt;
@@ -16,7 +40,7 @@ cts:search(fn:doc(), cts:element-value-query(xs:QName("first_name"), "peter"))
       &lt;password&gt;admin&lt;/password&gt;
     &lt;/authentication&gt;
   &lt;/options&gt;
-)
+)[2]/search:response/@total
 </query><query name="constraint query" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">(:
  : Most systems require more control over search. In this query, we make a few 
  : changes from the simple first query. 
@@ -32,7 +56,7 @@ let $options :=
   &lt;options xmlns="http://marklogic.com/appservices/search"&gt;
     &lt;additional-query&gt;
       &lt;cts:collection-query xmlns:cts="http://marklogic.com/cts"&gt;
-        &lt;cts:uri&gt;envelope&lt;/cts:uri&gt;
+        &lt;cts:uri&gt;employee-env-v3&lt;/cts:uri&gt;
       &lt;/cts:collection-query&gt;
     &lt;/additional-query&gt;
     
@@ -77,7 +101,7 @@ let $options :=
   &lt;options xmlns="http://marklogic.com/appservices/search"&gt;
     &lt;additional-query&gt;
       &lt;cts:collection-query xmlns:cts="http://marklogic.com/cts"&gt;
-        &lt;cts:uri&gt;envelope&lt;/cts:uri&gt;
+        &lt;cts:uri&gt;employee-env-v3&lt;/cts:uri&gt;
       &lt;/cts:collection-query&gt;
     &lt;/additional-query&gt;
     
@@ -122,13 +146,51 @@ return
     &lt;/search&gt;
   )
 </query><query name="triples query" focus="false" active="true" content-source="as:8895516455393822722:" mode="sparql"># A triples query uses SPARQL to look for triples that match your criteria.
+# This type of query uses triples that exist in documents, as well as "managed"
+# triples. 
 
-select * 
+PREFIX emp: &lt;http://www.marklogic.com/employees#&gt;
+
+select (count (?empID) as ?empCount) ?city
 where {
-  ?s ?p ?o
-}</query><query name="combination" focus="false" active="true" content-source="as:8895516455393822722:" mode="javascript">// A combination query combines MarkLogic's normal document search capabilities
+  ?empID emp:hasOffice ?officeNum .
+  ?officeNum emp:inOffice ?officeName .
+  ?officeName emp:inBuilding ?bldg .
+  ?bldg emp:inCity ?city
+}
+group by ?city</query><query name="combination" focus="false" active="true" content-source="as:8895516455393822722:" mode="javascript">// A combination query combines MarkLogic's normal document search capabilities
 // with SPARQL triple queries. This combination allows for powerful document 
 // searches using triples for context. 
 
-</query>
-</workspace></export>
+var sparql = 
+  'PREFIX emp: &lt;http://www.marklogic.com/employees#&gt; ' +
+  'select (count (?empID) as ?empCount) ?city ' +
+  'where { ' +
+  '  ?empID emp:hasOffice ?officeNum . ' +
+  '  ?officeNum emp:inOffice ?officeName . ' +
+  '  ?officeName emp:inBuilding ?bldg . ' +
+  '  ?bldg emp:inCity ?city ' +
+  '} ' +
+  'group by ?city ';
+
+var query = {
+  "search": {
+    "sparql": sparql
+  }
+};
+
+xdmp.httpPost(
+  'http://localhost:8080/v1/graphs/sparql',
+  {
+    authentication: {
+      "method" : "digest",
+      username: "admin",
+      password: "admin"
+    },
+    "headers" : {
+      "content-type": "application/json"
+    },
+    data: JSON.stringify(query)
+  }
+)
+</query></workspace></export>
