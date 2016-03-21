@@ -1,4 +1,6 @@
 @prefix p0: <http://www.marklogic.com/employees#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
 
 p0:officeNumber959
                 p0:inOffice     p0:officeNameSan_Carlos_1 .
@@ -129,9 +131,6 @@ p0:officeNumber858
 p0:officeNumber129
                 p0:inOffice     p0:officeNameSydney_1 .
 
-p0:cityNew_York_City
-                p0:inCountry    p0:countryUnited_States .
-
 p0:officeNumber737
                 p0:inOffice     p0:officeNameSan_Carlos_1 .
 
@@ -182,9 +181,6 @@ p0:officeNumber330
 
 p0:officeNumber517
                 p0:inOffice     p0:officeNameSan_Carlos_1 .
-
-p0:cityTysons_Corner
-                p0:inCountry    p0:countryUnited_States .
 
 p0:officeNumber715
                 p0:inOffice     p0:officeNameSan_Carlos_1 .
@@ -569,8 +565,6 @@ p0:officeNumber585
 
 p0:officeNumber679
                 p0:inOffice     p0:officeNameLondon_1 .
-
-p0:cityTokyo    p0:inCountry    p0:countryJapan .
 
 p0:officeNumber259
                 p0:inOffice     p0:officeNameLondon_1 .
@@ -1247,9 +1241,6 @@ p0:officeNumber538
 p0:officeNumber16
                 p0:inOffice     p0:officeNameNYC_1 .
 
-p0:citySan_Carlos
-                p0:inCountry    p0:countryUnited_States .
-
 p0:officeNumber161
                 p0:inOffice     p0:officeNameSan_Carlos_1 .
 
@@ -1266,7 +1257,7 @@ p0:officeNumber700
                 p0:inOffice     p0:officeNameSydney_1 .
 
 p0:officeBuildingOne_Penn_Plaza
-                p0:inCity       p0:cityLondon .
+                p0:inCity       dbpedia:New_York_City .
 
 p0:officeNumber839
                 p0:inOffice     p0:officeNameTysons_Corner_1 .
@@ -1347,7 +1338,7 @@ p0:officeNumber223
                 p0:inOffice     p0:officeNameChicago_1 .
 
 p0:officeBuildingCannon_Street
-                p0:inCity       p0:citySydney .
+                p0:inCity       dbpedia:London .
 
 p0:officeNumber276
                 p0:inOffice     p0:officeNameSan_Carlos_1 .
@@ -1572,7 +1563,7 @@ p0:officeNumber331
                 p0:inOffice     p0:officeNameNYC_1 .
 
 p0:officeBuildingAMP_Tower
-                p0:inCity       p0:cityTokyo .
+                p0:inCity       dbpedia:Sydney .
 
 p0:officeNumber857
                 p0:inOffice     p0:officeNameSydney_1 .
@@ -1677,7 +1668,7 @@ p0:officeNumber103
                 p0:inOffice     p0:officeNameSydney_1 .
 
 p0:officeBuildingSkyway_West
-                p0:inCity       p0:citySan_Carlos .
+                p0:inCity       <http://dbpedia.org/resource/San_Carlos,_California> .
 
 p0:officeNumber958
                 p0:inOffice     p0:officeNameChicago_1 .
@@ -1866,7 +1857,7 @@ p0:officeNumber283
                 p0:inOffice     p0:officeNameSan_Carlos_1 .
 
 p0:officeBuildingTEGNA
-                p0:inCity       p0:cityTysons_Corner .
+                p0:inCity       <http://dbpedia.org/resource/Tysons_Corner,_Virginia> .
 
 p0:officeNumber431
                 p0:inOffice     p0:officeNameSan_Carlos_1 .
@@ -1996,8 +1987,6 @@ p0:officeNumber458
 
 p0:officeNumber215
                 p0:inOffice     p0:officeNameSan_Carlos_1 .
-
-p0:citySydney   p0:inCountry    p0:countryAustralia .
 
 p0:officeNumber379
                 p0:inOffice     p0:officeNameSan_Carlos_1 .
@@ -2402,7 +2391,7 @@ p0:officeNumber66
                 p0:inOffice     p0:officeNameSan_Carlos_1 .
 
 p0:officeBuildingHancock_Building
-                p0:inCity       p0:cityNew_York_City .
+                p0:inCity       dbpedia:Chicago .
 
 p0:officeNumber438
                 p0:inOffice     p0:officeNameSydney_1 .
@@ -2752,8 +2741,6 @@ p0:officeNumber452
 p0:officeNumber950
                 p0:inOffice     p0:officeNameChicago_1 .
 
-p0:cityLondon   p0:inCountry    p0:countryUnited_Kingdom .
-
 p0:officeNumber380
                 p0:inOffice     p0:officeNameSan_Carlos_1 .
 
@@ -2920,7 +2907,7 @@ p0:officeNumber219
                 p0:inOffice     p0:officeNameChicago_1 .
 
 p0:officeBuildingShibuya_Mark_City_West
-                p0:inCity       p0:city .
+                p0:inCity       dbpedia:Tokyo .
 
 p0:officeNumber480
                 p0:inOffice     p0:officeNameTysons_Corner_1 .
@@ -3053,3 +3040,8 @@ p0:officeNumber280
 
 p0:officeNumber71
                 p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+<http://dbpedia.org/resource/Tysons_Corner,_Virginia> 
+                dbpedia-owl:country
+                                dbpedia:United_States ;
+                foaf:name       "Tysons Corner"@en .
