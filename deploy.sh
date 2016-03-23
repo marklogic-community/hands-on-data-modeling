@@ -14,6 +14,6 @@ echo Deploying $1 to $2
 
 URI=$2
 
-curl --anyauth --user $USERNAME:$PASSWORD -X PUT -d@$1 \
+curl --anyauth --user $USERNAME:$PASSWORD -X PUT --data-binary @$1 \
   -i -H "Content-type: application/xquery" \
   "http://localhost:8080/v1/documents?database=employees-modules&uri=$URI"
