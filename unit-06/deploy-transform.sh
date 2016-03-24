@@ -1,5 +1,5 @@
 # Use this to deploy source code to the modules database.
-#
+# 
 # Usage:
 #   deploy.sh <filename to deploy> <uri in modules database>
 # Example
@@ -10,10 +10,8 @@
 USERNAME="admin" #update if required
 PASSWORD="admin" #update if required
 
-echo Deploying $1 to $2
-
-URI=$2
+echo Deploying $1 as $2
 
 curl --anyauth --user $USERNAME:$PASSWORD -X PUT --data-binary @$1 \
-  -i -H "Content-type: application/xquery" \
-  "http://localhost:8080/v1/documents?database=employees-modules&uri=$URI"
+  -i -H "Content-type: application/vnd.marklogic-javascript" \
+  "http://localhost:8080/v1/config/transforms/$2"

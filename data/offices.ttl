@@ -1,0 +1,3070 @@
+@prefix p0: <http://www.marklogic.com/employees#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+p0:officeNumber959
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber615
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber90
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber376
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber42
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber645
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber87
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber908
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber865
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber551
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber111
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber543
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber755
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber771
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber522
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber291
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber441
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber578
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber764
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber359
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber799
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber967
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber992
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber720
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber368
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber890
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber417
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber697
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber300
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber484
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber155
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber257
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber60
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber493
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber808
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber31
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber205
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber282
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber383
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber432
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber322
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber858
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber129
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber737
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber138
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber836
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber983
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber78
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber654
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber171
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber560
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber248
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber638
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber5
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber450
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber881
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber587
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber147
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber330
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber517
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber715
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber273
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber820
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber781
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber3
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber15
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber203
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber239
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber459
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber815
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber841
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber652
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber985
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber401
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber162
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber829
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber935
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber366
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber762
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber757
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber541
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber515
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber713
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber104
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber477
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber617
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber957
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber663
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber912
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber974
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber856
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber647
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber221
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber145
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber942
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber419
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber553
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber332
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber180
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber688
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber173
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber524
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber315
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber24
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber40
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber699
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber594
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber85
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber255
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber495
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber874
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber198
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber722
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber670
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber62
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber425
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber838
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber443
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber744
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber990
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber266
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber620
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber536
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber390
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber385
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber899
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber461
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber207
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber320
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber834
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber532
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber885
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber143
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber845
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber513
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber790
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber939
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber624
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber656
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber334
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber289
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber981
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber592
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber735
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber271
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber978
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber706
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber187
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber76
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber311
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber33
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber210
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber436
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber876
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber753
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber28
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber910
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber293
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber944
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber237
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber364
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber677
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber69
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber488
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber194
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber394
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber817
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber613
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber56
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber608
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber378
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber686
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber262
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber106
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber11
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber427
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber157
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber955
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber740
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber214
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber928
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber555
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber92
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber166
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber969
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber302
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber585
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber679
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber259
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber631
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber196
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber313
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber341
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber392
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber491
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber878
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber960
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber26
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber58
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber946
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber486
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber622
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber264
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber724
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber999
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber520
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber120
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber83
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber94
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber429
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber901
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber649
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber690
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber684
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber883
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber742
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber534
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber410
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber661
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber113
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber212
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber843
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber164
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber827
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber760
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber457
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber504
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber783
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber1
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber937
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber13
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber403
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber562
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber159
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber241
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber387
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber606
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber189
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber49
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber434
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber35
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber479
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber819
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber778
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber854
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber136
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber329
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber708
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber717
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber733
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber976
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber357
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber581
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber388
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber803
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber902
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber411
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber218
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber306
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber472
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber998
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber683
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber260
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber370
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber732
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber953
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber848
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber691
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber565
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber184
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber439
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber879
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber37
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber345
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber667
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber455
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber48
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber825
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber397
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber141
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber177
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber251
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber95
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber640
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber674
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNameNYC_1
+                p0:inBuilding   p0:officeBuildingOne_Penn_Plaza .
+
+p0:officeNumber610
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber191
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber234
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber53
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber463
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber633
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber511
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber605
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber704
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber748
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber930
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber549
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber361
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber785
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber404
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber925
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber989
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber794
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber336
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber109
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber287
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber81
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber861
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber895
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber132
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber242
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber590
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber574
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber499
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber134
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber529
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber558
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber55
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber918
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber787
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber669
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber437
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber506
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber327
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber599
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber730
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber681
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber278
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber67
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber372
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber338
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber886
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber727
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber776
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber792
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber168
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber123
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber209
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber179
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber531
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber547
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber395
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber97
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber295
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber304
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber413
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber448
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber869
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber751
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber904
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber193
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber285
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber502
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber244
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber996
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber626
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber658
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber74
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber470
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber846
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber810
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber693
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber583
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber116
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber343
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber216
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber897
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber951
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber406
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber186
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber962
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber769
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber801
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber948
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber465
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber603
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber227
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber150
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber612
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber46
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber832
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber9
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber851
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber676
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber354
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber408
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber746
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber921
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber347
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber758
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber729
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber399
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber774
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber175
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber796
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber127
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber430
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber642
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber672
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber635
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber232
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber246
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber152
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber70
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber863
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber7
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber893
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber508
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber964
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber130
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber538
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber16
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber161
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber987
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber601
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber467
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber700
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeBuildingOne_Penn_Plaza
+                p0:inCity       dbpedia:New_York_City .
+
+p0:officeNumber839
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber63
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber325
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber100
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber569
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber576
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber299
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber350
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber805
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber767
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber870
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber444
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber202
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber308
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber867
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber665
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber651
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber453
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber916
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber619
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber525
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber823
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber182
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber421
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber39
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber223
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeBuildingCannon_Street
+                p0:inCity       dbpedia:London .
+
+p0:officeNumber276
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber415
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber695
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber316
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber118
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber739
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber765
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber567
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber702
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber200
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber281
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber500
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber872
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber253
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber994
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber932
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber72
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber812
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber18
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber154
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber44
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber225
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber423
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber830
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber352
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber230
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber497
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber971
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber923
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNameSan_Carlos_1
+                p0:inBuilding   p0:officeBuildingSkyway_West .
+
+p0:officeNumber381
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber474
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber628
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber772
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber148
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber572
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber545
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber269
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber318
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber21
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber88
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber451
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber711
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber821
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber518
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber481
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber527
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber297
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber597
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber51
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber906
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber125
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber446
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber644
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber637
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber914
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNameSydney_1
+                p0:inBuilding   p0:officeBuildingAMP_Tower .
+
+p0:officeNumber65
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber102
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber789
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber374
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber323
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber888
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber99
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber882
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber621
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber709
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber516
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber172
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber433
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber653
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber249
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber79
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber331
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeBuildingAMP_Tower
+                p0:inCity       dbpedia:Sydney .
+
+p0:officeNumber857
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber382
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber743
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber274
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber478
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber535
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber146
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber197
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber391
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber984
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber780
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber814
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber30
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber936
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber59
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber4
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber595
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber837
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber809
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber213
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber25
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber738
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber314
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber579
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber721
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber913
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber873
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber907
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber424
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber975
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber265
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber375
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber616
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber103
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeBuildingSkyway_West
+                p0:inCity       <http://dbpedia.org/resource/San_Carlos,_California> .
+
+p0:officeNumber958
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber941
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber163
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber842
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber220
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber290
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber662
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber552
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNameLondon_1
+                p0:inBuilding   p0:officeBuildingCannon_Street .
+
+p0:officeNumber418
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber367
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber689
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber469
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber485
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber756
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber966
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber14
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber483
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber593
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber698
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber23
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber442
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber880
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber736
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber588
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber199
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber256
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber426
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber61
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber570
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber875
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber494
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber32
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber943
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber991
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber460
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber267
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber86
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber384
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber222
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber646
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber745
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber321
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber671
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber41
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber523
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber349
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber687
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber770
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber920
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber798
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber400
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber714
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber639
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber934
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber968
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber156
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber891
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber272
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber664
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber91
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber283
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeBuildingTEGNA
+                p0:inCity       <http://dbpedia.org/resource/Tysons_Corner,_Virginia> .
+
+p0:officeNumber431
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber840
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber973
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber377
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber807
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber238
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber128
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber204
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber476
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber110
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber609
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber577
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber763
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber139
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber542
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber816
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber909
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber800
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber607
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber121
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNameTokyo_1
+                p0:inBuilding   p0:officeBuildingShibuya_Mark_City_West .
+
+p0:officeNumber105
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber263
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber540
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber956
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber93
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber294
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber927
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber303
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber648
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber114
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber723
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber229
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber554
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber365
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber449
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber487
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber490
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber761
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber911
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber678
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber458
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber215
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber379
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber240
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber342
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber828
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber158
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber402
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber855
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber34
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber779
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber980
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber884
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber356
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber135
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber707
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber435
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber630
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber833
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber208
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber718
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber734
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber333
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber584
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber144
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber898
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber211
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber75
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber791
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber657
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber563
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber386
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber84
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber782
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber514
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber2
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber938
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber561
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber270
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber977
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber358
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber137
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber440
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber188
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber853
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber784
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber363
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber716
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber456
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber292
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber142
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber929
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber660
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber614
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber112
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber512
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber165
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber206
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber12
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber335
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber818
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber655
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber107
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber236
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber844
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber754
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber954
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber623
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber521
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber82
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber685
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber301
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber556
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber741
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber591
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber877
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber900
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber492
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber586
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber258
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber77
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber428
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber170
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber288
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber835
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber533
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber462
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber195
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber27
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber340
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber312
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber945
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber393
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber57
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber725
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber982
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber777
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber793
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber749
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber169
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber226
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber405
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber124
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber337
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber675
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber831
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber235
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber108
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber896
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber970
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber924
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber140
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber178
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber96
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber726
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber659
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber19
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber286
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber860
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber243
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber632
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber557
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber919
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber73
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber604
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber505
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber328
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber703
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber362
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber464
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber731
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber961
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber887
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber353
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber947
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber66
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeBuildingHancock_Building
+                p0:inCity       dbpedia:Chicago .
+
+p0:officeNumber438
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber447
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber852
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber47
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber296
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber750
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber997
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber826
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber627
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber389
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber117
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber412
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber305
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber319
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber952
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber668
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber692
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber185
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber279
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber566
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber217
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber20
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber36
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber528
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber850
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber29
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber705
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber564
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber151
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber38
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber344
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber355
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber489
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber949
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber963
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber80
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber611
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber503
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber310
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber471
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber233
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber847
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber250
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber420
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber802
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber115
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber228
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber625
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber582
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber768
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber261
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber719
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber507
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNameChicago_1
+                p0:inBuilding   p0:officeBuildingHancock_Building .
+
+p0:officeNumber682
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber371
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber10
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber454
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber728
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber926
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber167
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber824
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber548
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber360
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber862
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber786
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber530
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber559
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber133
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber122
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber903
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber326
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber192
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber396
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber752
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber54
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber641
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber68
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber634
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber979
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber510
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber775
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber917
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber475
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber822
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber680
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber519
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber309
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber618
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber45
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber373
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber806
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber277
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber905
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNameTysons_Corner_1
+                p0:inBuilding   p0:officeBuildingTEGNA .
+
+p0:officeNumber414
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber868
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber422
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber181
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber589
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber149
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber317
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber811
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber694
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber501
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber575
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber568
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber788
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber22
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber933
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber598
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber650
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber254
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber995
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber452
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber950
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber380
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber466
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber643
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber636
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber602
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber537
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber98
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber972
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber268
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber8
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber339
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber284
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber482
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber701
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber986
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber546
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber348
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber160
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber922
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber571
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber17
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber245
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber174
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber231
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber50
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber407
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber496
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber712
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber759
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber797
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber892
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber369
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber445
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber6
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber526
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber298
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber940
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber666
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber864
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber131
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber596
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber468
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber509
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber988
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber64
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber889
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber600
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber544
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber573
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber409
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber176
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber773
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber324
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber101
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber219
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeBuildingShibuya_Mark_City_West
+                p0:inCity       dbpedia:Tokyo .
+
+p0:officeNumber480
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber550
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber190
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber915
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber52
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber859
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber710
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber126
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber89
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber275
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber307
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber398
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber247
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber498
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber153
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber416
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber183
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber894
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber866
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber795
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber993
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber473
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber965
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber629
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber696
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber580
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber119
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber346
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber224
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber871
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber673
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber252
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber43
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+p0:officeNumber766
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber201
+                p0:inOffice     p0:officeNameSydney_1 .
+
+p0:officeNumber539
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber351
+                p0:inOffice     p0:officeNameChicago_1 .
+
+p0:officeNumber849
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber813
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber804
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber931
+                p0:inOffice     p0:officeNameSan_Carlos_1 .
+
+p0:officeNumber747
+                p0:inOffice     p0:officeNameLondon_1 .
+
+p0:officeNumber280
+                p0:inOffice     p0:officeNameNYC_1 .
+
+p0:officeNumber71
+                p0:inOffice     p0:officeNameTysons_Corner_1 .
+
+<http://dbpedia.org/resource/Tysons_Corner,_Virginia> 
+                dbpedia-owl:country
+                                dbpedia:United_States ;
+                foaf:name       "Tysons Corner"@en .
+
+p0:officeBuildingTEGNA
+                foaf:name       "Gannett Building" .
+
+p0:officeBuildingOne_Penn_Plaza
+                foaf:name       "One Penn Plaza" .
+
+p0:officeBuildingCannon_Street
+                foaf:name       "Cannon Street" .
+
+p0:officeBuildingSkyway_West
+                foaf:name       "Skyway West" .
+
+p0:officeBuildingAMP_Tower
+                foaf:name       "AMP Tower" .
+
+p0:officeBuildingShibuya_Mark_City_West
+                foaf:name       "Shibuya Mark City West" .
+
+p0:officeBuildingHancock_Building
+                foaf:name       "Hancock Building" .

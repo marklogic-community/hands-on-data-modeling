@@ -1,0 +1,44 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+dbpedia:Houston dbpedia-owl:country
+                                dbpedia:United_States ;
+                foaf:name       "City of Houston"@en .
+
+dbpedia:United_States
+                foaf:name       "the United States"@en .
+
+<http://dbpedia.org/resource/San_Carlos,_California>
+                dbpedia-owl:country
+                                dbpedia:United_States ;
+                foaf:name       "City of San Carlos"@en .
+
+dbpedia:New_York_City
+                dbpedia-owl:country
+                                dbpedia:United_States ;
+                foaf:name       "New York City"@en .
+
+dbpedia:London  dbpedia-owl:country
+                                dbpedia:United_Kingdom ;
+                foaf:name       "London"@en .
+
+dbpedia:United_Kingdom
+                foaf:name       "United Kingdom"@en .
+
+dbpedia:Tokyo   dbpedia-owl:country
+                                dbpedia:Japan .
+
+dbpedia:Japan   foaf:name       "Japan"@en .
+
+dbpedia:Sydney  dbpedia-owl:country
+                                dbpedia:Australia ;
+                foaf:name       "Sydney"@en .
+
+dbpedia:Australia
+                foaf:name       "Australia"@en .
+
+dbpedia:Chicago dbpedia-owl:country
+                                dbpedia:United_States ;
+                foaf:name       "City of Chicago"@en .
