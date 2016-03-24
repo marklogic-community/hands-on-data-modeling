@@ -1,6 +1,8 @@
 @prefix p0: <http://www.marklogic.com/employees#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia-owl: <http://dbpedia.org/ontology/> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 p0:officeNumber959
                 p0:inOffice     p0:officeNameSan_Carlos_1 .
@@ -3045,3 +3047,24 @@ p0:officeNumber71
                 dbpedia-owl:country
                                 dbpedia:United_States ;
                 foaf:name       "Tysons Corner"@en .
+
+p0:officeBuildingTEGNA
+                foaf:name       "Gannett Building" .
+
+p0:officeBuildingOne_Penn_Plaza
+                foaf:name       "One Penn Plaza" .
+
+p0:officeBuildingCannon_Street
+                foaf:name       "Cannon Street" .
+
+p0:officeBuildingSkyway_West
+                foaf:name       "Skyway West" .
+
+p0:officeBuildingAMP_Tower
+                foaf:name       "AMP Tower" .
+
+p0:officeBuildingShibuya_Mark_City_West
+                foaf:name       "Shibuya Mark City West" .
+
+p0:officeBuildingHancock_Building
+                foaf:name       "Hancock Building" .
