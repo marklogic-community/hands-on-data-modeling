@@ -11,18 +11,28 @@ declare variable $URI as xs:string external;
 let $doc := fn:doc($URI)
 let $new-uri := fn:concat("/employees-v3/", fn:tokenize($URI,"/")[fn:last()])
 
-let $sem-prefix := "http://www.marklogic.com/employees"
+let $sem-prefix := "http://www.marklogic.com/employees#"
 let $emp_id := $doc/employee/root/emp_id/fn:string(.)
 let $office-number := $doc/employee/root/office_number/fn:string(.)
 
-let $triple :=  sem:triple(sem:iri(fn:concat($sem-prefix,"#empID",$emp_id)),
-                           sem:iri(fn:concat($sem-prefix,"","#hasOffice")),
-                           sem:iri(fn:concat($sem-prefix,"#officeNumber", $office-number )))
+(:
+ : Represent the reportsTo object as an IRI, not just a number, because we'll
+ : use the that IRI in a chain query.
+ :)
+let $triples := (
+  sem:triple(sem:iri($sem-prefix || "empID" || $emp_id),
+             sem:iri($sem-prefix || "hasOffice"),
+             sem:iri($sem-prefix || "officeNumber" || $office-number )),
+
+  sem:triple(sem:iri($sem-prefix || "empID" || $emp_id),
+             sem:iri($sem-prefix || "reportsTo"),
+             sem:iri($sem-prefix || "empID" || $doc/employee/root/reports_to/fn:string()))
+)
 
 let $update :=
   <employee>
     {
-      $triple,
+      $triples,
       $doc/employee/*
     }
   </employee>
