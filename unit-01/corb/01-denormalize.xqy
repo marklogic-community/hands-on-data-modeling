@@ -16,4 +16,9 @@ let $final :=
           $salary_info}
        </root>
 
-return xdmp:document-insert($new-uri, $final, (), "denormalized")
+return
+  xdmp:document-insert(
+    $new-uri,
+    $final,
+    xdmp:document-get-permissions($URI),
+    "denormalized")

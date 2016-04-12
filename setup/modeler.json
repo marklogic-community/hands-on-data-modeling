@@ -1,0 +1,36 @@
+{
+  "role-name": "modeler",
+  "description": "Role for the data-modeling hands on workshop",
+  "privilege":[
+    {
+      "privilege-name": "any-collection", 
+      "action": "http://marklogic.com/xdmp/privileges/any-collection", 
+      "kind": "execute"
+    },
+    {
+      "privilege-name": "any-uri", 
+      "action": "http://marklogic.com/xdmp/privileges/any-uri", 
+      "kind": "execute"
+    },
+    {
+      "privilege-name": "xdbc:eval", 
+      "action": "http://marklogic.com/xdmp/privileges/xdbc-eval", 
+      "kind": "execute"
+    },
+    {
+      "privilege-name": "xdbc:eval-in", 
+      "action": "http://marklogic.com/xdmp/privileges/xdbc-eval-in",
+      "kind": "execute"
+    },
+    {
+      "privilege-name": "xdbc:insert", 
+      "action": "http://marklogic.com/xdmp/privileges/xdbc-insert", 
+      "kind": "execute"
+    },
+    {
+      "privilege-name": "xdbc:invoke", 
+      "action": "http://marklogic.com/xdmp/privileges/xdbc-invoke", 
+      "kind": "execute"
+    }
+  ]
+}
