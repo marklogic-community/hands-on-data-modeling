@@ -1,0 +1,6 @@
+{
+  "user-name":"rory", 
+  "password": "rory",
+  "description": "rest-reader user for the data-modeling hands on workshop",
+  "role": [ "rest-reader" ] 
+}

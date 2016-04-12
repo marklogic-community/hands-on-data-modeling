@@ -1,0 +1,6 @@
+{
+  "user-name":"dr-who", 
+  "password": "doctor",
+  "description": "rest-admin user for the data-modeling hands on workshop",
+  "role": [ "rest-admin" ] 
+}

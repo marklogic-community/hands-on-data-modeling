@@ -31,6 +31,9 @@ let $update :=
               $doc/employee/*}
            </employee>
 
-
-
-return xdmp:document-insert($new-uri, $update, (), "employee-env-v2")
+return
+  xdmp:document-insert(
+    $new-uri,
+    $update,
+    xdmp:document-get-permissions($URI),
+    "employee-env-v2")
