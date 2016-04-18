@@ -13,7 +13,9 @@ setup.sh will setup and configure the following via cURL:
 wipe.sh will teardown and remove everything created by setup.sh.
 
 NOTE: Update each .sh file with your own username/password credentials as required.
+
 NOTE: The Application Server defaults to port 8080.  Update rest.json as required.
+
 
 ## Windows users:
 setup.bat will setup and configure the following via cURL: 
@@ -27,7 +29,9 @@ setup.bat will setup and configure the following via cURL:
 wipe.bat will teardown and remove everything created by setup.bat.
 
 NOTE: Update each .bat file with your own username/password credentials as required.
+
 NOTE: The Application Server defaults to port 8080.  Update rest.json as required.
+
 NOTE: cURL is not installed on Windows by default.  
 
 ## Query Console:
