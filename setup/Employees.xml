@@ -1,41 +1,100 @@
-<export><workspace name="Employees"><query name="documentPUT" focus="false" active="true" content-source="as:14484332065954003367:" mode="javascript">// query
+<export><workspace name="Employees"><query name="AppServerAndDBs" focus="true" active="true" content-source="as:12224977826776051352:" mode="javascript">//Setting Up the App Servers and Databases
 
-// query
+var doc = xdmp.documentGet("C:\\Users\\paven\\Desktop\\MLW2016\\Config\\rest.json");
 
-var doc =  
-{
-  "rest-api": {
-    "name": "employees-app-server",
-    "database": "Employees",
-    "modules-database": "employees-modules",
-    "port": "8080",
-    "xdbc-enabled": true  //default is true
-  }
-}
-
-xdmp.httpPut('http://localhost:8080/v1/documents?uri=/api-config.json',
+xdmp.httpPost('http://localhost:8002/v1/rest-apis',
               {
                   "authentication": {
                                        "method" : "digest",
-                                       "username" : "oslo",
-                                       "password" : "oslo"
+                                       "username" : "admin",
+                                       "password" : "admin"
                                      },
                    "headers": { 
                                   "content-type":"application/json"
                               }
               }, 
               doc
-            );</query><query name="documentDelete" focus="true" active="true" content-source="as:14484332065954003367:" mode="javascript">// query
+            );
+</query><query name="Indexes" focus="false" active="true" content-source="as:12224977826776051352:" mode="javascript">// Adding Indexes
 
-xdmp.httpDelete('http://localhost:8080/v1/documents?uri=/api-config.json',
+var doc = xdmp.documentGet("C:\\Users\\paven\\Desktop\\MLW2016\\Config\\database.json");
+
+xdmp.httpPut('http://localhost:8002/manage/v2/databases/Employees/properties',
               {
                   "authentication": {
                                        "method" : "digest",
-                                       "username" : "oslo",
-                                       "password" : "oslo"
+                                       "username" : "admin",
+                                       "password" : "admin"
                                      },
                    "headers": { 
                                   "content-type":"application/json"
                               }
-              }
+              }, 
+              doc
+            );</query><query name="AddRole" focus="false" active="true" content-source="as:12224977826776051352:" mode="javascript">// Adding Role 
+
+var doc = xdmp.documentGet("C:\\Users\\paven\\Desktop\\MLW2016\\Config\\modeler.json");
+
+xdmp.httpPost('http://localhost:8002/manage/v2/roles',
+              {
+                  "authentication": {
+                                       "method" : "digest",
+                                       "username" : "admin",
+                                       "password" : "admin"
+                                     },
+                   "headers": { 
+                                  "content-type":"application/json"
+                              }
+              }, 
+              doc
+            );
+</query><query name="createUsers" focus="false" active="true" content-source="as:12224977826776051352:" mode="javascript">// Create Users
+
+var user = "admin";
+var pwd = "admin";
+
+var docOne = xdmp.documentGet("C:\\Users\\paven\\Desktop\\MLW2016\\Config\\user-reader.json");
+var docTwo = xdmp.documentGet("C:\\Users\\paven\\Desktop\\MLW2016\\Config\\user-writer.json");
+var docThree = xdmp.documentGet("C:\\Users\\paven\\Desktop\\MLW2016\\Config\\user-admin.json");
+
+xdmp.httpPost('http://localhost:8002/manage/v2/users',
+              {
+                  "authentication": {
+                                       "method" : "digest",
+                                       "username" : user,
+                                       "password" : pwd
+                                     },
+                   "headers": { 
+                                  "content-type":"application/json"
+                              }
+              }, 
+              docOne
+            );
+
+xdmp.httpPost('http://localhost:8002/manage/v2/users',
+              {
+                  "authentication": {
+                                       "method" : "digest",
+                                       "username" : user,
+                                       "password" : pwd
+                                     },
+                   "headers": { 
+                                  "content-type":"application/json"
+                              }
+              }, 
+              docTwo
+            );
+
+xdmp.httpPost('http://localhost:8002/manage/v2/users',
+              {
+                  "authentication": {
+                                       "method" : "digest",
+                                       "username" : user,
+                                       "password" : pwd
+                                     },
+                   "headers": { 
+                                  "content-type":"application/json"
+                              }
+              }, 
+              docThree
             );</query></workspace></export>
