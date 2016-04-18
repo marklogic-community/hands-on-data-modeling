@@ -1,5 +1,14 @@
 # Setup
 
+## Linux users:
+
+setup.sh will setup and configure your data and modules databases, REST instance, HTTP Server, and XDBC Server via cURL.
+
+## Windows users:
+setup.bat will setup and configure your data and modules databases, REST instance, HTTP Server, and XDBC Server via cURL.
+
+cURL is not installed on Windows by default.  If you do not have cURL installed, you can also install the configuration manually via QueryConsole.
+ 
 Employees.xml is a QueryConsole workspace.
 
 Import the workspace and run the examples to:
