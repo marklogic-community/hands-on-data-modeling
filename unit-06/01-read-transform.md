@@ -12,7 +12,9 @@ We can deploy this code using the deploy-transform.sh script. This script uses t
 
 ## Calling the Transform
 
- Use the following curl command to retrieve a document. 
+ Use the following curl command to retrieve a document.
+
+ Note: Windows users may need to replace ' with ".
 
     curl --digest --user rory:rory \
         'http://localhost:8080/v1/documents?uri=/employees-v3/EmployeeTable.csv-0-562.xml'
