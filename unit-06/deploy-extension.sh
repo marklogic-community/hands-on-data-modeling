@@ -13,4 +13,4 @@ echo Deploying $1 as $2
 
 curl --anyauth --user $USERNAME:$PASSWORD -X PUT --data-binary @$1 \
   -i -H "Content-type: application/xquery" \
-  "http://localhost:8080/v1/config/transforms/$2"
+  "http://localhost:8080/v1/config/resources/$2"

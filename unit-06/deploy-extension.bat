@@ -13,6 +13,6 @@ SET ARG2=%2
 
 echo "Deploying" %ARG1%
 
-curl --anyauth --user %USERNAME%:%PASSWORD% -X PUT -d@%ARG1% -i -H "Content-type: application/xquery" "http://localhost:8080/v1/config/transforms/%ARG2%"
+curl --anyauth --user %USERNAME%:%PASSWORD% -X PUT -d@%ARG1% -i -H "Content-type: application/xquery" "http://localhost:8080/v1/config/resources/%ARG2%"
 
 
