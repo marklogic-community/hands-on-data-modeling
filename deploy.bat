@@ -1,10 +1,10 @@
-REM Setting up the # Use this to deploy source code to the modules database.
+REM Use this to deploy source code to the modules database.
 REM  
 REM Usage:
-REM   deploy.sh <filename to deploy>
+REM   deploy.bat <filename to deploy>
 REM Example
 REM  cd unit-01/corb
-REM ../../deploy.sh 01-uris.xqy
+REM ../../deploy.bat 01-uris.xqy
 
 REM Update if required
 SET USERNAME="dr-who"
