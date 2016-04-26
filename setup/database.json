@@ -1,5 +1,22 @@
 {
   "triple-index": true,
-  "fast-reverse-searches":true,
-  "collection-lexicon":true
+  "fast-reverse-searches": true,
+  "collection-lexicon": true,
+  "range-element-index": [
+    {
+      "localname": "effective-date",
+      "namespace-uri": "",
+      "range-value-positions": false,
+      "scalar-type": "date",
+      "invalid-values": "reject"
+    },
+    {
+      "scalar-type": "string",
+      "namespace-uri": "",
+      "localname": "dept_name",
+      "collation": "http://marklogic.com/collation/",
+      "range-value-positions": false,
+      "invalid-values": "reject"
+    }
+  ]
 }
