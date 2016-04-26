@@ -1,8 +1,8 @@
-# Setup
+# Configuration
 
-## Linux:
+## Setup
 
-setup.sh will setup and configure the following via cURL:
+The setup scripts will setup and configure the following via cURL:
 
 - Data and modules databases
 - Indexes
@@ -10,29 +10,35 @@ setup.sh will setup and configure the following via cURL:
 - Application Server
 - Users
 
-wipe.sh will teardown and remove everything created by setup.sh.
+NOTE: The Application Server defaults to port 8080.  Update rest.json as required.
+
+Make sure that cURL is in your path. 
+
+### Linux/Mac:
+
+Usage: 
+
+    cd setup
+    ./setup.sh
 
 NOTE: Update each .sh file with your own username/password credentials as required.
 
-NOTE: The Application Server defaults to port 8080.  Update rest.json as required.
+### Windows:
 
+Usage: 
 
-## Windows:
-setup.bat will setup and configure the following via cURL: 
-
-- Data and modules databases
-- Indexes
-- REST instance
-- Application Server
-- Users
-
-wipe.bat will teardown and remove everything created by setup.bat.
+    cd setup
+    setup.bat
 
 NOTE: Update each .bat file with your own username/password credentials as required.
 
-NOTE: The Application Server defaults to port 8080.  Update rest.json as required.
-
 NOTE: cURL is not installed on Windows by default.  
+
+## Teardown
+
+To remove this project completely, including removing all data, run either 
+`wipe.sh` or `wipe.bat`, depending on your platform. This will remove 
+everything installed by the setup script. 
 
 ## Query Console:
 
