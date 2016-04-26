@@ -24,3 +24,4 @@ You will need to install the software above.
 - MLCP: after downloading, you will have a zip file. Unzip it and use the path 
   to that location when running MLCP. 
 - CORB and XCC: running CORB jobs will require referring to both of these JARs. 
+  Copy them into the project's lib directory. 
