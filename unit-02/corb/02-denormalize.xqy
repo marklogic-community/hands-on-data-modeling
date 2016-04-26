@@ -10,11 +10,11 @@ let $dept_info := fn:collection("department")/root[dept_num eq $dept_num]/(* exc
 let $salary_info := fn:collection("salary")/root[emp_id eq $emp_id]/(* except emp_id)
 
 let $final :=
-       <root>
+       <content>
          {$doc/root/*,
           $dept_info,
           $salary_info}
-       </root>
+       </content>
 
 return
   xdmp:document-insert(
