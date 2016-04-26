@@ -14,11 +14,11 @@ let $salary_info := fn:collection("salary")/root[emp_id eq $emp_id]/(* except em
 
 let $envelope :=
      <employee>
-       <root>
+       <content>
          {$doc/root/*,
           $dept_info,
           $salary_info}
-       </root>
+       </content>
      </employee>
 
 return
