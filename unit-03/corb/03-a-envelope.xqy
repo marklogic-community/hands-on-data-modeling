@@ -21,4 +21,9 @@ let $envelope :=
        </root>
      </employee>
 
-return xdmp:document-insert($new-uri, $envelope, (), "employee-env-v1")
+return
+  xdmp:document-insert(
+    $new-uri,
+    $envelope,
+    xdmp:document-get-permissions($URI),
+    "employee-env-v1")

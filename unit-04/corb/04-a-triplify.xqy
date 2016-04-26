@@ -1,7 +1,7 @@
 xquery version "1.0-ml";
 
 import module namespace sem = "http://marklogic.com/semantics"
-   at "../MarkLogic/semantics.xqy";
+   at "/MarkLogic/semantics.xqy";
 
 (: add triple to document mapping employee id to office number :)
 (: an external ontology will map office numbers to buildings to cities, to states, etc. :)
@@ -37,5 +37,9 @@ let $update :=
     }
   </employee>
 
-return xdmp:document-insert($new-uri, $update, (), "employee-env-v3")
-
+return
+  xdmp:document-insert(
+    $new-uri,
+    $update,
+    xdmp:document-get-permissions($URI),
+    "employee-env-v3")

@@ -12,12 +12,16 @@ We can deploy this code using the deploy-transform.sh script. This script uses t
 
 ## Calling the Transform
 
-Put the following URL into your browser. This will retrieve one of the documents in the Employees database. 
+ Use the following curl command to retrieve a document.
 
-http://localhost:8080/v1/documents?uri=/employees-v3/EmployeeTable.csv-0-562.xml
+ Note: Windows users may need to replace ' with ".
+
+    curl --digest --user rory:rory \
+        'http://localhost:8080/v1/documents?uri=/employees-v3/EmployeeTable.csv-0-562.xml'
 
 MarkLogic returns the entire document. Now try it again, but this time specify the transform. 
 
-http://localhost:8080/v1/documents?uri=/employees-v3/EmployeeTable.csv-0-562.xml&transform=unpack
+    curl --digest --user rory:rory \
+        'http://localhost:8080/v1/documents?uri=/employees-v3/EmployeeTable.csv-0-562.xml&transform=unpack'
 
 This time, we get back just the `root` part of the document. 
