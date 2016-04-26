@@ -1,6 +1,6 @@
 # Don't Leave Data As-Is - Transforming Content
 
-In this unit we want to denormalize the EmployeeTables using Corb. 
+In this unit we want to denormalize the EmployeeTables documents we loaded using [CORB](http://developer.marklogic.com/code/corb)
 
 ## Deploying the Transform
 
