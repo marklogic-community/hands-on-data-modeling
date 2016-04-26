@@ -1,5 +1,7 @@
 xquery version "1.0-ml";
 
-let $uris :=  cts:uris('', 'document',cts:collection-query(("employee")))
+(: update (:update-here:) with the appropriate query and collection name  :)
+
+let $uris :=  cts:uris('', 'document', (:update-here:) )
 return (count($uris), $uris)
 
