@@ -22,3 +22,21 @@ powerful, context-driven queries
 - *Aggregates*: in addition to document searches, MarkLogic supports a variety of
 aggregate searches. 
 
+## Query Console
+
+This unit demostrates queries in Query Console. 
+
+1. Point a browser to http://localhost:8000/qconsole
+2. On the right, click on Workspace. 
+3. In the drop-down menu, click Import Workspace
+4. Click the Choose File button
+5. Navigate to the "Employee Search.xml" file in this directory, select it, and
+   click Open
+6. Click Import
+
+You have now imported the Workspace. 
+
+**Important**: select the "Employees" database as the Content Source on the 
+left.
+
+Progress through the Query Console buffers, starting with "JS Simple Search". 
