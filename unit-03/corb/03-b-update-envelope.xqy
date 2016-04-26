@@ -1,7 +1,6 @@
 xquery version "1.0-ml";
 
 (: update envelope.xqy to add the image uri to the envelope :)
-(: update envelope.xqy to add any associated review uri to the envelope :)
 
 declare variable $URI as xs:string external;
 
