@@ -14,8 +14,9 @@ Update the following .cfg files appropriately to import their associated content
 
 See the MLCP guide for help. http://docs.marklogic.com/guide/mlcp
 
-- dept.cfg     (csv file)
-- salary.cfg   (csv file)
-- images.cfg   (binaries)
-- reviews.cfg  (xml)
+- employees.cfg (csv file)
+- dept.cfg      (csv file)
+- salary.cfg    (csv file)
+- images.cfg    (binaries)
+- reviews.cfg   (xml)
 
