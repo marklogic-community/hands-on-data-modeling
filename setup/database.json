@@ -6,6 +6,7 @@
     {
       "localname": "effective-date",
       "namespace-uri": "",
+      "collation": null,
       "range-value-positions": false,
       "scalar-type": "date",
       "invalid-values": "reject"
