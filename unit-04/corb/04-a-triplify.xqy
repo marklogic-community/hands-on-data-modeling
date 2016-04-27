@@ -3,8 +3,16 @@ xquery version "1.0-ml";
 import module namespace sem = "http://marklogic.com/semantics"
    at "/MarkLogic/semantics.xqy";
 
-(: add triple to document mapping employee id to office number :)
-(: an external ontology will map office numbers to buildings to cities, to states, etc. :)
+(: Add one triple to document mapping employee id to office number 
+   An external ontology will map office numbers to buildings to cities, to states, etc. 
+
+example:   empID hasOffice officeNumber .
+
+   Add another triple that represents who this employee reports to.
+
+example:   empID reportsTo empID .
+
+:)
 
 declare variable $URI as xs:string external;
 
