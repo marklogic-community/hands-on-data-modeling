@@ -10,7 +10,7 @@ In this unit we want to load the following datasets "As-Is" using MarkLogic Cont
 
 This sample mlcp command demonstrates how to load a .csv file from the EmployeeTables directory. Refer to the .cfg files for details on which paramters are being passed to mlcp.
 
-    $ mlcp.bat -options\_file employees.cfg
+    $ mlcp.bat -options_file employees.cfg
 
 See the [MLCP](http://docs.marklogic.com/guide/mlcp) guide for more information. 
 
