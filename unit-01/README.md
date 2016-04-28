@@ -1,10 +1,12 @@
 # Load Data As-Is
 
-In this unit we want to load the following datasets "As-Is" using MarkLogic Content Pump. 
+In this unit we want to load the following datasets "As-Is" using MarkLogic Content Pump (MLCP). 
 
 - ../data/EmployeeTables
 - ../data/EmployeeImages
 - ../data/EmployeeReviews
+
+## Running MLCP
 
 This sample mlcp command demonstrates how to load a .csv file from the EmployeeTables directory. Refer to the .cfg files for details on which paramters are being passed to mlcp.
 
