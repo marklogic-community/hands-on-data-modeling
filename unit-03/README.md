@@ -4,7 +4,7 @@ In this unit we will use CORB again to apply the the envelope pattern to the doc
 
 Our first pass with CORB uses the 03-a-\* modules.  These will denormalize the employee tables and place them within an envelope.
 
-Our second pass with CORB uses the 03-b-\* modules. These will update the envelope with 2 new elements, sibling to the source document, which contain a standardized effective-date for the employee as well as the employees image-uri.
+Our second pass with CORB uses the 03-b-\* modules. These will update the envelope created using 03-a-\* with 2 new elements, inserted sibling to the source document, which contain the standardized effective-date for the employee as well as the employees image-uri.
 
 
 ## Update Lesson Modules
