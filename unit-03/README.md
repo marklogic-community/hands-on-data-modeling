@@ -1,6 +1,6 @@
 # Don't Leave Data As-Is - Envelope Pattern
 
-In this unit we want to use CORB again to apply the the envelope pattern to the documents we denormalized in unit-02. We also want to standardize the field name and value for the employee's job effective data and include this new element along with the URI for the employee's associated image within our envelope.  We will perform these updates to our documents in 2 passes.
+In this unit we will use CORB again to apply the the envelope pattern to the documents we denormalized in unit-02. We will also create a new field to capture a standardized element name and value for the employee's job effective data and include this new element along with another that contains the URI for the employee's associated image within our envelope.  We will perform these updates to our documents in 2 passes.
 
 Our first pass with CORB uses the 03-a-\* modules.  These will denormalize the employee tables and place them within an envelope.
 
