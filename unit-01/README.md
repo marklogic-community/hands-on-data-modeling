@@ -6,13 +6,13 @@ In this unit we want to load the following datasets "As-Is" using MarkLogic Cont
 - ../data/EmployeeImages
 - ../data/EmployeeReviews
 
-The sample mlcp command to load the Employees .csv is as follows:
+This sample mlcp command demonstrates how to load a .csv file from the EmployeeTables directory. Refer to the .cfg files for details on which paramters are being passed to mlcp.
 
     $ mlcp.bat -options\_file employees.cfg
 
-Update the following .cfg files appropriately to import their associated content, placing them into collections named for their topics.  
+See the [MLCP](http://docs.marklogic.com/guide/mlcp) guide for more information. 
 
-See the MLCP guide for help. http://docs.marklogic.com/guide/mlcp
+Update the following .cfg files as need to import their associated content, placing them into collections named for their topics.
 
 - employees.cfg (csv file)
 - dept.cfg      (csv file)
