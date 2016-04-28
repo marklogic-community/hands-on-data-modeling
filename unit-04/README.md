@@ -2,11 +2,11 @@
 
 In this unit we will use semantic triples to connect our envelope document to an ontology that we will load separately. These additional triples will provide addtional context so we can create richer queries against our employees.  We will also represent the reports to relationship relationship of an employee as a triple within the envelope. This will allow us to use SPARQL to query who reports to who.
 
-First we will load additional data using MLCP.  Second we will update our envelope document with triples using CORB.
+First we will load additional data using mlcp.  Second we will update our envelope document with triples using CORB.
 
 ## Load Triples using MLCP
 
-We will load the following datasets using MLCP.
+We will load the following datasets using mlcp.
 
 - ../data/offices.ttl
 - ../data/locations.n3
@@ -38,9 +38,9 @@ After making your updates, deploy your modules using deploy.sh or deploy.bat as 
     $ ../../deploy.sh 04-a-triplify.xqy
 
 
-## Running Corb
+## Running CORB 
 
-This sample corb command can be used with their supporting files deployed above to add triples to the documents we enveloped and updated in unit-03.
+This sample CORB command can be used with their supporting files deployed above to add triples to the documents we enveloped and updated in unit-03.
 
 You can use the corb.sh or corb.bat script in the project's base directory to 
 run CORB. 
