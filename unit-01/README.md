@@ -1,18 +1,20 @@
 # Load Data As-Is
 
-In this unit we want to load the following datasets "As-Is" using MarkLogic Content Pump. 
+In this unit we want to load the following datasets "As-Is" using MarkLogic Content Pump (MLCP). 
 
 - ../data/EmployeeTables
 - ../data/EmployeeImages
 - ../data/EmployeeReviews
 
-The sample mlcp command to load the Employees .csv is as follows:
+## Running MLCP
 
-mlcp.bat -options\_file C:\ContentPump8-04\bin\mlcp-cfgs\employees.cfg
+This sample mlcp command demonstrates how to load a .csv file from the EmployeeTables directory. Refer to the .cfg files for details on which paramters are being passed to mlcp.
 
-Update the following .cfg files appropriately to import their associated content, placing them into collections named for their topics.  
+    $ mlcp.bat -options\_file employees.cfg
 
-See the MLCP guide for help. http://docs.marklogic.com/guide/mlcp
+See the [MLCP](http://docs.marklogic.com/guide/mlcp) guide for more information. 
+
+Update the following .cfg files as need to import their associated content, placing them into collections named for their topics.
 
 - employees.cfg (csv file)
 - dept.cfg      (csv file)
