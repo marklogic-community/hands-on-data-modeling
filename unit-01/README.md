@@ -1,6 +1,6 @@
 # Load Data As-Is
 
-In this unit we want to load the following datasets "As-Is" using MarkLogic Content Pump (MLCP). 
+In this unit we want to load the following datasets "As-Is" using MarkLogic Content Pump (mlcp). 
 
 - ../data/EmployeeTables
 - ../data/EmployeeImages
