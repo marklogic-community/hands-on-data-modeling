@@ -26,9 +26,9 @@ After making your updates, deploy your modules using deploy.sh or deploy.bat as 
     $ ../../deploy.sh 03-a-envelope.xqy
 
 
-## Running Corb
+## Running CORB
 
-This sample corb command can be used with their supporting files deployed above to envelope the documents we denormalized in unit-02, as well as to pack our envelope with our additional information.
+This sample CORB command can be used with their supporting files deployed above to envelope the documents we denormalized in unit-02, as well as to pack our envelope with our additional information.
 
 You can use the corb.sh or corb.bat script in the project's base directory to 
 run CORB. 
