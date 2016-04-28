@@ -4,14 +4,14 @@ In this unit we want to use [CORB](http://developer.marklogic.com/code/corb) to 
 
 ## Deploying the Transform
 
-We can deploy the corb modules required using the deploy.sh or deploy.bat script. This script uses the Management API to register the code with MarkLogic. The parameter we pass in is the name of file to be sent. 
+We can deploy the CORB modules required using the deploy.sh or deploy.bat script. This script uses the Management API to register the code with MarkLogic. The parameter we pass in is the name of file to be sent. 
 
     $ ../../deploy.sh 02-uris.xqy
     $ ../../deploy.sh 02-denormalize.xqy
 
-## Running Corb
+## Running CORB
 
-This sample corb command can be used with their supporting files deployed above to denormalize the .csv documents we loaded in unit-01.
+This sample CORB command can be used with their supporting files deployed above to denormalize the .csv documents we loaded in unit-01.
 
 You can use the corb.sh or corb.bat script in the project's base directory to 
 run CORB. 
