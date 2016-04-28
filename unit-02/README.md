@@ -4,7 +4,7 @@ In this unit we want to denormalize the EmployeeTables documents we loaded using
 
 ## Deploying the Transform
 
-We can deploy the corb modules required using the deploy.bat script. This script uses the Management API to register the code with MarkLogic. The parameter we pass in is the name of file to be sent. 
+We can deploy the corb modules required using the deploy.sh or deploy.bat script. This script uses the Management API to register the code with MarkLogic. The parameter we pass in is the name of file to be sent. 
 
     $ ../../deploy.sh 02-uris.xqy
     $ ../../deploy.sh 02-denormalize.xqy
