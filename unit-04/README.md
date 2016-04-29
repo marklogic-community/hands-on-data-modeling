@@ -1,6 +1,6 @@
 # Triples
 
-In this unit we will use semantic triples to connect our envelope document to an ontology that we will load separately. These additional triples will provide addtional context so we can create richer queries against our employees.  We will also represent the reports to relationship relationship of an employee as a triple within the envelope. This will allow us to use SPARQL to query who reports to who.
+In this unit we will use semantic triples to connect our envelope document to an ontology that we will load separately. These additional triples will provide addtional context (using triples from our world, and triples from our domain) so we can create richer queries against our employees.  We will also represent the reports to relationship relationship of an employee as a triple within the envelope (triples within our documents). This will allow us to use SPARQL to query who reports to who.
 
 First we will load additional data using mlcp.  Second we will update our envelope document with triples using CORB.
 
@@ -11,9 +11,9 @@ We will load the following datasets using mlcp.
 - ../data/offices.ttl
 - ../data/locations.n3
 
-offices.ttl is an internal ontology, created by the fictional company of our employees, to provide a mapping between office numbers and the city an office is located in.
+offices.ttl is an internal ontology, created by the fictional company of our employees, to provide a mapping between office numbers and the city an office is located in.  This is an example of triples from our domain.
 
-locations.n3 is a subset of DBPedia.  This ontology relates cities to states and countries.
+locations.n3 is a subset of DBPedia.  This ontology relates cities to states and countries.  This is an example of triples from our world.
 
 The following sample mlcp command demonstrates how to load a RDF file. Refer to the .cfg files for details on which paramters are being passed to mlcp. Use mlcp to load both data files.
 
