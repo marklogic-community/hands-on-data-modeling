@@ -16,7 +16,11 @@ let $upd-jed-date := fn:concat($job-eff-date-toks[3],"-",
                                $job-eff-date-toks[2])
 
 (:-------update of next line required----------:)
-let $image-uri := (: this is a string, it will be a concatentation of the $first-name, $last-name, and $emp-id, along with a file extension :)
+let $image-uri := (: This is a string. It will be a concatentation of 
+                     the $first-name, $last-name, and $emp-id, along 
+                     with the file extension 
+                     Example: /irene-carpenter-646.png 
+                  :)
 
 let $rev-doc := fn:collection("reviews")/review[member-id eq $emp-id]
 
