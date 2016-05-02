@@ -1,7 +1,7 @@
 
 
 function unpack(context, params, content) {
-  var mutableDoc = content.xpath('/employee/root');
+  var mutableDoc = content.xpath('/employee/content');
 
   context.outputType = "application/xml";
 
