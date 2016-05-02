@@ -6,7 +6,7 @@ declare namespace search = "http://marklogic.com/appservices/search";
 
 declare function direct:calculate-direct-reports($uri) 
 {
-  let $id := fn:doc($uri)/employee/root/emp_id/fn:string()
+  let $id := fn:doc($uri)/employee/content/emp_id/fn:string()
   return xdmp:estimate(cts:search(fn:doc(), cts:element-value-query(xs:QName('reports_to'), $id)))
 };
 

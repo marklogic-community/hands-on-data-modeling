@@ -22,7 +22,7 @@ function addAttributes(nb, node) {
 // Given a document URI, look up that employee's ID and see how many people 
 // report to that person. 
 function calculateDirectReports(uri) {
-  var id = cts.doc(uri).xpath('/employee/root/emp_id/fn:string()');
+  var id = cts.doc(uri).xpath('/employee/content/emp_id/fn:string()');
   return cts.estimate(cts.elementValueQuery(xs.QName('reports_to'), id)).toString();
 }
 
