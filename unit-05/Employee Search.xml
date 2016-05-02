@@ -224,4 +224,19 @@ return
       { $options }
     &lt;/search&gt;
   )
+</query><query name="using an extension" focus="false" active="true" content-source="as:7374815805189040935:" mode="xquery">xquery version "1.0-ml";
+declare namespace html = "http://www.w3.org/1999/xhtml";
+
+xdmp:http-get(
+  'http://localhost:8080/v1/resources/two-stage?rs:duration=P1Y&amp;amp;rs:office=San_Carlos,_California',
+  &lt;options xmlns="xdmp:http"&gt;
+    &lt;authentication&gt;
+      &lt;username&gt;admin&lt;/username&gt;
+      &lt;password&gt;admin&lt;/password&gt;
+    &lt;/authentication&gt;
+    &lt;headers&gt;
+      &lt;content-type&gt;application/xml&lt;/content-type&gt;
+    &lt;/headers&gt;
+  &lt;/options&gt;
+)
 </query></workspace></export>
