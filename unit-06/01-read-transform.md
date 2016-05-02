@@ -6,9 +6,9 @@ Take a look at the code in `unpack.xqy`. There's one function, which receives th
 
 ## Deploying the Transform
 
-We can deploy this code using the deploy-transform.sh script. This script uses the Management API to register the code with MarkLogic. The parameters we pass in are the file to be send and the name of the transform, which will be used to call it. 
+We can deploy this code using the deploy-transform.sh script. This script uses the Management API to register the code with MarkLogic. The parameters we pass in are the file to be sent and the name of the transform, which will be used to call it. 
 
-    $ ./deploy-transform unpack.xqy unpack
+    $ ./deploy-transform.sh unpack.xqy unpack
 
 ## Calling the Transform
 
