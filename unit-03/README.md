@@ -24,6 +24,8 @@ After making your updates, deploy your modules using deploy.sh or deploy.bat as 
 
     $ ../../deploy.sh 03-a-uris.xqy
     $ ../../deploy.sh 03-a-envelope.xqy
+    $ ../../deploy.sh 03-b-uris.xqy
+    $ ../../deploy.sh 03-b-update-envelope.xqy
 
 
 ## Running CORB
@@ -36,7 +38,15 @@ run CORB.
     $ cd unit-03/corb
     $ ../../corb.sh 03-a-myjob.properties
 
-Alternatively, you can run CORB directly:
+Run CORB for the 3-a-\* modules. Refine your understanding of the document model by examing the results in Query Console.  Then run CORB for the 3-b-\* modules.
+
+    $ cd unit-03/corb
+    $ ../../corb.sh 03-b-myjob.properties
+
+Finally, examing the results of this pass in Query Console to see our additions to the envelope document.
+
+
+Note: Alternatively, you can run CORB directly:
 
 java -server -cp marklogic-xcc-8.0.4.jar;corb.jar -DOPTIONS-FILE=myjob.properties com.marklogic.developer.corb.Manager
 
