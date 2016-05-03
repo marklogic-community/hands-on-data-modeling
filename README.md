@@ -15,7 +15,7 @@ To do these exercises, you will need:
 - This repository. You won't get far without it! Either:
  - Select "Download ZIP" up to your right
  - Clone the repository using git.
-      git clone https://github.com/wpaven/hands-on-data-mode
+      `git clone https://github.com/wpaven/hands-on-data-mode`
 
 ### Installations
 
