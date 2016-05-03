@@ -42,7 +42,7 @@ If you choose to use cURL on Windows. Download and unzip [cURL](https://curl.hax
 - Select advanced system setttings.
 - Select environment variables.
 - Under system variables, Select and doubleclick Path.
-- Ddd ';C:\Curl' (or wherever you have unzipped cURL) without quotes to the end of the Path variable value.
+- Add ';C:\Curl' (or the location of the directory where you have unzipped cURL) without quotes to the end of the Path variable value.
 - Click OK
 - If you have a cmd window open, close it and restart it to have the changes applied.
 
