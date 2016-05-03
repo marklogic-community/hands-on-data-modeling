@@ -28,8 +28,7 @@ You will need to install the software above.
 - MLCP: after downloading, you will have a zip file. Unzip it and use the path 
   to that location when running MLCP. 
 - CORB and XCC: running CORB jobs will require referring to both of these JARs.
- - Copy these JARs into the project's lib directory. 
- - If there's no hands-on-data-modeling/lib directory, create one, then copy as directed immediately above.
+ - Copy these JARs into the project's /lib directory. 
 
 ## Setup
 
