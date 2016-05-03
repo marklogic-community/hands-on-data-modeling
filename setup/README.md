@@ -61,10 +61,18 @@ If you do not have cURL installed, you can also install the configuration manual
 Employees.xml is a QueryConsole workspace.
 
 Import the workspace and run the examples to:
-- Create an Employees Database with it's requisite forests
-- Deploy a REST Instance for the Employees database, which will create an App Server and Modules database
-- Create Indexes
-- Create Users
+- SetupAppServerAndDBs
+ - Creatse an Employees Database with it's requisite forests
+ - Deploys a REST Instance for the Employees database, which will create an App Server and Modules database
+- SetupIndexes
+ - Create Indexes on Employees DB
+- SetupAddRole
+ - Create Security Role
+- SetupCreateUsers
+ - Create Users
+  - amy
+  - rory
+  - dr-who
 
 NOTE: Update the provided examples with your servername, port, username, and password.
 
