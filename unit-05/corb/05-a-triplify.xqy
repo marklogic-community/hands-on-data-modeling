@@ -23,15 +23,14 @@ let $sem-prefix := "http://www.marklogic.com/employees#"
 let $emp_id := $doc/employee/content/emp_id/fn:string(.)
 let $office-number := $doc/employee/content/office_number/fn:string(.)
 
-(: Replace "update here" below
- : with a sem:triple() that creates a triple: empID hasOffice officeNumber.
- :
- : Following represents the reportsTo object as an IRI, not just a number, because we'll
+(:
+ : Represent the reportsTo object as an IRI, not just a number, because we'll
  : use the that IRI in a chain query.
  :)
-
 let $triples := (
-                    (:-----update here-----:)  ,
+  sem:triple(sem:iri($sem-prefix || "empID" || $emp_id),
+             sem:iri($sem-prefix || "hasOffice"),
+             sem:iri($sem-prefix || "officeNumber" || $office-number )),
 
   sem:triple(sem:iri($sem-prefix || "empID" || $emp_id),
              sem:iri($sem-prefix || "reportsTo"),
