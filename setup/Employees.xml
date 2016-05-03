@@ -1,13 +1,19 @@
-<export><workspace name="Employees"><query name="AppServerAndDBs" focus="true" active="true" content-source="as:12224977826776051352:" mode="javascript">//Setting Up the App Servers and Databases
+<export><workspace name="Employees"><query name="SetupAppServerAndDBs" focus="true" active="true" content-source="as:13475276054612099502:" mode="javascript">//Setting Up the App Servers and Databases
 
-var doc = xdmp.documentGet("C:\\Users\\paven\\Desktop\\MLW2016\\Config\\rest.json");
+//Update the directory path (fileDir) to point to the setup directory
+
+var user = "admin";
+var pwd = "admin";
+var fileDir = "C:\\cygwin\\home\\paven\\hands-on-data-modeling_answers\\setup\\";
+
+var doc = xdmp.documentGet(fn.concat(fileDir,"rest.json"));
 
 xdmp.httpPost('http://localhost:8002/v1/rest-apis',
               {
                   "authentication": {
                                        "method" : "digest",
-                                       "username" : "admin",
-                                       "password" : "admin"
+                                       "username" : user,
+                                       "password" : pwd
                                      },
                    "headers": { 
                                   "content-type":"application/json"
@@ -15,32 +21,44 @@ xdmp.httpPost('http://localhost:8002/v1/rest-apis',
               }, 
               doc
             );
-</query><query name="Indexes" focus="false" active="true" content-source="as:12224977826776051352:" mode="javascript">// Adding Indexes
+</query><query name="SetupIndexes" focus="false" active="true" content-source="as:12224977826776051352:" mode="javascript">// Adding Indexes
 
-var doc = xdmp.documentGet("C:\\Users\\paven\\Desktop\\MLW2016\\Config\\database.json");
+//Update the directory path (fileDir) to point to the setup directory
 
+var user = "admin";
+var pwd = "admin";
+var fileDir = "C:\\cygwin\\home\\paven\\hands-on-data-modeling_answers\\setup\\";
+
+var doc = xdmp.documentGet(fn.concat(fileDir,"database.json"));
+ 
 xdmp.httpPut('http://localhost:8002/manage/v2/databases/Employees/properties',
               {
                   "authentication": {
                                        "method" : "digest",
-                                       "username" : "admin",
-                                       "password" : "admin"
+                                       "username" : user,
+                                       "password" : pwd
                                      },
                    "headers": { 
                                   "content-type":"application/json"
                               }
               }, 
               doc
-            );</query><query name="AddRole" focus="false" active="true" content-source="as:12224977826776051352:" mode="javascript">// Adding Role 
+            );</query><query name="SetupAddRole" focus="false" active="true" content-source="as:12224977826776051352:" mode="javascript">// Adding Role 
 
-var doc = xdmp.documentGet("C:\\Users\\paven\\Desktop\\MLW2016\\Config\\modeler.json");
+//Update the directory path (fileDir) to point to the setup directory
+
+var user = "admin";
+var pwd = "admin";
+var fileDir = "C:\\cygwin\\home\\paven\\hands-on-data-modeling_answers\\setup\\";
+
+var doc = xdmp.documentGet(fn.concat(fileDir,"modeler.json"));
 
 xdmp.httpPost('http://localhost:8002/manage/v2/roles',
               {
                   "authentication": {
                                        "method" : "digest",
-                                       "username" : "admin",
-                                       "password" : "admin"
+                                       "username" : user,
+                                       "password" : pwd
                                      },
                    "headers": { 
                                   "content-type":"application/json"
@@ -48,14 +66,17 @@ xdmp.httpPost('http://localhost:8002/manage/v2/roles',
               }, 
               doc
             );
-</query><query name="createUsers" focus="false" active="true" content-source="as:12224977826776051352:" mode="javascript">// Create Users
+</query><query name="SetupcCreateUsers" focus="false" active="true" content-source="as:12224977826776051352:" mode="javascript">// Create Users
+
+//Update the directory path (fileDir) to point to the setup directory
 
 var user = "admin";
 var pwd = "admin";
+var fileDir = "C:\\cygwin\\home\\paven\\hands-on-data-modeling_answers\\setup\\";
 
-var docOne = xdmp.documentGet("C:\\Users\\paven\\Desktop\\MLW2016\\Config\\user-reader.json");
-var docTwo = xdmp.documentGet("C:\\Users\\paven\\Desktop\\MLW2016\\Config\\user-writer.json");
-var docThree = xdmp.documentGet("C:\\Users\\paven\\Desktop\\MLW2016\\Config\\user-admin.json");
+var docOne = xdmp.documentGet(fn.concat(fileDir,"user-reader.json"));
+var docTwo = xdmp.documentGet(fn.concat(fileDir,"user-writer.json"));
+var docThree = xdmp.documentGet(fn.concat(fileDir,"user-admin.json"));
 
 xdmp.httpPost('http://localhost:8002/manage/v2/users',
               {
@@ -97,4 +118,86 @@ xdmp.httpPost('http://localhost:8002/manage/v2/users',
                               }
               }, 
               docThree
-            );</query></workspace></export>
+            );</query><query name="Deploy" focus="false" active="true" content-source="10554817159290131780:0:Apps" mode="javascript">/* Deploy modules to employees-modules 
+*    Note: Update content-type below to deploy either XQuery or JavaScript as required.
+*          For JavaScript application/vnd.marklogic-javascript
+* 
+*          Update corbDir and fileName below to accurately reflect file to be loaded.
+*
+*/
+
+var user = "dr-who";
+var pwd = "doctor";
+
+var corbDir = "C:\\cygwin\\home\\paven\\hands-on-data-modeling_answers\\unit-02\\corb\\"
+var fileName = "02-uris.xqy"
+var doc = xdmp.documentGet(fn.concat(corbDir,fileName));
+ 
+xdmp.httpPut(fn.concat('http://localhost:8080/v1/ext/corb/',fileName,'?perm:rest-reader=read&amp;perm:rest-writer=update&amp;perm:modeler=execute'),
+              {
+                  "authentication": {
+                                       "method" : "digest",
+                                       "username" : user,
+                                       "password" : pwd
+                                     },
+                   "headers": { 
+                                  "content-type":"application/vnd.marklogic-xdmp"
+                              }
+              }, 
+              doc
+            );
+
+
+</query><query name="DeleteUsers" focus="false" active="true" content-source="as:4510970542539586465:" mode="javascript">// query
+var user = "admin";
+var pwd = "admin";
+
+xdmp.httpDelete("http://localhost:8002/manage/v2/users/amy",
+     {
+       "authentication" : {
+         "method" : "digest",
+         "username" : user,
+         "password" : pwd
+       }
+     });
+
+xdmp.httpDelete("http://localhost:8002/manage/v2/users/rory",
+     {
+       "authentication" : {
+         "method" : "digest",
+         "username" : user,
+         "password" : pwd
+       }
+     });
+
+xdmp.httpDelete("http://localhost:8002/manage/v2/users/dr-who",
+     {
+       "authentication" : {
+         "method" : "digest",
+         "username" : user,
+         "password" : pwd
+       }
+     });</query><query name="DeleteRole" focus="false" active="true" content-source="as:4510970542539586465:" mode="javascript">// query
+var user = "admin";
+var pwd = "admin";
+
+xdmp.httpDelete("http://localhost:8002/manage/v2/roles/modeler",
+     {
+       "authentication" : {
+         "method" : "digest",
+         "username" : user,
+         "password" : pwd
+       }
+     });</query><query name="DeleteAppServerAndDBs" focus="false" active="true" content-source="as:4510970542539586465:" mode="javascript">// query
+
+var user = "admin";
+var pwd = "admin";
+
+xdmp.httpDelete("http://localhost:8002/v1/rest-apis/employees-app-server?include=content&amp;include=modules",
+     {
+       "authentication" : {
+         "method" : "digest",
+         "username" : user,
+         "password" : pwd
+       }
+     });</query></workspace></export>
