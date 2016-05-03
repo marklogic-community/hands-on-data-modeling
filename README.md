@@ -31,6 +31,6 @@ You will need to install the software above.
  - Copy these JARs into the project's lib directory. 
  - If there's no hands-on-data-modeling/lib directory, create one, then copy as directed immediately above.
 
-### Setup
+## Setup
 
 Follow the directions in [/setup](https://github.com/wpaven/hands-on-data-modeling/tree/answers/setup) to create the databases, indexes, app servers, role, and users for this workshop.
