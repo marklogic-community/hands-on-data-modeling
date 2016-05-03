@@ -14,8 +14,7 @@ To do these exercises, you will need:
 - [Java](https://java.com/en/download/) 1.7 or later -- MLCP and Corb require Java.
 - This repository. You won't get far without it! Either:
  - Select "Download ZIP" up to your right
- - Clone the repository using git.
-      `git clone https://github.com/wpaven/hands-on-data-mode`
+ - Clone the repository using git. -- `git clone https://github.com/wpaven/hands-on-data-mode`
 
 ### Installations
 
@@ -28,5 +27,10 @@ You will need to install the software above.
   curl from the command line
 - MLCP: after downloading, you will have a zip file. Unzip it and use the path 
   to that location when running MLCP. 
-- CORB and XCC: running CORB jobs will require referring to both of these JARs. 
-  Copy them into the project's lib directory. 
+- CORB and XCC: running CORB jobs will require referring to both of these JARs.
+ - Copy these JARs into the project's lib directory. 
+ - If there's no hands-on-data-modeling/lib directory, create one, then copy as directed immediately above.
+
+### Setup
+
+Follow the directions in [/setup](https://github.com/wpaven/hands-on-data-modeling/tree/answers/setup) to create the databases, indexes, app servers, role, and users for this workshop.
