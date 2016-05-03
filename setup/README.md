@@ -34,7 +34,7 @@ NOTE: Update each .bat file with your own username/password credentials as requi
 
 NOTE: cURL is not installed on Windows by default.
 
-### cURL on Windows
+#### cURL on Windows
 
 If you choose to use cURL on Windows. Download and unzip [cURL](https://curl.haxx.se/download.html) on your filesystem. To be able to use it from a cmd window, you will need to add it to the 'Path' system variable.
 
