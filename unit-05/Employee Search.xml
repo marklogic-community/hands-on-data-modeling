@@ -1,26 +1,26 @@
-<export><workspace name="Employee Search"><query name="JS simple search" focus="true" active="true" content-source="as:8895516455393822722:" mode="javascript">// Click the Run button. This will run a simple text query against the database. The 
+<export><workspace name="Employee Search"><query name="JS simple search" focus="true" active="true" content-source="as:7374815805189040935:" mode="javascript">// Click the Run button. This will run a simple text query against the database. The 
 // result is all those documents that contain the term 'peter'. 
 
 fn.count(cts.search('peter'))
-</query><query name="JS targeted search" focus="false" active="true" content-source="as:8895516455393822722:" mode="javascript">// With this query, we're more specific. Instead of looking for the term "Peter" anywhere,
+</query><query name="JS targeted search" focus="false" active="true" content-source="as:7374815805189040935:" mode="javascript">// With this query, we're more specific. Instead of looking for the term "Peter" anywhere,
 // we only want matches where "Peter" is the value of the first name element. 
 
 fn.count(cts.search(cts.elementValueQuery('first_name', 'peter')))
-</query><query name="XQuery simple search" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">(: MarkLogic supports both XQuery and JavaScript. This is the same as the first
+</query><query name="XQuery simple search" focus="false" active="true" content-source="as:7374815805189040935:" mode="xquery">(: MarkLogic supports both XQuery and JavaScript. This is the same as the first
  : query that we ran. 
  :)
 
 xquery version "1.0-ml";
 
 fn:count(cts:search(fn:doc(), "peter"))
-</query><query name="XQuery targeted search" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">(: And this is the same as the second query -- only look for "Peter" as the value 
+</query><query name="XQuery targeted search" focus="false" active="true" content-source="as:7374815805189040935:" mode="xquery">(: And this is the same as the second query -- only look for "Peter" as the value 
  : of the first_name element. 
  :)
 
 xquery version "1.0-ml";
 
 fn:count(cts:search(fn:doc(), cts:element-value-query(xs:QName("first_name"), "peter")))
-</query><query name="Simple REST query" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">(: Many customers interact with MarkLogic through the REST API. This function call uses
+</query><query name="Simple REST query" focus="false" active="true" content-source="as:7374815805189040935:" mode="xquery">(: Many customers interact with MarkLogic through the REST API. This function call uses
  : that API, sending an HTTP request. Note the "q=peter". 
  :
  : The REST API consists of a Client API, which handles search and document CRUD, and
@@ -41,7 +41,7 @@ xdmp:http-get(
     &lt;/authentication&gt;
   &lt;/options&gt;
 )[2]/search:response/@total
-</query><query name="constraint query" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">(:
+</query><query name="constraint query" focus="false" active="true" content-source="as:7374815805189040935:" mode="xquery">(:
  : Most systems require more control over search. In this query, we make a few 
  : changes from the simple first query. 
  : - Specify a collection. We only want to search against the documents that 
@@ -87,7 +87,7 @@ return
       { $options }
     &lt;/search&gt;
   )
-</query><query name="facet" focus="false" active="true" content-source="as:8895516455393822722:" mode="xquery">(: 
+</query><query name="facet" focus="false" active="true" content-source="as:7374815805189040935:" mode="xquery">(: 
  : In this query, we make use of facets. By returning values and their counts, 
  : we let our users better understand the data set they are exploring. Facets
  : can be simple links, or they can power visualizations like charts. In either
@@ -145,52 +145,98 @@ return
       { $options }
     &lt;/search&gt;
   )
-</query><query name="triples query" focus="false" active="true" content-source="as:8895516455393822722:" mode="sparql"># A triples query uses SPARQL to look for triples that match your criteria.
+</query><query name="triples query" focus="false" active="true" content-source="as:7374815805189040935:" mode="sparql"># A triples query uses SPARQL to look for triples that match your criteria.
 # This type of query uses triples that exist in documents, as well as "managed"
 # triples. 
 
 PREFIX emp: &lt;http://www.marklogic.com/employees#&gt;
+PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
 
-select (count (?empID) as ?empCount) ?city
+select (count (?empID) as ?empCount) ?city ?cityLabel
 where {
   ?empID emp:hasOffice ?officeNum .
   ?officeNum emp:inOffice ?officeName .
   ?officeName emp:inBuilding ?bldg .
-  ?bldg emp:inCity ?city
+  ?bldg emp:inCity ?city .
+  ?city foaf:name ?cityLabel
 }
-group by ?city</query><query name="combination" focus="false" active="true" content-source="as:8895516455393822722:" mode="javascript">// A combination query combines MarkLogic's normal document search capabilities
-// with SPARQL triple queries. This combination allows for powerful document 
-// searches using triples for context. 
+group by ?city</query><query name="2-stage query" focus="false" active="true" content-source="as:7374815805189040935:" mode="javascript">// find employees in the San Carlos office whose effective-date is at least a year ago
+var jsearch = require('/MarkLogic/jsearch.sjs');
 
-var sparql = 
-  'PREFIX emp: &lt;http://www.marklogic.com/employees#&gt; ' +
-  'select (count (?empID) as ?empCount) ?city ' +
-  'where { ' +
-  '  ?empID emp:hasOffice ?officeNum . ' +
-  '  ?officeNum emp:inOffice ?officeName . ' +
-  '  ?officeName emp:inBuilding ?bldg . ' +
-  '  ?bldg emp:inCity ?city ' +
-  '} ' +
-  'group by ?city ';
+var oneYearAgo = fn.currentDate().subtract(xs.yearMonthDuration("P1Y"));
 
-var query = {
-  "search": {
-    "sparql": sparql
-  }
-};
+// identify the office numbers in the target city
+var cityOfficeNums = 
+  sem.sparql(
+    'prefix emp: &lt;http://www.marklogic.com/employees#&gt; ' +
+    'select ?officeNum ' +
+    'where { ' +
+    '  ?bldg emp:inCity ?city . ' +
+    '  ?office emp:inBuilding ?bldg . ' +
+    '  ?officeNum emp:inOffice ?office ' +
+    '}',
+    { city: sem.iri('http://dbpedia.org/resource/San_Carlos,_California') }
+  );
 
-xdmp.httpPost(
-  'http://localhost:8080/v1/graphs/sparql',
-  {
-    authentication: {
-      "method" : "digest",
-      username: "admin",
-      password: "admin"
-    },
-    "headers" : {
-      "content-type": "application/json"
-    },
-    data: JSON.stringify(query)
-  }
+// turn those values into an array of Strings
+var nums = [];
+for (var num of cityOfficeNums) {
+  nums.push(num.officeNum);
+}
+
+// search for employees
+jsearch.collections('employee-env-v3')
+  .documents()
+  .where(
+    cts.andQuery([
+      cts.elementRangeQuery(xs.QName('effective-date'), '&lt;', oneYearAgo),
+      cts.tripleRangeQuery(null, sem.iri('http://www.marklogic.com/employees#hasOffice'), nums)
+    ]))
+  .slice(0, 5)
+  .map({snippet: true})
+  .result();</query><query name="search transform" focus="false" active="true" content-source="as:7374815805189040935:" mode="xquery">xquery version "1.0-ml";
+declare namespace html = "http://www.w3.org/1999/xhtml";
+
+let $options :=
+  &lt;options xmlns="http://marklogic.com/appservices/search"&gt;
+    &lt;additional-query&gt;
+      &lt;cts:collection-query xmlns:cts="http://marklogic.com/cts"&gt;
+        &lt;cts:uri&gt;employee-env-v3&lt;/cts:uri&gt;
+      &lt;/cts:collection-query&gt;
+    &lt;/additional-query&gt;
+  &lt;/options&gt;
+
+return
+  xdmp:http-post(
+    'http://localhost:8080/v1/search?transform=direct-reports',
+    &lt;options xmlns="xdmp:http"&gt;
+      &lt;authentication&gt;
+        &lt;username&gt;admin&lt;/username&gt;
+        &lt;password&gt;admin&lt;/password&gt;
+      &lt;/authentication&gt;
+      &lt;headers&gt;
+        &lt;content-type&gt;application/xml&lt;/content-type&gt;
+      &lt;/headers&gt;
+    &lt;/options&gt;,
+
+    &lt;search xmlns="http://marklogic.com/appservices/search"&gt;
+      &lt;qtext&gt;vasquez&lt;/qtext&gt;
+      { $options }
+    &lt;/search&gt;
+  )
+</query><query name="using an extension" focus="false" active="true" content-source="as:7374815805189040935:" mode="xquery">xquery version "1.0-ml";
+declare namespace html = "http://www.w3.org/1999/xhtml";
+
+xdmp:http-get(
+  'http://localhost:8080/v1/resources/two-stage?rs:duration=P1Y&amp;amp;rs:office=San_Carlos,_California',
+  &lt;options xmlns="xdmp:http"&gt;
+    &lt;authentication&gt;
+      &lt;username&gt;admin&lt;/username&gt;
+      &lt;password&gt;admin&lt;/password&gt;
+    &lt;/authentication&gt;
+    &lt;headers&gt;
+      &lt;content-type&gt;application/xml&lt;/content-type&gt;
+    &lt;/headers&gt;
+  &lt;/options&gt;
 )
 </query></workspace></export>

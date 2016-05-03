@@ -21,3 +21,19 @@ this:
   1. count how many other employees have this employee as a manager
   2. add that amount to this search result
 
+See direct-reports.xqy or directReports.sjs for an implementation of this.
+
+## Deploying the Transform
+
+We can deploy this transform using the deploy-transform.sh script again. This 
+script uses the Management API to register the code with MarkLogic. The 
+parameters we pass in are the file to be sent and the name of the transform, 
+which will be used to call it. 
+
+    $ ./deploy-transform.sh direct-reports.xqy direct-reports
+
+## Calling the Transform
+
+The workspace in Query Console has a buffer called "search transform". This 
+makes a request to the REST API and specifies the transform that should be 
+applied to the results. 
