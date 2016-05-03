@@ -6,6 +6,11 @@ In this unit we want to load the following datasets "As-Is" using MarkLogic Cont
 - ../data/EmployeeImages
 - ../data/EmployeeReviews
 
+Note: You will need to unzip  the following before running mlcp to load the data.
+
+- ../data/EmployeeImages.zip
+- ../data/EmployeeReviews.zip
+
 ## Running MLCP
 
 This sample mlcp command demonstrates how to load a .csv file from the EmployeeTables directory. Refer to the .cfg files for details on which paramters are being passed to mlcp.
