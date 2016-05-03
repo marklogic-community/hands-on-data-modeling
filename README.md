@@ -11,7 +11,7 @@ To do these exercises, you will need:
 - [MLCP](http://developer.marklogic.com/products/mlcp)
 - CORB get the JAR for [the latest release](https://github.com/marklogic/corb2/releases)
 - XCC -- CORB requires [the XCC JAR](https://developer.marklogic.com/products/xcc)
-- [Java]("https://java.com/en/download/") 1.7 or later -- MLCP and Corb require Java.
+- [Java](https://java.com/en/download/) 1.7 or later -- MLCP and Corb require Java.
 - This repository. You won't get far without it! Either:
  - Select "Download ZIP" up to your right
  - Clone the repository using git.
