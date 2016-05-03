@@ -45,8 +45,8 @@ This sample CORB command can be used with their supporting files deployed above 
 You can use the corb.sh or corb.bat script in the project's base directory to 
 run CORB. 
 
-    $ cd unit-03/corb
-    $ ../../corb.sh 03-a-myjob.properties
+    $ cd unit-04/corb
+    $ ../../corb.sh 04-a-myjob.properties
 
 Alternatively, you can run CORB directly:
 
