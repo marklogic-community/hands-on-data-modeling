@@ -70,7 +70,7 @@ Import the workspace and run the examples to:
  - Create Security Role
 - SetupCreateUsers
  - Create Users
- - amy, rory, dr-whoe
+ - amy, rory, dr-who
 
 NOTE: Update the provided examples with your servername, port, username, and password.
 
