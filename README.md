@@ -14,7 +14,7 @@ To do these exercises, you will need:
 - [Java](https://java.com/en/download/) 1.7 or later -- MLCP and Corb require Java.
 - This repository. You won't get far without it! Either:
  - Select "Download ZIP" up to your right
- - Clone the repository using git. -- `git clone https://github.com/wpaven/hands-on-data-mode`
+ - Clone the repository using git. -- `git clone https://github.com/wpaven/hands-on-data-modeling`
 
 ### Installations
 
