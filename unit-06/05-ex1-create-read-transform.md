@@ -11,9 +11,31 @@ the building, city, and country in which the employee works.
 
 ## Using the Transform
 
+To use the transform in label.sjs, we need to deploy it and the libraries it 
+uses, then call it. 
+
+### Deploying
+
 To deploy the transform, run this command from the unit-06 directory:
 
     ./deploy-transform.sh label.sjs label
+
+Or for Windows:
+
+    deploy-transform.bat label.sjs label
+
+This JavaScript transform also makes use of a couple XQuery libraries. We need
+to deploy these libraries for the transform to work. 
+
+    ../deploy.sh memory-operations.xqy
+    ../deploy.sh node-operations.xqy
+
+Or for Windows:
+
+    ..\deploy.bat memory-operations.xqy
+    ..\deploy.bat node-operations.xqy
+
+### Applying
 
 To run the transform, apply it to a document read. With the transform in its 
 current state, it will only provide an empty <office> element. 
