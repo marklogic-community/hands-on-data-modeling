@@ -9,5 +9,5 @@ declare function unpack:transform(
 as document-node()
 {
   map:put($context, "output-type", "application/xml"),
-  document { $content/employee/root }
+  document { $content/employee/content }
 };
