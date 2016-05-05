@@ -45,15 +45,7 @@ function label(context, params, content) {
   var nb = new NodeBuilder();
   nb
     .startElement('office')
-      .startElement('building')
-        .addText(office.buildingName)
-        .endElement()
-      .startElement('city')
-        .addText(office.cityName)
-        .endElement()
-      .startElement('country')
-        .addText(office.countryName)
-        .endElement()
+
       .endElement();
 
   return mem.insertBefore(
