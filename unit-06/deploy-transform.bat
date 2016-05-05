@@ -16,4 +16,3 @@ REM Content-Type: application/xquery
 echo "Deploying" %ARG1% as %ARG2%
 curl --anyauth --user %USERNAME%:%PASSWORD% -X PUT --data-binary @%ARG1% -i -H "Content-Type:application/vnd.marklogic-javascript" "http://localhost:8080/v1/config/transforms/%ARG2%"
 
-
