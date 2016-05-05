@@ -10,9 +10,9 @@ SET PASSWORD="doctor"
 SET ARG1=%1
 SET ARG2=%2
 
-REM If deploying an JavaScript extension, change the Content-type to
-REM application/vnd.marklogic-javascript
+REM If deploying a XQuery extension, change the Content-type to
+REM Content-Type: application/xquery
 
 echo "Deploying" %ARG1% as %ARG2%
-curl --anyauth --user %USERNAME%:%PASSWORD% -X PUT --data-binary @%ARG1% -v -i -H "Content-Type:application/vnd.marklogic-javascript" "http://localhost:8080/v1/config/transforms/%ARG2%"
+curl --anyauth --user %USERNAME%:%PASSWORD% -X PUT --data-binary @%ARG1% -i -H "Content-Type:application/vnd.marklogic-javascript" "http://localhost:8080/v1/config/transforms/%ARG2%"
 
