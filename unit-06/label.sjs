@@ -1,7 +1,7 @@
 // This is a read transform that adds information about the office in which
 // the employee works.
 
-var mem = require("/lib/memory-operations");
+var mem = require("/ext/corb/memory-operations");
 
 function getOfficeInfo(officeNum) {
 
