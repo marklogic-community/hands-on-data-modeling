@@ -50,7 +50,7 @@ Note: If you don't want to use cURL. You can use Query Console for Setup.  See b
 
 ## Query Console Exercises
 
-If you have not been able to install and configure your database using cURL and the scripts noted above, then jump to 'Query Console Setup' below, and return here after completing your setup.  
+If you have not been able to create and configure your database using cURL and the scripts noted above, then jump to 'Query Console Setup' below, and return here after completing your setup.  
 
 Solutions to some of the exercises will be discovered using Query Console.  If you have completed setup as noted above, then follow these instructions to load the exercises workspace into Query Console.  
 
