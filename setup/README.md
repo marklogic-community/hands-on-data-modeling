@@ -52,7 +52,7 @@ Note: If you don't want to use cURL. You can use Query Console for Setup.  See b
 
 If you have not been able to install and configure your database using cURL and the scripts noted above, then jump to 'Query Console Setup' below, and return here after completing your setup.  
 
-Solutions to some of the exercises will be discovered using Query Console.  If you have completed setup as noted above, then follow these instructions to load ythe exercises workspace into Query Console.  
+Solutions to some of the exercises will be discovered using Query Console.  If you have completed setup as noted above, then follow these instructions to load the exercises workspace into Query Console.  
 
 1. Point a browser to http://localhost:8000/qconsole
 2. On the right, click on Workspace. 
@@ -81,10 +81,12 @@ If you do not have cURL installed, you can also install the configuration manual
 
 You have now imported the Workspace.  
  
-Select the tabs in the order listed below and run each to complete the following:
+Select the tabs in the order listed below and run each. Details of what each tab's code does is noted below.
+
+NOTE: Before running, update the code in each tab with your servername, port, username, and password.
 
 - SetupAppServerAndDBs
- - Creatse an Employees Database with it's requisite forests
+ - Creates an Employees Database with it's requisite forests
  - Deploys a REST Instance for the Employees database, which will create an App Server and Modules database
 - SetupIndexes
  - Create Indexes on Employees DB
@@ -93,8 +95,6 @@ Select the tabs in the order listed below and run each to complete the following
 - SetupCreateUsers
  - Create Users
  - amy, rory, dr-who
-
-NOTE: Update the provided examples with your servername, port, username, and password.
 
 ## Teardown
 
