@@ -48,17 +48,11 @@ If you choose to use cURL on Windows. Download and unzip [cURL](https://curl.hax
 
 Note: If you don't want to use cURL. You can use Query Console for Setup.  See below.
 
-## Teardown
-
-To remove this project completely, including removing all data, run either 
-`wipe.sh` or `wipe.bat`, depending on your platform. This will remove 
-everything installed by the setup script. 
-
 ## Query Console Exercises
 
-Solutions to some of the exercises will be discovered using Query Console.  If you have completed the above, then follow these instructions.  
+If you have not been able to install and configure your database using cURL and the scripts noted above, then jump to 'Query Console Setup' below, and return here after completing your setup.  
 
-If you have not been able to install and configure your database using cURL and the provided scripts, then jump to 'Query Console Setup' below, and return here after completing your setup.  
+Solutions to some of the exercises will be discovered using Query Console.  If you have completed setup as noted above, then follow these instructions to load ythe exercises workspace into Query Console.  
 
 1. Point a browser to http://localhost:8000/qconsole
 2. On the right, click on Workspace. 
@@ -86,9 +80,6 @@ If you do not have cURL installed, you can also install the configuration manual
 6. Click Import
 
 You have now imported the Workspace.  
-
-**Important**: select the "Employees" database as the Content Source on the 
-left.
  
 Select the tabs in the order listed below and run each to complete the following:
 
@@ -105,5 +96,9 @@ Select the tabs in the order listed below and run each to complete the following
 
 NOTE: Update the provided examples with your servername, port, username, and password.
 
-NOTE: Teardown of assets created using QueryConsole can be removed also using the other tabs in this workspace a well as manually using either the Admin UI or REST APIs.
+## Teardown
+
+To remove this project completely, including removing all data, run either 
+`wipe.sh` or `wipe.bat`, depending on your platform. This will remove 
+everything installed by the setup script. 
 
