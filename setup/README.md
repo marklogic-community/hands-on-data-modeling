@@ -48,21 +48,45 @@ If you choose to use cURL on Windows. Download and unzip [cURL](https://curl.hax
 
 Note: If you don't want to use cURL. You can use Query Console for Setup.  See below.
 
-## Teardown
+## Query Console Exercises
 
-To remove this project completely, including removing all data, run either 
-`wipe.sh` or `wipe.bat`, depending on your platform. This will remove 
-everything installed by the setup script. 
+If you have not been able to create and configure your database using cURL and the scripts noted above, then jump to 'Query Console Setup' below, and return here after completing your setup.  
 
-## Query Console:
+Solutions to some of the exercises will be discovered using Query Console.  If you have completed setup as noted above, then follow these instructions to load the exercises workspace into Query Console.  
+
+1. Point a browser to http://localhost:8000/qconsole
+2. On the right, click on Workspace. 
+3. In the drop-down menu, click Import Workspace
+4. Click the Choose File button
+5. Navigate to the "Employees-XQY.xml" file in this directory, select it, and
+   click Open
+6. Click Import
+
+You have now imported the Workspace.  The tabs and exercises will be discussed during the workshop. 
+
+**Important**: select the "Employees" database as the Content Source on the 
+left.
+
+## Query Console Setup
 
 If you do not have cURL installed, you can also install the configuration manually via QueryConsole.
- 
-Employees.xml is a QueryConsole workspace.
 
-Import the workspace and run the examples to:
+1. Point a browser to http://localhost:8000/qconsole
+2. On the right, click on Workspace. 
+3. In the drop-down menu, click Import Workspace
+4. Click the Choose File button
+5. Navigate to the "Employees.xml" file in this directory, select it, and
+   click Open
+6. Click Import
+
+You have now imported the Workspace.  
+ 
+Select the tabs in the order listed below and run each. Details of what each tab's code does is noted below.
+
+NOTE: Before running, update the code in each tab with your servername, port, username, and password.
+
 - SetupAppServerAndDBs
- - Creatse an Employees Database with it's requisite forests
+ - Creates an Employees Database with it's requisite forests
  - Deploys a REST Instance for the Employees database, which will create an App Server and Modules database
 - SetupIndexes
  - Create Indexes on Employees DB
@@ -70,11 +94,11 @@ Import the workspace and run the examples to:
  - Create Security Role
 - SetupCreateUsers
  - Create Users
-  - amy
-  - rory
-  - dr-who
+ - amy, rory, dr-who
 
-NOTE: Update the provided examples with your servername, port, username, and password.
+## Teardown
 
-NOTE: Teardown of assets created using QueryConsole can be removed manually either via the Admin UI or REST API.
+To remove this project completely, including removing all data, run either 
+`wipe.sh` or `wipe.bat`, depending on your platform. This will remove 
+everything installed by the setup script. 
 
