@@ -6,24 +6,22 @@ declare variable $URI as xs:string external;
 
 let $doc := fn:doc($URI)
 let $new-uri := fn:concat("/employees-v2/", fn:tokenize($URI,"/")[fn:last()])
-let $emp-id := fn:string($doc/employee/root/emp_id)
-let $first-name := fn:string($doc/employee/root/first_name)
-let $last-name := fn:string($doc/employee/root/last_name)
-let $job-eff-date := fn:string($doc/employee/root/job_effective_date)
+let $emp-id := fn:string($doc/employee/content/emp_id)
+let $first-name := fn:string($doc/employee/content/first_name)
+let $last-name := fn:string($doc/employee/content/last_name)
+let $job-eff-date := fn:string($doc/employee/content/job_effective_date)
 let $job-eff-date-toks := fn:tokenize($job-eff-date, "/")
 let $upd-jed-date := fn:concat($job-eff-date-toks[3],"-",
                                $job-eff-date-toks[1],"-",
                                $job-eff-date-toks[2])
 
-(:-------update of next line required----------:)
-let $image-uri := (: This is a string. It will be a concatentation of 
+let $image-uri := ""(: This is a string. It will be a concatentation of 
                      the $first-name, $last-name, and $emp-id, along 
                      with the file extension 
                      Example: /irene-carpenter-646.png 
-                  :)
+                    :)
 
 let $rev-doc := fn:collection("reviews")/review[member-id eq $emp-id]
-
 let $rev-doc-uri-elem := if (fn:empty($rev-doc)) then 
                            ()
                          else 
