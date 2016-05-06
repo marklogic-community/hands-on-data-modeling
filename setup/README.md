@@ -54,13 +54,44 @@ To remove this project completely, including removing all data, run either
 `wipe.sh` or `wipe.bat`, depending on your platform. This will remove 
 everything installed by the setup script. 
 
-## Query Console:
+## Query Console Exercises
+
+Solutions to some of the exercises will be discovered using Query Console.  If you have completed the above, then follow these instructions.  
+
+If you have not been able to install and configure your database using cURL and the provided scripts, then jump to 'Query Console Setup' below, and return here after completing your setup.  
+
+1. Point a browser to http://localhost:8000/qconsole
+2. On the right, click on Workspace. 
+3. In the drop-down menu, click Import Workspace
+4. Click the Choose File button
+5. Navigate to the "Employees-XQY.xml" file in this directory, select it, and
+   click Open
+6. Click Import
+
+You have now imported the Workspace.  The tabs and exercises will be discussed during the workshop. 
+
+**Important**: select the "Employees" database as the Content Source on the 
+left.
+
+## Query Console Setup
 
 If you do not have cURL installed, you can also install the configuration manually via QueryConsole.
- 
-Employees.xml is a QueryConsole workspace.
 
-Import the workspace and run the examples to:
+1. Point a browser to http://localhost:8000/qconsole
+2. On the right, click on Workspace. 
+3. In the drop-down menu, click Import Workspace
+4. Click the Choose File button
+5. Navigate to the "Employees.xml" file in this directory, select it, and
+   click Open
+6. Click Import
+
+You have now imported the Workspace.  
+
+**Important**: select the "Employees" database as the Content Source on the 
+left.
+ 
+Select the tabs in the order listed below and run each to complete the following:
+
 - SetupAppServerAndDBs
  - Creatse an Employees Database with it's requisite forests
  - Deploys a REST Instance for the Employees database, which will create an App Server and Modules database
@@ -74,5 +105,5 @@ Import the workspace and run the examples to:
 
 NOTE: Update the provided examples with your servername, port, username, and password.
 
-NOTE: Teardown of assets created using QueryConsole can be removed manually either via the Admin UI or REST API.
+NOTE: Teardown of assets created using QueryConsole can be removed also using the other tabs in this workspace a well as manually using either the Admin UI or REST APIs.
 
