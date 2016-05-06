@@ -4,15 +4,15 @@ import module namespace sem = "http://marklogic.com/semantics"
    at "/MarkLogic/semantics.xqy";
 
 (: Add one triple to document mapping employee id to office number 
-   An external ontology will map office numbers to buildings to cities, to states, etc. 
-
-example:   empID hasOffice officeNumber .
-
-   Add another triple that represents who this employee reports to.
-
-example:   empID reportsTo empID .
-
-:)
+ : An external ontology will map office numbers to buildings to cities, to states, etc. 
+ :
+ :  example:   empID hasOffice officeNumber .
+ :
+ : Add another triple that represents who this employee reports to.
+ :
+ : example:   empID reportsTo empID .
+ :
+ :)
 
 declare variable $URI as xs:string external;
 
@@ -26,11 +26,12 @@ let $office-number := $doc/employee/content/office_number/fn:string(.)
 (:
  : Represent the reportsTo object as an IRI, not just a number, because we'll
  : use the that IRI in a chain query.
+ : Replace the empty sequence '()' Below with a sem:triple for
+ :  empID hasOffice officeNumber 
  :)
+
 let $triples := (
-  sem:triple(sem:iri($sem-prefix || "empID" || $emp_id),
-             sem:iri($sem-prefix || "hasOffice"),
-             sem:iri($sem-prefix || "officeNumber" || $office-number )),
+                      (), (:  <--update here. remove (), leave the comma ,  :) 
 
   sem:triple(sem:iri($sem-prefix || "empID" || $emp_id),
              sem:iri($sem-prefix || "reportsTo"),
