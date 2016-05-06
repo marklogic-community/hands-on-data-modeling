@@ -1,0 +1,140 @@
+<export><workspace name="Excercises-XQY"><query name="collection-count" focus="true" active="true" content-source="as:13475276054612099502:" mode="xquery">xquery version "1.0-ml";
+(:
+ : A simple script to return the collections 
+ : loaded into the system with their counts.
+:)
+
+for $c in cts:collections()
+return fn:concat($c," : ",fn:count(fn:collection($c)))</query><query name="02-denormalize" focus="false" active="true" content-source="as:13475276054612099502:" mode="xquery">xquery version "1.0-ml";
+
+(:
+ : Examine this and compare with /unit-02/corb/02-denormalize.xqy.
+ : The differences are found in the hardcoded URI used for testing here
+ : and inserting the document in the CORB module.
+:)
+ 
+let $URI := "/EmployeeTable.csv-0-205.xml"
+
+let $doc := fn:doc($URI) 
+let $new-uri := fn:concat("/denormalized", $URI)
+let $emp_id := fn:string($doc/content/emp_id)
+let $dept_num := fn:string($doc/content/dept_num)
+
+let $dept_info := fn:collection("department")/root[dept_num eq $dept_num]/(* except dept_num)
+let $salary_info := fn:collection("salary")/root[emp_id eq $emp_id]/(* except emp_id)
+
+let $final :=
+       &lt;content&gt;
+         {$doc/content/*,
+          $dept_info,
+          $salary_info}
+       &lt;/content&gt;
+
+return $final</query><query name="02-uris" focus="false" active="true" content-source="as:13475276054612099502:" mode="xquery">xquery version "1.0-ml";
+
+(: 
+ : The code found in /unit-02/corb/02-uris.xqy
+:)
+
+let $uris :=  cts:uris('', 'document',cts:collection-query(("employee")))
+return (count($uris), $uris)
+</query><query name="03-a-uris.xqy" focus="false" active="true" content-source="as:13475276054612099502:" mode="xquery">xquery version "1.0-ml";
+
+(: 
+ : Replace (:update-here:) below with the appropriate query for the appropriate collection.
+ : Once you've tested here, cut and paste your update to /unit-02/corb/03-a-uris.xqy
+:)
+
+let $uris :=  cts:uris('', 'document', (:update here:) )
+return (count($uris), $uris)
+</query><query name="03-b-update-envelope.xqy" focus="false" active="true" content-source="as:13475276054612099502:" mode="xquery">xquery version "1.0-ml";
+
+(: update envelope.xqy to add the image uri to the envelope 
+ : see $image-uri  below
+:)
+
+(: declare variable $URI as xs:string external; :)
+let $URI := "/employees/EmployeeTable.csv-0-224.xml"
+
+let $doc := fn:doc($URI)
+let $new-uri := fn:concat("/employees-v2/", fn:tokenize($URI,"/")[fn:last()])
+let $emp-id := fn:string($doc/employee/content/emp_id)
+let $first-name := fn:string($doc/employee/content/first_name)
+let $last-name := fn:string($doc/employee/content/last_name)
+let $job-eff-date := fn:string($doc/employee/content/job_effective_date)
+let $job-eff-date-toks := fn:tokenize($job-eff-date, "/")
+let $upd-jed-date := fn:concat($job-eff-date-toks[3],"-",
+                               $job-eff-date-toks[1],"-",
+                               $job-eff-date-toks[2])
+
+let $image-uri := ""(: This is a string. It will be a concatentation of 
+                     the $first-name, $last-name, and $emp-id, along 
+                     with the file extension 
+                     Example: /irene-carpenter-646.png 
+                    :)
+
+let $rev-doc := fn:collection("reviews")/review[member-id eq $emp-id]
+let $rev-doc-uri-elem := if (fn:empty($rev-doc)) then 
+                           ()
+                         else 
+                           &lt;review-uri&gt;{xdmp:node-uri($rev-doc)}&lt;/review-uri&gt;
+                      
+let $update :=
+           &lt;employee&gt;
+             &lt;effective-date&gt;{$upd-jed-date}&lt;/effective-date&gt;
+             &lt;image-uri&gt;{$image-uri}&lt;/image-uri&gt;
+             {$rev-doc-uri-elem,
+              $doc/employee/*}
+           &lt;/employee&gt;
+
+
+return $update</query><query name="5-a-triplify.xqy" focus="false" active="true" content-source="as:13475276054612099502:" mode="xquery">xquery version "1.0-ml";
+
+import module namespace sem = "http://marklogic.com/semantics"
+   at "/MarkLogic/semantics.xqy";
+
+(: Add one triple to document mapping employee id to office number 
+ : An external ontology will map office numbers to buildings to cities, to states, etc. 
+ :
+ :  example:   empID hasOffice officeNumber .
+ :
+ : Add another triple that represents who this employee reports to.
+ :
+ : example:   empID reportsTo empID .
+ :
+:)
+(: declare variable $URI as xs:string external; :)
+
+let $URI := "/employees-v2/EmployeeTable.csv-0-237.xml"
+
+let $doc := fn:doc($URI)
+let $new-uri := fn:concat("/employees-v3/", fn:tokenize($URI,"/")[fn:last()])
+
+let $sem-prefix := "http://www.marklogic.com/employees#"
+let $emp_id := $doc/employee/content/emp_id/fn:string(.)
+let $office-number := $doc/employee/content/office_number/fn:string(.)
+
+(:
+ : Represent the reportsTo object as an IRI, not just a number, because we'll
+ : use the that IRI in a chain query.
+ : Replace the empty sequence '()' Below with a sem:triple for
+ :  empID hasOffice officeNumber 
+ :)
+let $triples := (
+                      (), (:  &lt;--update here. remove (), leave the comma ,  :) 
+                     
+  sem:triple(sem:iri($sem-prefix || "empID" || $emp_id),
+             sem:iri($sem-prefix || "reportsTo"),
+             sem:iri($sem-prefix || "empID" || $doc/employee/content/reports_to/fn:string()))
+)
+
+let $update :=
+  &lt;employee&gt;
+    {
+      $triples,
+      $doc/employee/*
+    }
+  &lt;/employee&gt;
+
+  
+return $update</query></workspace></export>
