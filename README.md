@@ -1,6 +1,6 @@
 # Hands-on Data Modeling
 
-MarkLogic allows tremendous flexibility in how you represent your data. This workshop will help you to master new tools and techniques for data management with our schema-agnostic NoSQL platform. We’ll walk through best practices for indexing and data modeling with documents and triples to integrate data and metadata from relational systems and other sources.
+MarkLogic allows tremendous flexibility in how you represent your data. This workshop will help you to master new tools and techniques for data management with our schema-agnostic NoSQL platform. Weâ€™ll walk through best practices for indexing and data modeling with documents and triples to integrate data and metadata from relational systems and other sources.
 
 ## Prerequisites
 
@@ -33,3 +33,7 @@ You will need to install the software above.
 ## Setup
 
 Follow the directions in [/setup](https://github.com/wpaven/hands-on-data-modeling/tree/answers/setup) to create the databases, indexes, app servers, role, and users for this workshop.
+
+## Slides
+
+You can download the [slides presented at MarkLogic World 2016 from developer.marklogic.com](http://developer.marklogic.com/media/mlw-2016/hands-on-data-modeling.pdf). 
