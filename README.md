@@ -33,3 +33,7 @@ You will need to install the software above.
 ## Setup
 
 Follow the directions in [/setup](https://github.com/wpaven/hands-on-data-modeling/tree/answers/setup) to create the databases, indexes, app servers, role, and users for this workshop.
+
+## Slides
+
+You can download the [slides presented at MarkLogic World 2016 from developer.marklogic.com](http://developer.marklogic.com/media/mlw-2016/hands-on-data-modeling.pdf). 
