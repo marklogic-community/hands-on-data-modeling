@@ -12,7 +12,7 @@ SCRIPT_DIR=`dirname $0`
 
 CLASSPATH=${SCRIPT_DIR}/lib/marklogic-corb-2.2.1.jar:${SCRIPT_DIR}/lib/marklogic-xcc-8.0.4.2.jar
 
-java -server \
+java \
   -cp $CLASSPATH \
   -DOPTIONS-FILE=$OPTIONS \
   com.marklogic.developer.corb.Manager

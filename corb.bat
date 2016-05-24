@@ -12,7 +12,7 @@ REM SET SCRIPT_DIR=C:\Corb8\
 SET CLASSPATH=%SCRIPT_DIR%lib\marklogic-corb-2.3.0.jar;%SCRIPT_DIR%lib\marklogic-xcc-8.0.5.jar
 REM SET CLASSPATH=%SCRIPT_DIR%corb.jar;%SCRIPT_DIR%marklogic-xcc-8.0.4.jar
 
-java -server ^
+java ^
   -cp %CLASSPATH% ^
   -DOPTIONS-FILE=%OPTIONS% ^
   com.marklogic.developer.corb.Manager
