@@ -1,8 +1,8 @@
 REM Remove the application server and databases
 
 REM Update if required
-SET USERNAME="oslo"
-SET PASSWORD="oslo"
+SET USERNAME="admin"
+SET PASSWORD="admin"
 
 echo "Removing the users"
 curl --anyauth -u %USERNAME%:%PASSWORD% -X DELETE http://localhost:8002/manage/v2/users/amy
