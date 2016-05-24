@@ -10,7 +10,7 @@ OPTIONS=$1
 
 SCRIPT_DIR=`dirname $0`
 
-CLASSPATH=${SCRIPT_DIR}/lib/marklogic-corb-2.2.1.jar:${SCRIPT_DIR}/lib/marklogic-xcc-8.0.4.2.jar
+CLASSPATH=${SCRIPT_DIR}/lib/marklogic-corb-2.3.1.jar:${SCRIPT_DIR}/lib/marklogic-xcc-8.0.5.jar
 
 java \
   -cp $CLASSPATH \
