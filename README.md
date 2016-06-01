@@ -9,8 +9,6 @@ To do these exercises, you will need:
 - [MarkLogic 8+](http://developer.marklogic.com/products)
 - [curl](https://curl.haxx.se/download.html) (you might already have this)
 - [MLCP](http://developer.marklogic.com/products/mlcp)
-- CORB get the JAR for [the latest release](https://github.com/marklogic/corb2/releases)
-- XCC -- CORB requires [the XCC JAR](https://developer.marklogic.com/products/xcc)
 - [Java](https://java.com/en/download/) 1.7 or later -- MLCP and Corb require Java.
 - This repository. You won't get far without it! Either:
  - Select "Download ZIP" up to your right
@@ -27,8 +25,6 @@ You will need to install the software above.
   curl from the command line
 - MLCP: after downloading, you will have a zip file. Unzip it and use the path 
   to that location when running MLCP. 
-- CORB and XCC: running CORB jobs will require referring to both of these JARs.
- - Copy these JARs into the project's /lib directory. 
 
 ## Setup
 
