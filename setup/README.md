@@ -58,7 +58,7 @@ Solutions to some of the exercises will be discovered using Query Console.  If y
 2. On the right, click on Workspace. 
 3. In the drop-down menu, click Import Workspace
 4. Click the Choose File button
-5. Navigate to the "Employees-XQY.xml" file in this directory, select it, and
+5. Navigate to the "Exercises-XQY.xml" file in this directory, select it, and
    click Open
 6. Click Import
 
