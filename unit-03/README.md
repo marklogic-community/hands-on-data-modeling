@@ -18,16 +18,6 @@ You will need to update 2 modules:
 - 03-b-update-envelope.xqy 
  - In this module we'll want to create the URI for the employee images so we can reference these from their associated employee documents.  Take a look at the URI for the image in Query Console for an example. You'll want to use [fn:concat()](http://docs.marklogic.com/fn:concat) to create the URI to be added.
 
-## Deploy Modules
-
-After making your updates, deploy your modules using deploy.sh or deploy.bat as you did in Unit 2.
-
-    $ ../../deploy.sh 03-a-uris.xqy
-    $ ../../deploy.sh 03-a-envelope.xqy
-    $ ../../deploy.sh 03-b-uris.xqy
-    $ ../../deploy.sh 03-b-update-envelope.xqy
-
-
 ## Running CORB
 
 This sample CORB command can be used with their supporting files deployed above to envelope the documents we denormalized in unit-02, as well as to pack our envelope with our additional information.

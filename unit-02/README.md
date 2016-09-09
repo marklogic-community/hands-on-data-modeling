@@ -2,13 +2,6 @@
 
 In this unit we want to use [CORB](http://developer.marklogic.com/code/corb) to denormalize the EmployeeTables documents we loaded in unit-01 using MLCP.
 
-## Deploying the Transform
-
-We can deploy the CORB modules required using the deploy.sh or deploy.bat script. This script uses the Management API to register the code with MarkLogic. The parameter we pass in is the name of file to be sent. 
-
-    $ ../../deploy.sh 02-uris.xqy
-    $ ../../deploy.sh 02-denormalize.xqy
-
 ## Running CORB
 
 This sample CORB command can be used with their supporting files deployed above to denormalize the .csv documents we loaded in unit-01.

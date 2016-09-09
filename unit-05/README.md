@@ -26,24 +26,16 @@ See the [MLCP](http://docs.marklogic.com/guide/mlcp) guide for more information.
 You will need to update the following module:
 
 - 05-a-triplify.xqy
- - Update this to create a sem:triple() that creates the triple: empID hasOffice officeNumber . 
+ - Update this to create a sem:triple() that creates the triple: empID hasOffice officeNumber .
 
 The triples created will be inserted sibling to the source document and the additional information we've already added to the envelope.
 
-## Deploy Modules
-
-After making your updates, deploy your modules using deploy.sh or deploy.bat as you did in Unit 2.
-
-    $ ../../deploy.sh 05-a-uris.xqy
-    $ ../../deploy.sh 05-a-triplify.xqy
-
-
-## Running CORB 
+## Running CORB
 
 This sample CORB command can be used with their supporting files deployed above to add triples to the documents we enveloped and updated in unit-03.
 
-You can use the corb.sh or corb.bat script in the project's base directory to 
-run CORB. 
+You can use the corb.sh or corb.bat script in the project's base directory to
+run CORB.
 
     $ cd unit-05/corb
     $ ../../corb.sh 05-a-myjob.properties
@@ -51,4 +43,3 @@ run CORB.
 Alternatively, you can run CORB directly:
 
 java -server -cp marklogic-xcc-8.0.4.jar;corb.jar -DOPTIONS-FILE=05-a-myjob.properties com.marklogic.developer.corb.Manager
-
