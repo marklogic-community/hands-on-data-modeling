@@ -1,8 +1,8 @@
-<export><workspace name="Employee Search"><query name="JS simple search" focus="true" active="true" content-source="as:7374815805189040935:" mode="javascript">// Click the Run button. This will run a simple text query against the database. The 
+<export><workspace name="Employee Search"><query name="JS simple search" focus="true" active="true" content-source="as:8208564311463746875:" mode="javascript">// Click the Run button. This will run a simple text query against the database. The 
 // result is all those documents that contain the term 'peter'. 
 
 fn.count(cts.search('peter'))
-</query><query name="JS targeted search" focus="false" active="true" content-source="as:7374815805189040935:" mode="javascript">// With this query, we're more specific. Instead of looking for the term "Peter" anywhere,
+</query><query name="JS targeted search" focus="false" active="true" content-source="as:8208564311463746875:" mode="javascript">// With this query, we're more specific. Instead of looking for the term "Peter" anywhere,
 // we only want matches where "Peter" is the value of the first name element. 
 
 fn.count(cts.search(cts.elementValueQuery('first_name', 'peter')))
@@ -56,7 +56,7 @@ let $options :=
   &lt;options xmlns="http://marklogic.com/appservices/search"&gt;
     &lt;additional-query&gt;
       &lt;cts:collection-query xmlns:cts="http://marklogic.com/cts"&gt;
-        &lt;cts:uri&gt;employee-env-v3&lt;/cts:uri&gt;
+        &lt;cts:uri&gt;employee-env-v2&lt;/cts:uri&gt;
       &lt;/cts:collection-query&gt;
     &lt;/additional-query&gt;
     
@@ -101,7 +101,7 @@ let $options :=
   &lt;options xmlns="http://marklogic.com/appservices/search"&gt;
     &lt;additional-query&gt;
       &lt;cts:collection-query xmlns:cts="http://marklogic.com/cts"&gt;
-        &lt;cts:uri&gt;employee-env-v3&lt;/cts:uri&gt;
+        &lt;cts:uri&gt;employee-env-v2&lt;/cts:uri&gt;
       &lt;/cts:collection-query&gt;
     &lt;/additional-query&gt;
     
@@ -145,7 +145,7 @@ return
       { $options }
     &lt;/search&gt;
   )
-</query><query name="triples query" focus="false" active="true" content-source="as:7374815805189040935:" mode="sparql"># A triples query uses SPARQL to look for triples that match your criteria.
+</query><query name="triples query" focus="false" active="true" content-source="as:8208564311463746875:" mode="sparql"># A triples query uses SPARQL to look for triples that match your criteria.
 # This type of query uses triples that exist in documents, as well as "managed"
 # triples. 
 
@@ -160,7 +160,7 @@ where {
   ?bldg emp:inCity ?city .
   ?city foaf:name ?cityLabel
 }
-group by ?city</query><query name="2-stage query" focus="false" active="true" content-source="as:7374815805189040935:" mode="javascript">// find employees in the San Carlos office whose effective-date is at least a year ago
+group by ?city</query><query name="2-stage query" focus="false" active="true" content-source="as:8208564311463746875:" mode="javascript">// find employees in the San Carlos office whose effective-date is at least a year ago
 var jsearch = require('/MarkLogic/jsearch.sjs');
 
 var oneYearAgo = fn.currentDate().subtract(xs.yearMonthDuration("P1Y"));
