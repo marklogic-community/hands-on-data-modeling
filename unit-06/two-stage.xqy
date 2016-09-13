@@ -14,9 +14,9 @@ declare function stage:get(
 ) as document-node()*
 {
 
-  let $target-office := xdmp:get-request-field("rs:office")
+  let $target-office := map:get($params, "office")
 
-  let $duration := xdmp:get-request-field("rs:duration")
+  let $duration := map:get($params, "duration")
 
   (: identify the office numbers in the target city :)
   let $city-office-nums :=
